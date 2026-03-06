@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vocabulary Quiz</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <h1>English Vocabulary Quiz</h1>
+      <button id="settingsBtn" class="icon-btn">⚙️ Nastavenia</button>
+    </header>
+
+    <div class="controls">
+      <label for="level">Úroveň:</label>
+      <select id="level" class="select">
+        <option value="B1">B1</option>
+        <option value="B2">B2</option>
+      </select>
+      <button id="startBtn" class="primary">Štart</button>
+      <button id="resetBtn" class="ghost">Reset</button>
+    </div>
+
+    <details class="topics" open>
+      <summary class="topics-title">
+        Vyber okruhy
+        <span id="topicCounter" class="topic-counter">(0/0)</span>
+        <span class="summary-icon" aria-hidden="true"></span>
+      </summary>
+
+      <div class="topic-actions">
+        <button id="selectAll" class="ghost topic-btn">Vybrať všetko</button>
+        <button id="deselectAll" class="ghost topic-btn">Zrušiť všetko</button>
+      </div>
+
+      <div id="topicsList" class="topics-list"></div>
+    </details>
+
+    <div id="quiz" class="quiz hidden">
+      <div class="scoreboard">
+        <span>✅ Správne: <strong id="correctCount">0</strong></span>
+        <span>❌ Nesprávne: <strong id="wrongCount">0</strong></span>
+        <span>📊 Úspešnosť: <strong id="accuracy">0%</strong></span>
+      </div>
+
+      <div class="progress">
+        <span id="progressText">Otázka 0 / 0</span>
+      </div>
+
+      <div class="word-card">
+        <span id="wordText"></span>
+      </div>
+
+      <div class="options">
+        <button class="option-btn" data-index="0">A</button>
+        <button class="option-btn" data-index="1">B</button>
+        <button class="option-btn" data-index="2">C</button>
+        <button class="option-btn" data-index="3">D</button>
+      </div>
+
+      <div id="result" class="result"></div>
+
+      <button id="nextBtn" class="next-btn">Ďalšia otázka</button>
+
+      <div id="wrongList" class="wrong-list hidden">
+        <h3>Nesprávne odpovede:</h3>
+        <ul id="wrongItems"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div id="settingsModal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Nastavenia testu</h2>
+        <button id="closeSettings" class="close-icon" aria-label="Zavrieť">✖</button>
+      </div>
+
+      <div class="settings-row">
+        <label>Režim:</label>
+        <select id="mode" class="select">
+          <option value="infinite">Nekonečný</option>
+          <option value="test">Test</option>
+        </select>
+      </div>
+
+      <div class="settings-row" id="questionCountRow">
+        <label>Počet otázok v teste:</label>
+        <input type="number" id="questionCount" value="20" min="1" max="500" class="input"/>
+      </div>
+
+      <div class="settings-row">
+        <label>Tmavý režim:</label>
+        <input type="checkbox" id="darkModeToggle" class="checkbox">
+      </div>
+
+      <div class="settings-row">
+        <label>Auto ďalšia otázka:</label>
+        <input type="checkbox" id="autoNextToggle" class="checkbox">
+      </div>
+
+      <div class="settings-row" id="autoNextDelayRow">
+        <label>Oneskorenie (sekundy):</label>
+        <input type="number" id="autoNextDelay" value="2" min="1" max="10" class="input"/>
+      </div>
+
+      <button id="saveSettings" class="primary">Uložiť</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
