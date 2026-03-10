@@ -42,6 +42,26 @@
       <div id="topicsList" class="topics-list"></div>
     </details>
 
+    <!-- Slovník -->
+    <details class="dictionary" open>
+      <summary class="dictionary-title">
+        Slovník
+        <span id="dictionaryCounter" class="topic-counter">(0/0)</span>
+        <span class="summary-icon" aria-hidden="true"></span>
+      </summary>
+
+      <div class="dictionary-controls">
+        <input
+          type="text"
+          id="dictionarySearch"
+          class="input dictionary-search"
+          placeholder="Hľadať slovo alebo preklad..."
+        />
+      </div>
+
+      <ul id="dictionaryList" class="dictionary-list"></ul>
+    </details>
+
     <div id="quiz" class="quiz hidden">
       <div class="scoreboard">
         <span>✅ Správne: <strong id="correctCount">0</strong></span>

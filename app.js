@@ -36,6 +36,10 @@ const wrongListDiv = document.getElementById("wrongList");
 const wrongItems = document.getElementById("wrongItems");
 const topicCounter = document.getElementById("topicCounter");
 
+const dictionarySearch = document.getElementById("dictionarySearch");
+const dictionaryList = document.getElementById("dictionaryList");
+const dictionaryCounter = document.getElementById("dictionaryCounter");
+
 const settingsBtn = document.getElementById("settingsBtn");
 const settingsModal = document.getElementById("settingsModal");
 const closeSettings = document.getElementById("closeSettings");
@@ -52,6 +56,7 @@ fetch("vocabulary.json")
     words = data;
     buildTopics();
     updateTopicCounter();
+    updateDictionary();
   });
 
 function getSelectedLevels() {
@@ -85,6 +90,7 @@ function updateTopicCounter() {
   const all = topicsList.querySelectorAll("input").length;
   const selected = topicsList.querySelectorAll("input:checked").length;
   topicCounter.textContent = `(${selected}/${all})`;
+  updateDictionary();
 }
 
 function getSelectedTopics() {
@@ -97,15 +103,18 @@ function shuffleArray(arr) {
     .map(({v}) => v);
 }
 
-function refreshWordPool() {
+function getFilteredWords() {
   const selectedTopics = getSelectedTopics();
   const selectedLevels = getSelectedLevels();
 
-  filteredWords = words.filter(w =>
+  return words.filter(w =>
     selectedLevels.includes(w.level) &&
     (selectedTopics.length === 0 || selectedTopics.includes(w.okruh))
   );
+}
 
+function refreshWordPool() {
+  filteredWords = getFilteredWords();
   totalAvailable = filteredWords.length;
 
   if (noRepeatToggle.checked) {
@@ -126,6 +135,58 @@ function getNextWord() {
 
   const idx = Math.floor(Math.random() * filteredWords.length);
   return filteredWords[idx];
+}
+
+function updateDictionary() {
+  if (!dictionaryList) return;
+
+  const baseList = getFilteredWords();
+  const query = dictionarySearch.value.trim().toLowerCase();
+  const results = baseList.filter(w =>
+    w.word.toLowerCase().includes(query) ||
+    String(w.correct).toLowerCase().includes(query)
+  );
+
+  dictionaryCounter.textContent = `(${results.length}/${baseList.length})`;
+  dictionaryList.innerHTML = "";
+
+  if (baseList.length === 0) {
+    const li = document.createElement("li");
+    li.className = "dictionary-empty";
+    li.textContent = "Žiadne slová pre zvolené filtre.";
+    dictionaryList.appendChild(li);
+    return;
+  }
+
+  if (results.length === 0) {
+    const li = document.createElement("li");
+    li.className = "dictionary-empty";
+    li.textContent = "Žiadne výsledky.";
+    dictionaryList.appendChild(li);
+    return;
+  }
+
+  results.forEach(w => {
+    const li = document.createElement("li");
+    li.className = "dictionary-item";
+
+    const wordSpan = document.createElement("span");
+    wordSpan.className = "dict-word";
+    wordSpan.textContent = w.word;
+
+    const translationSpan = document.createElement("span");
+    translationSpan.className = "dict-translation";
+    translationSpan.textContent = w.correct;
+
+    const metaSpan = document.createElement("span");
+    metaSpan.className = "dict-meta";
+    metaSpan.textContent = `${w.level} • ${w.okruh}`;
+
+    li.appendChild(wordSpan);
+    li.appendChild(translationSpan);
+    li.appendChild(metaSpan);
+    dictionaryList.appendChild(li);
+  });
 }
 
 function updateScoreboard() {
@@ -255,6 +316,9 @@ function startQuiz() {
 }
 
 optionButtons.forEach(btn => btn.addEventListener("click", () => handleAnswer(btn)));
+dictionarySearch.addEventListener("input", updateDictionary);
+levelB1.addEventListener("change", updateDictionary);
+levelB2.addEventListener("change", updateDictionary);
 
 startBtn.addEventListener("click", startQuiz);
 
