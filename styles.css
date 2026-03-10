@@ -115,7 +115,6 @@ body {
   list-style: none;
 }
 
-/* Skryje default marker */
 .topics-title::marker,
 .topics-title::-webkit-details-marker {
   display: none;

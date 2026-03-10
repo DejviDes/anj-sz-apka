@@ -14,11 +14,15 @@
     </header>
 
     <div class="controls">
-      <label for="level">Úroveň:</label>
-      <select id="level" class="select">
-        <option value="B1">B1</option>
-        <option value="B2">B2</option>
-      </select>
+      <span>Úroveň:</span>
+      <label class="level-item">
+        <input type="checkbox" id="levelB1" checked>
+        B1
+      </label>
+      <label class="level-item">
+        <input type="checkbox" id="levelB2" checked>
+        B2
+      </label>
       <button id="startBtn" class="primary">Štart</button>
       <button id="resetBtn" class="ghost">Reset</button>
     </div>
@@ -90,6 +94,11 @@
       <div class="settings-row" id="questionCountRow">
         <label>Počet otázok v teste:</label>
         <input type="number" id="questionCount" value="20" min="1" max="500" class="input"/>
+      </div>
+
+      <div class="settings-row">
+        <label>Neopakovať slová:</label>
+        <input type="checkbox" id="noRepeatToggle" class="checkbox">
       </div>
 
       <div class="settings-row">

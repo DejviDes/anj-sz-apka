@@ -8,7 +8,13 @@ let wrongAnswers = [];
 let quizActive = false;
 let autoNextTimeout = null;
 
-const levelSelect = document.getElementById("level");
+let seenCount = 0;
+let filteredWords = [];
+let remainingWords = [];
+let totalAvailable = 0;
+
+const levelB1 = document.getElementById("levelB1");
+const levelB2 = document.getElementById("levelB2");
 const modeSelect = document.getElementById("mode");
 const questionCountInput = document.getElementById("questionCount");
 const questionCountRow = document.getElementById("questionCountRow");
@@ -38,22 +44,27 @@ const darkModeToggle = document.getElementById("darkModeToggle");
 const autoNextToggle = document.getElementById("autoNextToggle");
 const autoNextDelay = document.getElementById("autoNextDelay");
 const autoNextDelayRow = document.getElementById("autoNextDelayRow");
-
-document.body.classList.add("dark");
-darkModeToggle.checked = true;
+const noRepeatToggle = document.getElementById("noRepeatToggle");
 
 fetch("vocabulary.json")
-  .then((res) => res.json())
-  .then((data) => {
+  .then(res => res.json())
+  .then(data => {
     words = data;
     buildTopics();
     updateTopicCounter();
   });
 
+function getSelectedLevels() {
+  const levels = [];
+  if (levelB1.checked) levels.push("B1");
+  if (levelB2.checked) levels.push("B2");
+  return levels;
+}
+
 function buildTopics() {
-  const uniqueTopics = [...new Set(words.map((w) => w.okruh))];
+  const uniqueTopics = [...new Set(words.map(w => w.okruh))];
   topicsList.innerHTML = "";
-  uniqueTopics.forEach((topic) => {
+  uniqueTopics.forEach(topic => {
     const label = document.createElement("label");
     label.className = "topic-item";
 
@@ -77,58 +88,86 @@ function updateTopicCounter() {
 }
 
 function getSelectedTopics() {
-  return Array.from(topicsList.querySelectorAll("input:checked")).map(
-    (c) => c.value,
-  );
+  return Array.from(topicsList.querySelectorAll("input:checked")).map(c => c.value);
 }
 
 function shuffleArray(arr) {
-  return arr
-    .map((v) => ({ v, sort: Math.random() }))
-    .sort((a, b) => a.sort - b.sort)
-    .map(({ v }) => v);
+  return arr.map(v => ({ v, sort: Math.random() }))
+    .sort((a,b) => a.sort - b.sort)
+    .map(({v}) => v);
 }
 
-function getRandomWord(level) {
+function refreshWordPool() {
   const selectedTopics = getSelectedTopics();
-  const filtered = words.filter(
-    (w) =>
-      w.level === level &&
-      (selectedTopics.length === 0 || selectedTopics.includes(w.okruh)),
+  const selectedLevels = getSelectedLevels();
+
+  filteredWords = words.filter(w =>
+    selectedLevels.includes(w.level) &&
+    (selectedTopics.length === 0 || selectedTopics.includes(w.okruh))
   );
-  if (filtered.length === 0) return null;
-  return filtered[Math.floor(Math.random() * filtered.length)];
+
+  totalAvailable = filteredWords.length;
+
+  if (noRepeatToggle.checked) {
+    remainingWords = [...filteredWords];
+  } else {
+    remainingWords = [];
+  }
+}
+
+function getNextWord() {
+  if (totalAvailable === 0) return null;
+
+  if (noRepeatToggle.checked) {
+    if (remainingWords.length === 0) return null;
+    const idx = Math.floor(Math.random() * remainingWords.length);
+    return remainingWords.splice(idx, 1)[0];
+  }
+
+  const idx = Math.floor(Math.random() * filteredWords.length);
+  return filteredWords[idx];
 }
 
 function updateScoreboard() {
   correctCountEl.textContent = correctCount;
   wrongCountEl.textContent = wrongCount;
   const totalAnswered = correctCount + wrongCount;
-  const accuracy =
-    totalAnswered === 0 ? 0 : Math.round((correctCount / totalAnswered) * 100);
+  const accuracy = totalAnswered === 0 ? 0 : Math.round((correctCount / totalAnswered) * 100);
   accuracyEl.textContent = `${accuracy}%`;
 }
 
 function updateProgress() {
-  progressText.textContent =
-    modeSelect.value === "test"
-      ? `Otázka ${questionIndex} / ${totalQuestions}`
-      : `Otázka ${questionIndex}`;
+  if (modeSelect.value === "test") {
+    progressText.textContent = `Otázka ${questionIndex} / ${totalQuestions}`;
+  } else {
+    progressText.textContent = `Videné ${seenCount} / ${totalAvailable}`;
+  }
 }
 
 function showWord() {
-  const level = levelSelect.value;
-  currentWord = getRandomWord(level);
+  currentWord = getNextWord();
+
   if (!currentWord) {
-    wordText.textContent = "Žiadne slová pre zvolené filtre.";
+    if (totalAvailable === 0) {
+      wordText.textContent = "Žiadne slová pre zvolené filtre.";
+    } else {
+      wordText.textContent = "Všetky slová sú prejdené. Daj Reset.";
+    }
     resultDiv.textContent = "";
-    optionButtons.forEach((btn) => {
+    optionButtons.forEach(btn => {
       btn.textContent = "-";
       btn.disabled = true;
       btn.classList.remove("correct", "wrong");
     });
+    quizActive = false;
+    nextBtn.disabled = true;
     return;
   }
+
+  if (modeSelect.value === "infinite") {
+    seenCount++;
+  }
+
   wordText.textContent = currentWord.word;
   resultDiv.textContent = "";
   const shuffledOptions = shuffleArray([...currentWord.options]);
@@ -137,11 +176,13 @@ function showWord() {
     btn.classList.remove("correct", "wrong");
     btn.disabled = false;
   });
+
+  updateProgress();
 }
 
 function handleAnswer(btn) {
   if (!quizActive) return;
-  optionButtons.forEach((b) => (b.disabled = true));
+  optionButtons.forEach(b => b.disabled = true);
   const chosen = btn.textContent;
 
   if (chosen === currentWord.correct) {
@@ -164,12 +205,9 @@ function handleAnswer(btn) {
 
   if (autoNextToggle.checked) {
     clearTimeout(autoNextTimeout);
-    autoNextTimeout = setTimeout(
-      () => {
-        nextBtn.click();
-      },
-      parseInt(autoNextDelay.value, 10) * 1000,
-    );
+    autoNextTimeout = setTimeout(() => {
+      nextBtn.click();
+    }, parseInt(autoNextDelay.value, 10) * 1000);
   }
 }
 
@@ -180,7 +218,7 @@ function finishTest() {
   if (modeSelect.value === "test" && wrongAnswers.length > 0) {
     wrongListDiv.classList.remove("hidden");
     wrongItems.innerHTML = "";
-    wrongAnswers.forEach((w) => {
+    wrongAnswers.forEach(w => {
       const li = document.createElement("li");
       li.textContent = w;
       wrongItems.appendChild(li);
@@ -193,15 +231,22 @@ function startQuiz() {
   correctCount = 0;
   wrongCount = 0;
   questionIndex = 1;
+  seenCount = 0;
   wrongAnswers = [];
   wrongListDiv.classList.add("hidden");
   wrongItems.innerHTML = "";
   nextBtn.disabled = false;
 
-  totalQuestions =
-    modeSelect.value === "test"
-      ? parseInt(questionCountInput.value, 10) || 20
-      : 0;
+  refreshWordPool();
+
+  if (modeSelect.value === "test") {
+    const requested = parseInt(questionCountInput.value, 10) || 20;
+    totalQuestions = noRepeatToggle.checked
+      ? Math.min(requested, totalAvailable)
+      : requested;
+  } else {
+    totalQuestions = 0;
+  }
 
   quizActive = true;
   updateScoreboard();
@@ -209,20 +254,19 @@ function startQuiz() {
   showWord();
 }
 
-optionButtons.forEach((btn) =>
-  btn.addEventListener("click", () => handleAnswer(btn)),
-);
+optionButtons.forEach(btn => btn.addEventListener("click", () => handleAnswer(btn)));
 
 startBtn.addEventListener("click", startQuiz);
 
 nextBtn.addEventListener("click", () => {
   if (!quizActive) return;
-  if (modeSelect.value === "test" && questionIndex >= totalQuestions) {
-    finishTest();
-    return;
+  if (modeSelect.value === "test") {
+    if (questionIndex >= totalQuestions) {
+      finishTest();
+      return;
+    }
+    questionIndex++;
   }
-  questionIndex++;
-  updateProgress();
   showWord();
 });
 
@@ -231,6 +275,7 @@ resetBtn.addEventListener("click", () => {
   correctCount = 0;
   wrongCount = 0;
   questionIndex = 0;
+  seenCount = 0;
   wrongAnswers = [];
   wrongItems.innerHTML = "";
   wrongListDiv.classList.add("hidden");
@@ -240,12 +285,12 @@ resetBtn.addEventListener("click", () => {
 });
 
 selectAllBtn.addEventListener("click", () => {
-  topicsList.querySelectorAll("input").forEach((c) => (c.checked = true));
+  topicsList.querySelectorAll("input").forEach(c => c.checked = true);
   updateTopicCounter();
 });
 
 deselectAllBtn.addEventListener("click", () => {
-  topicsList.querySelectorAll("input").forEach((c) => (c.checked = false));
+  topicsList.querySelectorAll("input").forEach(c => c.checked = false);
   updateTopicCounter();
 });
 
@@ -268,8 +313,7 @@ modeSelect.addEventListener("change", toggleQuestionCount);
 autoNextToggle.addEventListener("change", toggleAutoNextDelay);
 
 function toggleQuestionCount() {
-  questionCountRow.style.display =
-    modeSelect.value === "infinite" ? "none" : "flex";
+  questionCountRow.style.display = modeSelect.value === "infinite" ? "none" : "flex";
 }
 
 function toggleAutoNextDelay() {

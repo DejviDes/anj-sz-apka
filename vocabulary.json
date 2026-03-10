@@ -12118,5 +12118,8083 @@
       "prvý jazyk",
       "turistická reč"
     ]
+  },
+  {
+    "word": "individuals",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "jednotlivci",
+    "options": ["jednotlivci", "skupiny", "organizácie", "rodiny"]
+  },
+  {
+    "word": "system",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "systém",
+    "options": ["systém", "model", "štát", "pravidlá"]
+  },
+  {
+    "word": "rules",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "pravidlá",
+    "options": ["pravidlá", "normy", "zákony", "pokyny"]
+  },
+  {
+    "word": "norms",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "normy",
+    "options": ["normy", "pravidlá", "zákony", "zvyky"]
+  },
+  {
+    "word": "manners",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "spôsoby správania",
+    "options": ["spôsoby správania", "etiketa", "etiketné pravidlá", "zvyky"]
+  },
+  {
+    "word": "social etiquette",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "spoločenská etiketa",
+    "options": [
+      "spoločenská etiketa",
+      "formálne pravidlá",
+      "nepísané pravidlá",
+      "etiketné hodnoty"
+    ]
+  },
+  {
+    "word": "protocol",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "protokol",
+    "options": ["protokol", "etiketa", "predpis", "štandard"]
+  },
+  {
+    "word": "ethics",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "etika",
+    "options": ["etika", "morálka", "pravidlá", "normy"]
+  },
+  {
+    "word": "welfare system",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "sociálny systém",
+    "options": [
+      "sociálny systém",
+      "zdravotný systém",
+      "právny systém",
+      "ekonomický systém"
+    ]
+  },
+  {
+    "word": "social security",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "sociálne zabezpečenie",
+    "options": [
+      "sociálne zabezpečenie",
+      "zdravotné zabezpečenie",
+      "poistenie",
+      "sociálne dávky"
+    ]
+  },
+
+  {
+    "word": "politeness",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "zdvorilosť",
+    "options": ["zdvorilosť", "úcta", "tolerancia", "slušnosť"]
+  },
+  {
+    "word": "respect",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "úcta",
+    "options": ["úcta", "tolerancia", "pochvala", "lobing"]
+  },
+  {
+    "word": "tolerance",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "tolerancia",
+    "options": ["tolerancia", "rešpekt", "akceptácia", "pochopenie"]
+  },
+  {
+    "word": "empathy",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "empatia",
+    "options": ["empatia", "sympatia", "pochvala", "dôvera"]
+  },
+  {
+    "word": "expressing thanks",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "vyjadrenie poďakovania",
+    "options": [
+      "vyjadrenie poďakovania",
+      "formálne ospravedlnenie",
+      "vyjadrenie želaní",
+      "ponuka"
+    ]
+  },
+  {
+    "word": "apologising",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "ospravedlnenie",
+    "options": ["ospravedlnenie", "poďakovanie", "žiadosť", "pozdrav"]
+  },
+  {
+    "word": "forgiving",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "odpustenie",
+    "options": ["odpustenie", "ospravedlnenie", "akceptácia", "pochopenie"]
+  },
+  {
+    "word": "offering hospitality",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "ponuka pohostinnosti",
+    "options": [
+      "ponuka pohostinnosti",
+      "oficiálne vítanie",
+      "otrava návštevou",
+      "kritika hostí"
+    ]
+  },
+  {
+    "word": "addressing people",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "oslovovanie ľudí",
+    "options": [
+      "oslovovanie ľudí",
+      "vyhýbanie sa ľuďom",
+      "kritizovanie ľudí",
+      "neformálne zdravice"
+    ]
+  },
+
+  {
+    "word": "social events",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "spoločenské udalosti",
+    "options": [
+      "spoločenské udalosti",
+      "osobné oslavy",
+      "pracovné stretnutia",
+      "štátne podujatia"
+    ]
+  },
+  {
+    "word": "hosting guests",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "hostenie hostí",
+    "options": [
+      "hostenie hostí",
+      "pozývanie hostí",
+      "odmietanie hostí",
+      "vyhadzovanie hostí"
+    ]
+  },
+  {
+    "word": "dining etiquette",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "etiketa stolovania",
+    "options": [
+      "etiketa stolovania",
+      "spoločenské správanie",
+      "obedné pravidlá",
+      "rodinné stolovanie"
+    ]
+  },
+
+  {
+    "word": "international etiquette",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "medzinárodná etiketa",
+    "options": [
+      "medzinárodná etiketa",
+      "národná etiketa",
+      "domáca etiketa",
+      "regionálne zvyky"
+    ]
+  },
+  {
+    "word": "cultural awareness",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "kultúrne povedomie",
+    "options": [
+      "kultúrne povedomie",
+      "jazykové povedomie",
+      "cestovateľské schopnosti",
+      "globálne vnímanie"
+    ]
+  },
+
+  {
+    "word": "choice of topics",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "výber tém",
+    "options": ["výber tém", "výber slov", "výber hostí", "výber príležitosti"]
+  },
+  {
+    "word": "listening to each other",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "počúvanie sa navzájom",
+    "options": [
+      "počúvanie sa navzájom",
+      "počúvanie hudby",
+      "ignorovanie",
+      "kritika"
+    ]
+  },
+  {
+    "word": "physical contact",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "fyzický kontakt",
+    "options": ["fyzický kontakt", "mimika", "reč tela", "gestá"]
+  },
+  {
+    "word": "gestures",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "gestá",
+    "options": ["gestá", "pohyby", "póza", "výrazy tváre"]
+  },
+
+  {
+    "word": "to arrive on time",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "prísť načas",
+    "options": [
+      "prísť načas",
+      "meškať",
+      "prísť príliš skoro",
+      "prísť bez ohlásenia"
+    ]
+  },
+  {
+    "word": "to bring a gift",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "priniesť darček",
+    "options": [
+      "priniesť darček",
+      "priniesť pozvánku",
+      "priniesť dezert",
+      "priniesť odporúčanie"
+    ]
+  },
+  {
+    "word": "to make a toast",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "povedať prípitok",
+    "options": [
+      "povedať prípitok",
+      "podať prípitok",
+      "zapíjať prípitok",
+      "tajne pripiť"
+    ]
+  },
+  {
+    "word": "to eat neatly",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "jesť úhľadne",
+    "options": ["jesť úhľadne", "jesť rýchlo", "jesť nahlas", "jesť neporiadne"]
+  },
+  {
+    "word": "to sip soup",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "srkať polievku (slušne)",
+    "options": [
+      "srkať polievku (slušne)",
+      "fúkať polievku",
+      "piť polievku",
+      "nejesť polievku"
+    ]
+  },
+  {
+    "word": "to pour tea",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "naliať čaj",
+    "options": ["naliať čaj", "podať čaj", "uvariť čaj", "servírovať koláč"]
+  },
+  {
+    "word": "to tear a piece from a roll",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "odtrhnúť kúsok rožka/chleba",
+    "options": [
+      "odtrhnúť kúsok rožka/chleba",
+      "odkrojiť veľký kus",
+      "rozdrobiť pečivo",
+      "zjesť celé naraz"
+    ]
+  },
+
+  {
+    "word": "formal clothing",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "formálne oblečenie",
+    "options": [
+      "formálne oblečenie",
+      "neformálne oblečenie",
+      "športové oblečenie",
+      "domáce oblečenie"
+    ]
+  },
+  {
+    "word": "casual clothing",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "neformálne oblečenie",
+    "options": [
+      "neformálne oblečenie",
+      "formálne oblečenie",
+      "príležitostné oblečenie",
+      "módne oblečenie"
+    ]
+  },
+
+  {
+    "word": "lack of models",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "nedostatok vzorov",
+    "options": [
+      "nedostatok vzorov",
+      "nedostatok pravidiel",
+      "nedostatok rešpektu",
+      "nedostatok vzdelania"
+    ]
+  },
+  {
+    "word": "generation gap",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "generačný rozdiel",
+    "options": [
+      "generačný rozdiel",
+      "kultúrny rozdiel",
+      "jazykový rozdiel",
+      "osobnostný rozdiel"
+    ]
+  },
+  {
+    "word": "freedom of personal expression",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "sloboda osobného vyjadrenia",
+    "options": [
+      "sloboda osobného vyjadrenia",
+      "sloboda pohybu",
+      "sloboda myslenia",
+      "sloboda prejavu"
+    ]
+  },
+  {
+    "word": "to break rules",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "porušovať pravidlá",
+    "options": [
+      "porušovať pravidlá",
+      "dodržiavať pravidlá",
+      "meniť pravidlá",
+      "vytvárať pravidlá"
+    ]
+  },
+
+  {
+    "word": "the homeless",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "bezdomovci",
+    "options": ["bezdomovci", "nezamestnaní", "chudobní", "utečenci"]
+  },
+  {
+    "word": "the retired",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "dôchodcovia",
+    "options": ["dôchodcovia", "chorí", "pracujúci", "mladí"]
+  },
+  {
+    "word": "the unemployed",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "nezamestnaní",
+    "options": ["nezamestnaní", "pracujúci", "invalidi", "študenti"]
+  },
+  {
+    "word": "the disabled",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "postihnutí",
+    "options": ["postihnutí", "chorí", "zranení", "nezamestnaní"]
+  },
+  {
+    "word": "the underprivileged",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "znevýhodnení",
+    "options": ["znevýhodnení", "bežní občania", "pracujúci", "seniori"]
+  },
+  {
+    "word": "addicts",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "závislí",
+    "options": ["závislí", "bezdomovci", "seniori", "nezamestnaní"]
+  },
+
+  {
+    "word": "asylum houses",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "útulky/prístrešky",
+    "options": [
+      "útulky/prístrešky",
+      "domovy dôchodcov",
+      "ústavy",
+      "krízové centrá"
+    ]
+  },
+  {
+    "word": "old people's homes",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "domovy dôchodcov",
+    "options": [
+      "domovy dôchodcov",
+      "útulky",
+      "hospice",
+      "opatrovateľské centrá"
+    ]
+  },
+  {
+    "word": "orphanages",
+    "level": "B1",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "sirotince",
+    "options": ["sirotince", "školy", "internáty", "útulky"]
+  },
+  {
+    "word": "hospices",
+    "level": "B2",
+    "okruh": "PEOPLE_AND_SOCIETY",
+    "correct": "hospice",
+    "options": ["hospice", "nemocnice", "útulky", "domácnosti"]
+  },
+  {
+    "word": "radio",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "rádio",
+    "options": ["rádio", "televízia", "internet", "tlač"]
+  },
+  {
+    "word": "television",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "televízia",
+    "options": ["televízia", "rádio", "internet", "tlač"]
+  },
+  {
+    "word": "the press",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "tlač",
+    "options": ["tlač", "internet", "rozhlas", "sociálne siete"]
+  },
+  {
+    "word": "the Internet",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "internet",
+    "options": ["internet", "rádio", "časopisy", "televízia"]
+  },
+
+  {
+    "word": "to inform",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "informovať",
+    "options": ["informovať", "zabávať", "motivovať", "ovplyvňovať"]
+  },
+  {
+    "word": "to educate",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "vzdelávať",
+    "options": ["vzdelávať", "zabávať", "informovať", "kritizovať"]
+  },
+  {
+    "word": "to entertain",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "zabávať",
+    "options": ["zabávať", "ovplyvňovať", "vzdelávať", "odrádzať"]
+  },
+  {
+    "word": "to advertise",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "reklamovať",
+    "options": ["reklamovať", "informovať", "zabávať", "pripájať"]
+  },
+  {
+    "word": "breaking news",
+    "level": "B2",
+    "okruh": "MASSMEDIA",
+    "correct": "mimoriadne správy",
+    "options": [
+      "mimoriadne správy",
+      "klamlivé správy",
+      "predpoveď počasia",
+      "archívne správy"
+    ]
+  },
+  {
+    "word": "lack of objectivity",
+    "level": "B2",
+    "okruh": "MASSMEDIA",
+    "correct": "nedostatok objektivity",
+    "options": [
+      "nedostatok objektivity",
+      "kritické myslenie",
+      "vysoká kvalita",
+      "verifikácia"
+    ]
+  },
+  {
+    "word": "hoax",
+    "level": "B2",
+    "okruh": "MASSMEDIA",
+    "correct": "hoax / falošná správa",
+    "options": [
+      "hoax / falošná správa",
+      "pravdivá správa",
+      "komentár",
+      "fikcia"
+    ]
+  },
+
+  {
+    "word": "phone-in",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "živé telefonické vstupy",
+    "options": [
+      "živé telefonické vstupy",
+      "vedecká relácia",
+      "hudobné vystúpenie",
+      "seriál"
+    ]
+  },
+  {
+    "word": "morning show",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "ranná šou",
+    "options": ["ranná šou", "večerné správy", "talkshow", "súťaž"]
+  },
+  {
+    "word": "broadcasting",
+    "level": "B2",
+    "okruh": "MASSMEDIA",
+    "correct": "vysielanie",
+    "options": ["vysielanie", "natáčanie", "strihanie", "reklamovanie"]
+  },
+
+  {
+    "word": "public channel",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "verejnoprávny kanál",
+    "options": [
+      "verejnoprávny kanál",
+      "komerčný kanál",
+      "internetová platforma",
+      "rádio"
+    ]
+  },
+  {
+    "word": "commercial channel",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "komerčný kanál",
+    "options": [
+      "komerčný kanál",
+      "verejnoprávny kanál",
+      "súkromná tlač",
+      "bezplatný stream"
+    ]
+  },
+
+  {
+    "word": "news",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "správy",
+    "options": ["správy", "komentáre", "seriály", "zábava"]
+  },
+  {
+    "word": "cartoons",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "kreslené rozprávky",
+    "options": ["kreslené rozprávky", "sitcomy", "filmy", "thrillery"]
+  },
+  {
+    "word": "soap operas",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "telenovely",
+    "options": ["telenovely", "drám y", "komédie", "seriály"]
+  },
+  {
+    "word": "documentaries",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "dokumenty",
+    "options": ["dokumenty", "filmy", "thrillery", "komédie"]
+  },
+  {
+    "word": "commercials",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "reklamy",
+    "options": ["reklamy", "správy", "seriály", "komentáre"]
+  },
+  {
+    "word": "reality show",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "reality šou",
+    "options": ["reality šou", "seriál", "správy", "komédia"]
+  },
+  {
+    "word": "political debate",
+    "level": "B2",
+    "okruh": "MASSMEDIA",
+    "correct": "politická diskusia",
+    "options": ["politická diskusia", "komédia", "seriál", "komentár"]
+  },
+  {
+    "word": "couch potato",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "človek, ktorý stále pozerá TV",
+    "options": [
+      "človek, ktorý stále pozerá TV",
+      "aktívny človek",
+      "športovec",
+      "knihomoľ"
+    ]
+  },
+
+  {
+    "word": "magazines",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "časopisy",
+    "options": ["časopisy", "noviny", "periodiká", "blogy"]
+  },
+  {
+    "word": "newspapers",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "noviny",
+    "options": ["noviny", "časopisy", "tlačoviny", "portály"]
+  },
+  {
+    "word": "tabloid",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "bulvár",
+    "options": [
+      "bulvár",
+      "kvalitné noviny",
+      "vedecký časopis",
+      "odborný článok"
+    ]
+  },
+  {
+    "word": "broadsheet",
+    "level": "B2",
+    "okruh": "MASSMEDIA",
+    "correct": "seriózne noviny",
+    "options": ["seriózne noviny", "bulvár", "komiks", "týždenník"]
+  },
+  {
+    "word": "supplement",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "príloha (v novinách)",
+    "options": ["príloha (v novinách)", "reklama", "titulka", "poznámka"]
+  },
+  {
+    "word": "headline",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "nadpis / titulok",
+    "options": ["nadpis / titulok", "obsah", "poznámka", "podtitul"]
+  },
+  {
+    "word": "article",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "článok",
+    "options": ["článok", "komentár", "recenzia", "reklama"]
+  },
+  {
+    "word": "editor",
+    "level": "B2",
+    "okruh": "MASSMEDIA",
+    "correct": "editor/redaktor",
+    "options": ["editor/redaktor", "autor", "reportér", "grafik"]
+  },
+  {
+    "word": "reporter",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "reportér",
+    "options": ["reportér", "editor", "moderátor", "publicista"]
+  },
+  {
+    "word": "columnist",
+    "level": "B2",
+    "okruh": "MASSMEDIA",
+    "correct": "stĺpčekár",
+    "options": ["stĺpčekár", "reportér", "autor", "komentátor"]
+  },
+
+  {
+    "word": "immediate access to information",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "okamžitý prístup k informáciám",
+    "options": [
+      "okamžitý prístup k informáciám",
+      "oneskorené správy",
+      "prehľad udalostí",
+      "historické údaje"
+    ]
+  },
+  {
+    "word": "sending documents",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "posielanie dokumentov",
+    "options": [
+      "posielanie dokumentov",
+      "tlač dokumentov",
+      "skartovanie dokumentov",
+      "archivácia dokumentov"
+    ]
+  },
+  {
+    "word": "booking hotels",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "rezervovanie hotelov",
+    "options": [
+      "rezervovanie hotelov",
+      "vyhľadávanie hotelov",
+      "hodnotenie hotelov",
+      "odporúčanie hotelov"
+    ]
+  },
+  {
+    "word": "reserving tickets",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "rezervovanie lístkov",
+    "options": [
+      "rezervovanie lístkov",
+      "kupovanie lístkov",
+      "predávanie lístkov",
+      "kontrola lístkov"
+    ]
+  },
+  {
+    "word": "finding life partners",
+    "level": "B2",
+    "okruh": "MASSMEDIA",
+    "correct": "hľadanie životných partnerov",
+    "options": [
+      "hľadanie životných partnerov",
+      "hľadanie kamarátov",
+      "hľadanie práce",
+      "hľadanie ubytovania"
+    ]
+  },
+  {
+    "word": "social networking sites",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "sociálne siete",
+    "options": [
+      "sociálne siete",
+      "weby s článkami",
+      "emailové portály",
+      "video platformy"
+    ]
+  },
+  {
+    "word": "computer viruses",
+    "level": "B1",
+    "okruh": "MASSMEDIA",
+    "correct": "počítačové vírusy",
+    "options": ["počítačové vírusy", "reklamné bannery", "spam", "cookies"]
+  },
+  {
+    "word": "uncensored websites",
+    "level": "B2",
+    "okruh": "MASSMEDIA",
+    "correct": "necenzurované webové stránky",
+    "options": [
+      "necenzurované webové stránky",
+      "overené zdroje",
+      "bezpečné stránky",
+      "oficiálne portály"
+    ]
+  },
+  {
+    "word": "teenagers",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "tínedžeri",
+    "options": ["tínedžeri", "mladí dospelí", "deti", "rodičia"]
+  },
+  {
+    "word": "adolescents",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "dospievajúci",
+    "options": ["dospievajúci", "mládež", "deti", "dospelí"]
+  },
+  {
+    "word": "youngsters",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "mladí ľudia",
+    "options": ["mladí ľudia", "deti", "študenti", "dospelí"]
+  },
+  {
+    "word": "minors",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "maloletí",
+    "options": ["maloletí", "dospelí", "študenti", "mladí dospelí"]
+  },
+
+  {
+    "word": "physical changes",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "fyzické zmeny",
+    "options": [
+      "fyzické zmeny",
+      "duševné zmeny",
+      "spoločenské zmeny",
+      "telesná zdatnosť"
+    ]
+  },
+  {
+    "word": "facial hair",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "ochlpenie na tvári",
+    "options": [
+      "ochlpenie na tvári",
+      "kožné zmeny",
+      "hlboký hlas",
+      "rast vlasov"
+    ]
+  },
+  {
+    "word": "building muscle mass",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "budovanie svalovej hmoty",
+    "options": [
+      "budovanie svalovej hmoty",
+      "chudnutie",
+      "napätie svalov",
+      "tréning sily"
+    ]
+  },
+  {
+    "word": "deeper voice",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "hlbší hlas",
+    "options": ["hlbší hlas", "hlasová zmena", "zvýšený hlas", "mutácia hlasu"]
+  },
+  {
+    "word": "piercing",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "piercing",
+    "options": ["piercing", "tetovanie", "jemná kozmetika", "úprava vlasov"]
+  },
+  {
+    "word": "tattoo",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "tetovanie",
+    "options": ["tetovanie", "piercing", "farbenie vlasov", "nástreľ náušníc"]
+  },
+  {
+    "word": "shabby clothes",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "ošúchané oblečenie",
+    "options": [
+      "ošúchané oblečenie",
+      "elegantné oblečenie",
+      "športové oblečenie",
+      "biznis oblečenie"
+    ]
+  },
+  {
+    "word": "spiky hair",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "nastajlované pichľavé vlasy",
+    "options": [
+      "nastajlované pichľavé vlasy",
+      "krátke vlasy",
+      "dlhé vlasy",
+      "ofina"
+    ]
+  },
+
+  {
+    "word": "searching for identity",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "hľadanie identity",
+    "options": [
+      "hľadanie identity",
+      "hľadanie záľub",
+      "budovanie kariéry",
+      "hľadanie školy"
+    ]
+  },
+  {
+    "word": "role-models",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "vzory/osobnosti",
+    "options": ["vzory/osobnosti", "učitelia", "rodičia", "kamaráti"]
+  },
+  {
+    "word": "independent",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "nezávislý",
+    "options": ["nezávislý", "nadaný", "neistý", "slabý"]
+  },
+  {
+    "word": "careless",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "nedbanlivý",
+    "options": ["nedbanlivý", "zodpovedný", "dôsledný", "spoľahlivý"]
+  },
+  {
+    "word": "easygoing",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "pokojný, pohodový",
+    "options": ["pokojný, pohodový", "úzkostný", "náladový", "nestály"]
+  },
+  {
+    "word": "rebellious",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "vzbúrenský",
+    "options": ["vzbúrenský", "tichý", "pokojný", "vyrovnaný"]
+  },
+  {
+    "word": "self-aware",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "sebauvedomelý",
+    "options": ["sebauvedomelý", "bez sebadôvery", "introvertný", "nestabilný"]
+  },
+
+  {
+    "word": "voting",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "volenie",
+    "options": ["volenie", "šoférovanie", "pracovanie", "štúdium"]
+  },
+  {
+    "word": "smoking",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "fajčenie",
+    "options": [
+      "fajčenie",
+      "pitie alkoholu",
+      "užívanie drog",
+      "nezdravé stravovanie"
+    ]
+  },
+  {
+    "word": "drinking alcohol",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "pitie alkoholu",
+    "options": [
+      "pitie alkoholu",
+      "fajčenie",
+      "šoférovanie",
+      "trávenie voľného času"
+    ]
+  },
+  {
+    "word": "having a driving licence",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "vlastniť vodičský preukaz",
+    "options": [
+      "vlastniť vodičský preukaz",
+      "vlastniť pas",
+      "vlastniť občiansky",
+      "vlastniť kartu poistenca"
+    ]
+  },
+
+  {
+    "word": "eating disorders",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "poruchy príjmu potravy",
+    "options": [
+      "poruchy príjmu potravy",
+      "problematické stravovanie",
+      "zdravé stravovanie",
+      "nutričné ťažkosti"
+    ]
+  },
+  {
+    "word": "bulimia",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "bulímia",
+    "options": ["bulímia", "anorexia", "obezita", "prejedanie"]
+  },
+  {
+    "word": "anorexia",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "anorexia",
+    "options": ["anorexia", "bulímia", "obezita", "únava"]
+  },
+  {
+    "word": "overeating",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "prejedanie sa",
+    "options": ["prejedanie sa", "hladovanie", "anorexia", "obezita"]
+  },
+  {
+    "word": "obesity",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "obezita",
+    "options": ["obezita", "nadváha", "podvýživa", "ťažká váha"]
+  },
+  {
+    "word": "peer pressure",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "nátlak rovesníkov",
+    "options": [
+      "nátlak rovesníkov",
+      "školský tlak",
+      "tlak v rodine",
+      "osobný dôvod"
+    ]
+  },
+  {
+    "word": "violence",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "násilie",
+    "options": ["násilie", "hádky", "šikana", "krádež"]
+  },
+  {
+    "word": "vandalism",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "vandalizmus",
+    "options": ["vandalizmus", "krádeže", "agresia", "útek z domu"]
+  },
+  {
+    "word": "teenage pregnancy",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "tínedžerské tehotenstvo",
+    "options": [
+      "tínedžerské tehotenstvo",
+      "neskoré tehotenstvo",
+      "plánované rodičovstvo",
+      "invalidita"
+    ]
+  },
+
+  {
+    "word": "to make friends",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "spriateliť sa",
+    "options": [
+      "spriateliť sa",
+      "vyhnúť sa rovesníkom",
+      "hádať sa",
+      "odísť preč"
+    ]
+  },
+  {
+    "word": "to hang out with friends",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "tráviť čas s kamarátmi",
+    "options": [
+      "tráviť čas s kamarátmi",
+      "tráviť čas s rodinou",
+      "byť sám",
+      "pracovať"
+    ]
+  },
+  {
+    "word": "to fall in love",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "zamilovať sa",
+    "options": ["zamilovať sa", "zhádať sa", "zabudnúť", "odcudziť sa"]
+  },
+  {
+    "word": "to have a date",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "mať rande",
+    "options": ["mať rande", "mať skúšku", "mať poradu", "mať oslavu"]
+  },
+  {
+    "word": "to get on with peers",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "vychádzať s rovesníkmi",
+    "options": [
+      "vychádzať s rovesníkmi",
+      "hádať sa s rovesníkmi",
+      "napádať rovesníkov",
+      "vyhýbať sa rovesníkom"
+    ]
+  },
+
+  {
+    "word": "conflicts with parents",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "konflikty s rodičmi",
+    "options": [
+      "konflikty s rodičmi",
+      "priateľské vzťahy",
+      "podpora rodičov",
+      "spoločné plánovanie"
+    ]
+  },
+  {
+    "word": "misunderstandings",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "nedorozumenia",
+    "options": ["nedorozumenia", "hádky", "nátlak", "pravidlá"]
+  },
+  {
+    "word": "broken relationships",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "narušené vzťahy",
+    "options": [
+      "narušené vzťahy",
+      "pevné vzťahy",
+      "stabilné vzťahy",
+      "pozitívne vzťahy"
+    ]
+  },
+
+  {
+    "word": "generation gap",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "generačná priepasť",
+    "options": [
+      "generačná priepasť",
+      "vekovo rovnaké postoje",
+      "harmónia",
+      "stabilita"
+    ]
+  },
+  {
+    "word": "overprotective parents",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "prehnane ochraňujúci rodičia",
+    "options": [
+      "prehnane ochraňujúci rodičia",
+      "liberálni rodičia",
+      "prísni rodičia",
+      "nezaujatí rodičia"
+    ]
+  },
+  {
+    "word": "different priorities",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "odlišné priority",
+    "options": [
+      "odlišné priority",
+      "spoločné priority",
+      "rovnaké hodnoty",
+      "rovnaké očakávania"
+    ]
+  },
+
+  {
+    "word": "desire for freedom",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "túžba po slobode",
+    "options": [
+      "túžba po slobode",
+      "túžba po úspechu",
+      "túžba po priateľoch",
+      "túžba po autorite"
+    ]
+  },
+  {
+    "word": "uncertainty",
+    "level": "B2",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "neistota",
+    "options": ["neistota", "stabilita", "jasný smer", "istota"]
+  },
+  {
+    "word": "fears",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "strachy",
+    "options": ["strachy", "nadšenie", "zvieravosť", "očakávania"]
+  },
+  {
+    "word": "worries",
+    "level": "B1",
+    "okruh": "THE_YOUNG_AND_THEIR_WORLD",
+    "correct": "obavy",
+    "options": ["obavy", "radosť", "pokoj", "úspechy"]
+  },
+  {
+    "word": "cotton",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "bavlna",
+    "options": ["bavlna", "koža", "vlna", "hodváb"]
+  },
+  {
+    "word": "wool",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "vlna",
+    "options": ["vlna", "bavlna", "zamat", "šífón"]
+  },
+  {
+    "word": "corduroy",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "manchester",
+    "options": ["manchester", "riflovina", "zamat", "semiš"]
+  },
+  {
+    "word": "chiffon",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "šifón",
+    "options": ["šifón", "hodváb", "polyester", "bavlna"]
+  },
+  {
+    "word": "silk",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "hodváb",
+    "options": ["hodváb", "šifón", "zamat", "denim"]
+  },
+  {
+    "word": "velvet",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "zamat",
+    "options": ["zamat", "semiš", "riflovina", "vlna"]
+  },
+  {
+    "word": "linen",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "ľan",
+    "options": ["ľan", "bavlna", "vlna", "nylon"]
+  },
+  {
+    "word": "polyester",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "polyester",
+    "options": ["polyester", "nylon", "bavlna", "semiš"]
+  },
+  {
+    "word": "nylon",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "nylon",
+    "options": ["nylon", "polyester", "riflovina", "zamat"]
+  },
+  {
+    "word": "genuine leather",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "pravá koža",
+    "options": ["pravá koža", "umelá koža", "semiš", "zamat"]
+  },
+  {
+    "word": "fur",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "kožušina",
+    "options": ["kožušina", "vlna", "páperie", "semiš"]
+  },
+  {
+    "word": "denim",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "riflovina",
+    "options": ["riflovina", "manchester", "semiš", "bavlna"]
+  },
+  {
+    "word": "suede",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "semiš",
+    "options": ["semiš", "koža", "zamat", "riflovina"]
+  },
+
+  {
+    "word": "non-iron",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "nekrčivý",
+    "options": ["nekrčivý", "nepriepustný", "rýchloschnúci", "elastický"]
+  },
+  {
+    "word": "shrink-resistant",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "odolný voči zrážaniu",
+    "options": [
+      "odolný voči zrážaniu",
+      "elastický",
+      "nepriehľadný",
+      "vodeodolný"
+    ]
+  },
+  {
+    "word": "crease-resistant",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "odolný voči pokrčeniu",
+    "options": ["odolný voči pokrčeniu", "priesvitný", "pevný", "ťažký"]
+  },
+  {
+    "word": "washable",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "prateľný",
+    "options": ["prateľný", "neprateľný", "jemný", "rýchloschnúci"]
+  },
+  {
+    "word": "waterproof",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "vodeodolný",
+    "options": ["vodeodolný", "priesvitný", "zateplený", "priedušný"]
+  },
+
+  {
+    "word": "plain",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "bez vzoru",
+    "options": ["bez vzoru", "pruhovaný", "károvaný", "bodkovaný"]
+  },
+  {
+    "word": "coloured",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "farebný",
+    "options": ["farebný", "čiernobiely", "neónový", "bledý"]
+  },
+  {
+    "word": "dotted",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "bodkovaný",
+    "options": ["bodkovaný", "pruhovaný", "károvaný", "kvetovaný"]
+  },
+  {
+    "word": "flowered",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "kvetovaný",
+    "options": ["kvetovaný", "bodkovaný", "pruhovaný", "károvaný"]
+  },
+  {
+    "word": "striped",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "pruhovaný",
+    "options": ["pruhovaný", "károvaný", "kvetovaný", "bodkovaný"]
+  },
+  {
+    "word": "checked",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "károvaný",
+    "options": ["károvaný", "pruhovaný", "kvetovaný", "flakatý"]
+  },
+  {
+    "word": "transparent",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "priesvitný",
+    "options": ["priesvitný", "hustý", "nepriehľadný", "hrubý"]
+  },
+  {
+    "word": "spotted",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "fľakatý",
+    "options": ["fľakatý", "bodkovaný", "kvetovaný", "čistý"]
+  },
+
+  {
+    "word": "V-neck",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "výstrih v tvare V",
+    "options": ["výstrih v tvare V", "okrúhly výstrih", "lodičkový", "rolák"]
+  },
+  {
+    "word": "boat neck",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "lodičkový výstrih",
+    "options": ["lodičkový výstrih", "V‑výstrih", "okrúhly výstrih", "rolák"]
+  },
+  {
+    "word": "polo neck",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "rolák",
+    "options": ["rolák", "lodičkový", "hlboký výstrih", "okrúhly výstrih"]
+  },
+  {
+    "word": "oval neckline",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "oválny výstrih",
+    "options": ["oválny výstrih", "lodičkový", "hlboký", "rolák"]
+  },
+  {
+    "word": "collar",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "golier",
+    "options": ["golier", "výstrih", "rukáv", "pás"]
+  },
+  {
+    "word": "collarless",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "bez goliera",
+    "options": ["bez goliera", "s golierom", "so zapínaním", "s kapucňou"]
+  },
+
+  {
+    "word": "long sleeves",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "dlhé rukávy",
+    "options": [
+      "dlhé rukávy",
+      "krátke rukávy",
+      "bez rukávov",
+      "netopierie rukávy"
+    ]
+  },
+  {
+    "word": "short sleeves",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "krátke rukávy",
+    "options": [
+      "krátke rukávy",
+      "dlhé rukávy",
+      "trištvrťové",
+      "netopierie rukávy"
+    ]
+  },
+  {
+    "word": "sleeveless",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "bez rukávov",
+    "options": ["bez rukávov", "krátke rukávy", "dlhé rukávy", "padavé rukávy"]
+  },
+  {
+    "word": "batwing sleeves",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "netopierie rukávy",
+    "options": [
+      "netopierie rukávy",
+      "dlhé rukávy",
+      "padavé rukávy",
+      "krátke rukávy"
+    ]
+  },
+
+  {
+    "word": "bermuda shorts",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "bermudy",
+    "options": ["bermudy", "trenírky", "rifle", "sukňa"]
+  },
+  {
+    "word": "swimming costume",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "dámske plavky (jednodielne)",
+    "options": [
+      "dámske plavky (jednodielne)",
+      "bikini",
+      "pánske plavky",
+      "kraťasy"
+    ]
+  },
+  {
+    "word": "bikini",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "bikiny",
+    "options": ["bikiny", "jednodielne plavky", "šaty", "sukňa"]
+  },
+  {
+    "word": "trunks",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "pánske plavky (trenírkové)",
+    "options": ["pánske plavky (trenírkové)", "boxerky", "rifle", "šortky"]
+  },
+
+  {
+    "word": "anorak",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "vetrovka",
+    "options": ["vetrovka", "kabát", "sako", "pulóver"]
+  },
+  {
+    "word": "coat",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "kabát",
+    "options": ["kabát", "bunda", "vetrovka", "sako"]
+  },
+  {
+    "word": "jacket",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "bunda/sako",
+    "options": ["bunda/sako", "kabát", "sveter", "vest"]
+  },
+  {
+    "word": "fur coat",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "kožuch",
+    "options": ["kožuch", "kabát", "bunda", "rolák"]
+  },
+  {
+    "word": "mittens",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "palčiaky",
+    "options": ["palčiaky", "rukavice", "návleky", "kožené rukavice"]
+  },
+  {
+    "word": "scarf",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "šál",
+    "options": ["šál", "šatka", "kapucňa", "golier"]
+  },
+  {
+    "word": "sweater",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "sveter",
+    "options": ["sveter", "mikina", "bund a", "kabát"]
+  },
+  {
+    "word": "hoodie",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "mikina s kapucňou",
+    "options": ["mikina s kapucňou", "sveter", "rolák", "sako"]
+  },
+
+  {
+    "word": "dress",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "šaty",
+    "options": ["šaty", "sukňa", "kostým", "blúzka"]
+  },
+  {
+    "word": "skirt",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "sukňa",
+    "options": ["sukňa", "šaty", "top", "blúzka"]
+  },
+  {
+    "word": "blouse",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "blúzka",
+    "options": ["blúzka", "košeľa", "tunika", "mikina"]
+  },
+  {
+    "word": "wedding gown",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "svadobné šaty",
+    "options": ["svadobné šaty", "večerné šaty", "letné šaty", "kostým"]
+  },
+  {
+    "word": "dressing gown",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "župan",
+    "options": ["župan", "kabát", "mikina", "pyžamo"]
+  },
+  {
+    "word": "stockings",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "pančuchy",
+    "options": ["pančuchy", "ponožky", "legíny", "podkolienky"]
+  },
+  {
+    "word": "bra",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "podprsenka",
+    "options": ["podprsenka", "top", "tričko", "blúzka"]
+  },
+  {
+    "word": "panties",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "nohavičky",
+    "options": ["nohavičky", "pančuchy", "legíny", "plavky"]
+  },
+  {
+    "word": "evening gown",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "večerná róba",
+    "options": [
+      "večerná róba",
+      "svadobné šaty",
+      "letné šaty",
+      "koktejlové šaty"
+    ]
+  },
+
+  {
+    "word": "boxer shorts",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "boxerky",
+    "options": ["boxerky", "slipy", "trenírky", "kraťasy"]
+  },
+  {
+    "word": "shirt",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "košeľa",
+    "options": ["košeľa", "tričko", "mikina", "vesta"]
+  },
+  {
+    "word": "trousers",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "nohavice",
+    "options": ["nohavice", "rifle", "tepláky", "šortky"]
+  },
+  {
+    "word": "vest",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "tielko",
+    "options": ["tielko", "tričko", "mikina", "sveter"]
+  },
+
+  {
+    "word": "suit",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "oblek",
+    "options": ["oblek", "sako", "košeľa", "bund a"]
+  },
+  {
+    "word": "tuxedo",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "smoking",
+    "options": ["smoking", "oblek", "fra k", "sako"]
+  },
+  {
+    "word": "bow tie",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "motýlik",
+    "options": ["motýlik", "kravata", "šatka", "opasok"]
+  },
+  {
+    "word": "tie",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "kravata",
+    "options": ["kravata", "motýlik", "šatka", "opasok"]
+  },
+  {
+    "word": "cufflink",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "manžetový gombík",
+    "options": ["manžetový gombík", "gombík", "spona", "pracka"]
+  },
+  {
+    "word": "cocktail dress",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "koktejlové šaty",
+    "options": [
+      "koktejlové šaty",
+      "večerné šaty",
+      "svadobné šaty",
+      "letné šaty"
+    ]
+  },
+  {
+    "word": "uniform",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "uniforma",
+    "options": ["uniforma", "oble k", "vesta", "sako"]
+  },
+
+  {
+    "word": "tracksuit",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "tepláková súprava",
+    "options": ["tepláková súprava", "mikina", "tričko", "nohavice"]
+  },
+  {
+    "word": "sweatpants",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "tepláky",
+    "options": ["tepláky", "rifle", "šortky", "legíny"]
+  },
+  {
+    "word": "jeans",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "džínsy",
+    "options": ["džínsy", "tepláky", "nadväze", "legíny"]
+  },
+  {
+    "word": "T-shirt",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "tričko",
+    "options": ["tričko", "mikina", "vesta", "košeľa"]
+  },
+  {
+    "word": "pyjamas",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "pyžamo",
+    "options": ["pyžamo", "nočná košeľa", "župan", "spodné prádlo"]
+  },
+  {
+    "word": "nightdress",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "nočná košeľa",
+    "options": ["nočná košeľa", "pyžamo", "župan", "blúzka"]
+  },
+  {
+    "word": "nightgown",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "nočná košeľa (AmE)",
+    "options": ["nočná košeľa (AmE)", "pyžamo", "župan", "top"]
+  },
+  {
+    "word": "dressing gown",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "župan",
+    "options": ["župan", "nočná košeľa", "mikina", "kabát"]
+  },
+
+  {
+    "word": "underwear",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "spodné prádlo",
+    "options": [
+      "spodné prádlo",
+      "oblečenie na spanie",
+      "domáce oblečenie",
+      "pracovné oblečenie"
+    ]
+  },
+  {
+    "word": "uniform",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "uniforma",
+    "options": ["uniforma", "pracovný odev", "kombinéza", "oble k"]
+  },
+  {
+    "word": "dungarees",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "montérky",
+    "options": ["montérky", "kombinéza", "vetrovka", "zástera"]
+  },
+  {
+    "word": "overall",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "pracovná kombinéza",
+    "options": ["pracovná kombinéza", "montérky", "zástera", "tričko"]
+  },
+  {
+    "word": "white coat",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "plášť (lekársky/laboratórny)",
+    "options": ["plášť (lekársky/laboratórny)", "sako", "kabát", "zástera"]
+  },
+  {
+    "word": "apron",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "zástera",
+    "options": ["zástera", "plášť", "tričko", "blúzka"]
+  },
+
+  {
+    "word": "boots",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "čižmy",
+    "options": ["čižmy", "topánky na opätku", "sandále", "tenisky"]
+  },
+  {
+    "word": "Wellington boots",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "gumáky",
+    "options": ["gumáky", "čižmy", "tenisky", "sandále"]
+  },
+  {
+    "word": "flip-flops",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "žabky",
+    "options": ["žabky", "sandále", "papuče", "tenisky"]
+  },
+  {
+    "word": "high-heeled shoes",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "topánky na vysokom opätku",
+    "options": [
+      "topánky na vysokom opätku",
+      "nízke topánky",
+      "čižmy",
+      "sandále"
+    ]
+  },
+  {
+    "word": "low-heeled shoes",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "topánky na nízkom opätku",
+    "options": [
+      "topánky na nízkom opätku",
+      "vysoké topánky",
+      "čižmy",
+      "mokasíny"
+    ]
+  },
+  {
+    "word": "sandals",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "sandále",
+    "options": ["sandále", "žabky", "čižmy", "papuče"]
+  },
+  {
+    "word": "slippers",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "papuče",
+    "options": ["papuče", "sandále", "žabky", "mokasíny"]
+  },
+  {
+    "word": "sneakers",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "tenisky",
+    "options": ["tenisky", "papuče", "športové sandále", "čižmy"]
+  },
+  {
+    "word": "mules",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "šľapky (bez pätovej časti)",
+    "options": ["šľapky (bez pätovej časti)", "žabky", "sandále", "papuče"]
+  },
+  {
+    "word": "clogs",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "dreváky",
+    "options": ["dreváky", "papuče", "sandále", "čižmy"]
+  },
+  {
+    "word": "plimsolls",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "cvičky",
+    "options": ["cvičky", "tenisky", "športovky", "baletné topánky"]
+  },
+
+  {
+    "word": "bracelet",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "náramok",
+    "options": ["náramok", "náhrdelník", "prsteň", "brošňa"]
+  },
+  {
+    "word": "earring",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "náušnica",
+    "options": ["náušnica", "prsteň", "korále", "brošňa"]
+  },
+  {
+    "word": "jewellery",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "šperky",
+    "options": ["šperky", "doplnky", "kabelky", "ozdoby"]
+  },
+  {
+    "word": "necklace",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "náhrdelník",
+    "options": ["náhrdelník", "náramok", "prsteň", "korále"]
+  },
+  {
+    "word": "ring",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "prsteň",
+    "options": ["prsteň", "náramok", "náušnica", "brošňa"]
+  },
+  {
+    "word": "sunglasses",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "slnečné okuliare",
+    "options": ["slnečné okuliare", "okuliare na čítanie", "šiltovka", "páska"]
+  },
+  {
+    "word": "beads",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "korále",
+    "options": ["korále", "náramky", "náhrdelník", "ozdoby"]
+  },
+  {
+    "word": "brooch",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "brošňa",
+    "options": ["brošňa", "prsteň", "náhrdelník", "spona"]
+  },
+  {
+    "word": "belt",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "opasok",
+    "options": ["opasok", "šatka", "retiazka", "traky"]
+  },
+  {
+    "word": "handbag",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "kabelka",
+    "options": ["kabelka", "taška", "ruksak", "peňaženka"]
+  },
+  {
+    "word": "braces",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "traky",
+    "options": ["traky", "opasok", "šle", "ramienka"]
+  },
+
+  {
+    "word": "haircut",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "strih vlasov",
+    "options": ["strih vlasov", "účes", "melír", "farbenie"]
+  },
+  {
+    "word": "hairstyle",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "účes",
+    "options": ["účes", "strih", "parochňa", "melír"]
+  },
+  {
+    "word": "bleached hair",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "odfarbené/zosvetlené vlasy",
+    "options": [
+      "odfarbené/zosvetlené vlasy",
+      "farbené vlasy",
+      "melírované vlasy",
+      "tmavé vlasy"
+    ]
+  },
+  {
+    "word": "bun",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "drdol / vypnuté vlasy",
+    "options": ["drdol / vypnuté vlasy", "cop", "voľné vlasy", "vlny"]
+  },
+  {
+    "word": "dyed hair",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "farbené vlasy",
+    "options": ["farbené vlasy", "odfarbené vlasy", "melír", "parochňa"]
+  },
+  {
+    "word": "highlights",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "melír",
+    "options": ["melír", "farbenie", "bielenie", "strih"]
+  },
+  {
+    "word": "spiky hair",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "vlasy „na ježka“",
+    "options": ["vlasy „na ježka“", "rovné vlasy", "vlnité vlasy", "dlhé vlasy"]
+  },
+  {
+    "word": "ponytail",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "vrkoč/cop",
+    "options": ["vrkoč/cop", "drdol", "vlny", "krátky strih"]
+  },
+  {
+    "word": "perm",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "trvalá ondulácia",
+    "options": ["trvalá ondulácia", "melír", "farbenie", "zahustenie"]
+  },
+  {
+    "word": "braid",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "zapletený vrkoč",
+    "options": ["zapletený vrkoč", "voľný cop", "drdol", "spustené vlasy"]
+  },
+  {
+    "word": "straight hair",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "rovné vlasy",
+    "options": [
+      "rovné vlasy",
+      "kučeravé vlasy",
+      "vlnité vlasy",
+      "strapaté vlasy"
+    ]
+  },
+  {
+    "word": "wavy hair",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "vlnité vlasy",
+    "options": ["vlnité vlasy", "rovné vlasy", "kučeravé vlasy", "drdol"]
+  },
+  {
+    "word": "curly hair",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "kučeravé vlasy",
+    "options": ["kučeravé vlasy", "rovné vlasy", "vlnité vlasy", "spiky hair"]
+  },
+  {
+    "word": "balding",
+    "level": "B2",
+    "okruh": "FASHION",
+    "correct": "plešivejúci",
+    "options": ["plešivejúci", "plešatý", "mihajúci", "miznúci"]
+  },
+  {
+    "word": "wig",
+    "level": "B1",
+    "okruh": "FASHION",
+    "correct": "parochňa",
+    "options": ["parochňa", "umelé vlasy", "cop", "drdol"]
+  },
+  {
+    "word": "free time",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "voľný čas",
+    "options": ["voľný čas", "práca", "štúdium", "povinnosti"]
+  },
+  {
+    "word": "spare time",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "voľný čas (extra čas)",
+    "options": [
+      "voľný čas (extra čas)",
+      "pracovný čas",
+      "prestávka",
+      "zmeškaný čas"
+    ]
+  },
+  {
+    "word": "pastime",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "záľuba",
+    "options": ["záľuba", "práca", "štúdium", "tréning"]
+  },
+  {
+    "word": "leisure",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "oddych / voľno",
+    "options": ["oddych / voľno", "povinnosť", "zameranie", "stres"]
+  },
+  {
+    "word": "likes",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "obľúbené veci",
+    "options": ["obľúbené veci", "neobľúbené veci", "zvyky", "túžby"]
+  },
+  {
+    "word": "dislikes",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "neobľúbené veci",
+    "options": ["neobľúbené veci", "obľúbené veci", "povinnosti", "zlozvyky"]
+  },
+
+  {
+    "word": "to have fun",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "zabávať sa",
+    "options": ["zabávať sa", "pracovať", "oddychovať", "trápiť sa"]
+  },
+  {
+    "word": "to entertain others",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "zabávať iných",
+    "options": [
+      "zabávať iných",
+      "rozčuľovať iných",
+      "ignorovať iných",
+      "vyučovať iných"
+    ]
+  },
+  {
+    "word": "to develop talent",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "rozvíjať talent",
+    "options": [
+      "rozvíjať talent",
+      "skryť talent",
+      "ignorovať talent",
+      "pokaziť schopnosti"
+    ]
+  },
+  {
+    "word": "to stay fit",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "zostať fit",
+    "options": ["zostať fit", "pribrať", "stať sa slabším", "stratiť kondíciu"]
+  },
+  {
+    "word": "to relax",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "relaxovať",
+    "options": ["relaxovať", "pracovať", "študovať", "nervovať sa"]
+  },
+  {
+    "word": "to care for pets",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "starať sa o domáce zvieratá",
+    "options": [
+      "starať sa o domáce zvieratá",
+      "ignorovať zvieratá",
+      "kŕmiť cudzie zvieratá",
+      "zbierať zvieratá"
+    ]
+  },
+  {
+    "word": "to find balance in life",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "nájsť rovnováhu v živote",
+    "options": [
+      "nájsť rovnováhu v živote",
+      "preháňať všetko",
+      "živiť stres",
+      "žiť bez plánu"
+    ]
+  },
+
+  {
+    "word": "individual hobby",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "individuálna záľuba",
+    "options": [
+      "individuálna záľuba",
+      "skupinová záľuba",
+      "drahá záľuba",
+      "exkluzívna záľuba"
+    ]
+  },
+  {
+    "word": "group hobby",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "skupinová záľuba",
+    "options": [
+      "skupinová záľuba",
+      "individuálna záľuba",
+      "krátkodobá záľuba",
+      "náročná záľuba"
+    ]
+  },
+  {
+    "word": "creative hobby",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "kreatívna záľuba",
+    "options": [
+      "kreatívna záľuba",
+      "športová záľuba",
+      "spoločenská záľuba",
+      "nudná záľuba"
+    ]
+  },
+  {
+    "word": "time-consuming hobby",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "časovo náročná záľuba",
+    "options": [
+      "časovo náročná záľuba",
+      "jednoduchá záľuba",
+      "lacná záľuba",
+      "krátka aktivita"
+    ]
+  },
+  {
+    "word": "traditional hobby",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "tradičná záľuba",
+    "options": [
+      "tradičná záľuba",
+      "moderná záľuba",
+      "zvláštna záľuba",
+      "náhodná záľuba"
+    ]
+  },
+  {
+    "word": "unusual hobby",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "neobvyklá záľuba",
+    "options": ["neobvyklá záľuba", "tradičná", "nudná", "častá"]
+  },
+
+  {
+    "word": "collecting stamps",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "zbieranie známok",
+    "options": [
+      "zbieranie známok",
+      "zbieranie lístkov",
+      "zbieranie hračiek",
+      "zbieranie kníh"
+    ]
+  },
+  {
+    "word": "collecting coins",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "zbieranie mincí",
+    "options": [
+      "zbieranie mincí",
+      "zbieranie známok",
+      "zbieranie kariet",
+      "zbieranie hračiek"
+    ]
+  },
+  {
+    "word": "collecting model cars",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "zbieranie modelov áut",
+    "options": [
+      "zbieranie modelov áut",
+      "zbieranie hračiek",
+      "zbieranie nálepiek",
+      "zbieranie odznakov"
+    ]
+  },
+
+  {
+    "word": "knitting",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "pletenie",
+    "options": ["pletenie", "šitíe", "vyšívanie", "háčkovanie"]
+  },
+  {
+    "word": "sewing",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "šitie",
+    "options": ["šitie", "pletenie", "vyšívanie", "kreslenie"]
+  },
+  {
+    "word": "embroidery",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "vyšívanie",
+    "options": ["vyšívanie", "šitie", "pletenie", "háčkovanie"]
+  },
+
+  {
+    "word": "jogging",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "behanie",
+    "options": ["behanie", "plávanie", "turistika", "tanec"]
+  },
+  {
+    "word": "roller skating",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "korčuľovanie na kolieskových korčuliach",
+    "options": [
+      "korčuľovanie na kolieskových korčuliach",
+      "bicyklovanie",
+      "behanie",
+      "plávanie"
+    ]
+  },
+  {
+    "word": "inline skating",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "korčuľovanie na inline korčuliach",
+    "options": [
+      "korčuľovanie na inline korčuliach",
+      "skateboarding",
+      "jazda na kolobežke",
+      "bicyklovanie"
+    ]
+  },
+  {
+    "word": "skateboarding",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "skateboardovanie",
+    "options": ["skateboardovanie", "korčuľovanie", "bicyklovanie", "beh"]
+  },
+  {
+    "word": "scuba diving",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "potápanie s výstrojom",
+    "options": [
+      "potápanie s výstrojom",
+      "šnorchlovanie",
+      "plávanie",
+      "surfovanie"
+    ]
+  },
+  {
+    "word": "hiking",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "turistika",
+    "options": ["turistika", "behanie", "plávanie", "cyklistika"]
+  },
+  {
+    "word": "cycling",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "cyklistika",
+    "options": ["cyklistika", "beh", "korčuľovanie", "fitness"]
+  },
+  {
+    "word": "rowing",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "veslovanie",
+    "options": ["veslovanie", "plachtenie", "surfovanie", "potápanie"]
+  },
+  {
+    "word": "Zumba dancing",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "Zumba tanec",
+    "options": ["Zumba tanec", "latinské tance", "hip-hop", "balet"]
+  },
+
+  {
+    "word": "chess",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "šach",
+    "options": ["šach", "kartová hra", "dosková hra", "logická hra"]
+  },
+  {
+    "word": "board games",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "stolové hry",
+    "options": ["stolové hry", "kartové hry", "športové hry", "videohry"]
+  },
+  {
+    "word": "card games",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "kartové hry",
+    "options": ["kartové hry", "logické hry", "stolové hry", "športové hry"]
+  },
+
+  {
+    "word": "playing the piano",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "hrať na klavíri",
+    "options": [
+      "hrať na klavíri",
+      "hrať na gitare",
+      "hrať na husliach",
+      "hrať na flautu"
+    ]
+  },
+  {
+    "word": "playing the violin",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "hrať na husliach",
+    "options": [
+      "hrať na husliach",
+      "hrať na klavíri",
+      "hrať na bicích",
+      "hrať na flaute"
+    ]
+  },
+  {
+    "word": "playing the guitar",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "hrať na gitare",
+    "options": [
+      "hrať na gitare",
+      "hrať na husliach",
+      "hrať na klavíri",
+      "hrať na bicích"
+    ]
+  },
+
+  {
+    "word": "painting",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "maľovanie",
+    "options": ["maľovanie", "kreslenie", "modelovanie", "písanie"]
+  },
+  {
+    "word": "drawing",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "kreslenie",
+    "options": ["kreslenie", "maľovanie", "čítanie", "modelovanie"]
+  },
+  {
+    "word": "photography",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "fotografovanie",
+    "options": ["fotografovanie", "kreslenie", "písanie", "modelovanie"]
+  },
+
+  {
+    "word": "gardening",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "záhradkárčenie",
+    "options": ["záhradkárčenie", "upratovanie", "varenie", "šitie"]
+  },
+  {
+    "word": "DIY",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "domáce majstrovanie",
+    "options": ["domáce majstrovanie", "upratovanie", "pečenie", "varenie"]
+  },
+  {
+    "word": "car repair",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "oprava auta",
+    "options": ["oprava auta", "umyvanie auta", "tankovanie", "upratovanie"]
+  },
+  {
+    "word": "baking",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "pečenie",
+    "options": ["pečenie", "varenie", "smaženie", "mixovanie"]
+  },
+
+  {
+    "word": "horse riding",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "jazda na koni",
+    "options": ["jazda na koni", "chôdza", "beh", "plávanie"]
+  },
+  {
+    "word": "walking dogs",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "venčenie psov",
+    "options": [
+      "venčenie psov",
+      "tréning psov",
+      "kŕmenie psov",
+      "strihanie psov"
+    ]
+  },
+  {
+    "word": "cleaning an aquarium",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "čistenie akvária",
+    "options": [
+      "čistenie akvária",
+      "čistenie auta",
+      "čistenie domu",
+      "čistenie záhrady"
+    ]
+  },
+
+  {
+    "word": "plane spotting",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "pozorovanie lietadiel",
+    "options": [
+      "pozorovanie lietadiel",
+      "pozorovanie vlakov",
+      "pozorovanie lodí",
+      "pozorovanie zvierat"
+    ]
+  },
+  {
+    "word": "train spotting",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "pozorovanie vlakov",
+    "options": [
+      "pozorovanie vlakov",
+      "pozorovanie lietadiel",
+      "pozorovanie áut",
+      "pozorovanie ľudí"
+    ]
+  },
+  {
+    "word": "car spotting",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "pozorovanie áut",
+    "options": [
+      "pozorovanie áut",
+      "pozorovanie vlakov",
+      "fotografovanie",
+      "dokumentovanie"
+    ]
+  },
+
+  {
+    "word": "school clubs",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "školské krúžky",
+    "options": ["školské krúžky", "športové tímy", "kurzy", "online skupiny"]
+  },
+  {
+    "word": "leisure centres",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "voľnočasové centrá",
+    "options": [
+      "voľnočasové centrá",
+      "fitness centrá",
+      "jazykové školy",
+      "kluby"
+    ]
+  },
+  {
+    "word": "course instructors",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "inštruktori kurzov",
+    "options": ["inštruktori kurzov", "organizátori", "tréneri", "učitelia"]
+  },
+
+  {
+    "word": "lifestyle of young people",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "životný štýl mladých",
+    "options": [
+      "životný štýl mladých",
+      "životný štýl dospelých",
+      "životný štýl seniorov",
+      "tradičný život"
+    ]
+  },
+  {
+    "word": "lifestyle of adults",
+    "level": "B1",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "životný štýl dospelých",
+    "options": [
+      "životný štýl dospelých",
+      "životný štýl mladých",
+      "životný štýl seniorov",
+      "priemerný život"
+    ]
+  },
+  {
+    "word": "lifestyle of pensioners",
+    "level": "B2",
+    "okruh": "HOBBIES_AND_LIFESTYLE",
+    "correct": "životný štýl dôchodcov",
+    "options": [
+      "životný štýl dôchodcov",
+      "životný štýl mladých",
+      "životný štýl študentov",
+      "životný štýl športovcov"
+    ]
+  },
+  {
+    "word": "to travel for work",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "cestovať za prácou",
+    "options": [
+      "cestovať za prácou",
+      "cestovať za oddychom",
+      "ísť na výlet",
+      "ísť na dovolenku"
+    ]
+  },
+  {
+    "word": "to travel for education",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "cestovať za vzdelaním",
+    "options": [
+      "cestovať za vzdelaním",
+      "cestovať za oddychom",
+      "pracovať",
+      "ísť na návštevu"
+    ]
+  },
+  {
+    "word": "to travel for pleasure",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "cestovať pre potešenie",
+    "options": [
+      "cestovať pre potešenie",
+      "cestovať za prácou",
+      "študovať",
+      "pracovať doma"
+    ]
+  },
+  {
+    "word": "to seek adventure",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "hľadať dobrodružstvo",
+    "options": [
+      "hľadať dobrodružstvo",
+      "hľadať prácu",
+      "hľadať ubytovanie",
+      "hľadať jedlo"
+    ]
+  },
+
+  {
+    "word": "travel agency",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "cestovná kancelária",
+    "options": ["cestovná kancelária", "letisko", "hotel", "infocentrum"]
+  },
+  {
+    "word": "backpacker",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "batôžkar",
+    "options": [
+      "batôžkar",
+      "luxusný cestovateľ",
+      "turista s delegátom",
+      "bezpečnostný pracovník"
+    ]
+  },
+  {
+    "word": "globetrotter",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "svetobežník",
+    "options": ["svetobežník", "turista", "pracovník", "študent"]
+  },
+  {
+    "word": "budget traveller",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "cestovateľ s nízkym rozpočtom",
+    "options": [
+      "cestovateľ s nízkym rozpočtom",
+      "luxusný cestovateľ",
+      "priemerný turista",
+      "expedíciový cestovateľ"
+    ]
+  },
+  {
+    "word": "self-catering holiday",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "dovolenka s vlastným stravovaním",
+    "options": [
+      "dovolenka s vlastným stravovaním",
+      "all-inclusive dovolenka",
+      "business trip",
+      "wellness pobyt"
+    ]
+  },
+  {
+    "word": "package tour",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "zájazd (balík služieb)",
+    "options": [
+      "zájazd (balík služieb)",
+      "individuálna dovolenka",
+      "roadtrip",
+      "pracovná cesta"
+    ]
+  },
+
+  {
+    "word": "to travel by car",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "cestovať autom",
+    "options": [
+      "cestovať autom",
+      "cestovať vlakom",
+      "cestovať loďou",
+      "ísť pešo"
+    ]
+  },
+  {
+    "word": "to travel by bus",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "cestovať autobusom",
+    "options": [
+      "cestovať autobusom",
+      "cestovať autom",
+      "cestovať lietadlom",
+      "cestovať vlakom"
+    ]
+  },
+  {
+    "word": "to fly a plane",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "pilotovať lietadlo",
+    "options": [
+      "pilotovať lietadlo",
+      "cestovať lietadlom",
+      "nastúpiť do lietadla",
+      "zmeškať lietadlo"
+    ]
+  },
+  {
+    "word": "to go on foot",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "ísť pešo",
+    "options": ["ísť pešo", "ísť autom", "ísť autobusom", "ísť vlakom"]
+  },
+
+  {
+    "word": "check-in desk",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "odbavovacia prepážka",
+    "options": [
+      "odbavovacia prepážka",
+      "colná kontrola",
+      "gate",
+      "pasová kontrola"
+    ]
+  },
+  {
+    "word": "luggage is weighed",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "batožina sa váži",
+    "options": [
+      "batožina sa váži",
+      "batožina sa skenuje",
+      "batožina sa posiela",
+      "batožina sa stráca"
+    ]
+  },
+  {
+    "word": "air safety rules",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "bezpečnostné pravidlá v lietadle",
+    "options": [
+      "bezpečnostné pravidlá v lietadle",
+      "letový plán",
+      "letecké údaje",
+      "colné postupy"
+    ]
+  },
+  {
+    "word": "customs",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "colnica",
+    "options": ["colnica", "odbavenie", "pasová kontrola", "gate"]
+  },
+  {
+    "word": "customs officer",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "colník",
+    "options": ["colník", "pilot", "letuška", "pracovník check-inu"]
+  },
+  {
+    "word": "gate",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "vstupná brána (gate)",
+    "options": [
+      "vstupná brána (gate)",
+      "východ",
+      "parkovisko",
+      "výdaj batožiny"
+    ]
+  },
+  {
+    "word": "boarding card",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "palubný lístok",
+    "options": ["palubný lístok", "letenka", "cestovný pas", "vízum"]
+  },
+  {
+    "word": "baggage reclaim",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "výdaj batožiny",
+    "options": ["výdaj batožiny", "check-in", "colná zóna", "pasová kontrola"]
+  },
+
+  {
+    "word": "charter flight",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "charterový let",
+    "options": [
+      "charterový let",
+      "pravidelný let",
+      "zrušený let",
+      "oneskorený let"
+    ]
+  },
+  {
+    "word": "scheduled flight",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "pravidelný let",
+    "options": [
+      "pravidelný let",
+      "charterový let",
+      "zrušený let",
+      "expresný let"
+    ]
+  },
+  {
+    "word": "delayed flight",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "oneskorený let",
+    "options": ["oneskorený let", "zrušený let", "včasný let", "charterový let"]
+  },
+  {
+    "word": "cancelled flight",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "zrušený let",
+    "options": ["zrušený let", "oneskorený let", "presunutý let", "plný let"]
+  },
+  {
+    "word": "postponed flight",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "presunutý let (na neskôr)",
+    "options": [
+      "presunutý let (na neskôr)",
+      "zrušený let",
+      "oneskorený let",
+      "ranný let"
+    ]
+  },
+
+  {
+    "word": "to take off",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "vzlietnuť",
+    "options": ["vzlietnuť", "pristáť", "zrušiť let", "otáčať lietadlo"]
+  },
+  {
+    "word": "to land",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "pristáť",
+    "options": ["pristáť", "vzlietnuť", "naložiť batožinu", "odparkovať"]
+  },
+  {
+    "word": "to crash",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "havarovať",
+    "options": ["havarovať", "vzlietnuť", "pristáť", "odštartovať"]
+  },
+  {
+    "word": "to hijack",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "unesť (lietadlo)",
+    "options": [
+      "unesť (lietadlo)",
+      "pokaziť lietadlo",
+      "stratiť lietadlo",
+      "opraviť lietadlo"
+    ]
+  },
+
+  {
+    "word": "to board a plane",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "nastúpiť do lietadla",
+    "options": [
+      "nastúpiť do lietadla",
+      "vystúpiť z lietadla",
+      "riadiť lietadlo",
+      "opravovať lietadlo"
+    ]
+  },
+  {
+    "word": "to disembark",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "vystúpiť z lietadla",
+    "options": [
+      "vystúpiť z lietadla",
+      "nastúpiť do lietadla",
+      "zmeškať let",
+      "uloviť let"
+    ]
+  },
+  {
+    "word": "to catch a plane",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "stihnúť lietadlo",
+    "options": [
+      "stihnúť lietadlo",
+      "zmeškať lietadlo",
+      "zrušiť let",
+      "presunúť let"
+    ]
+  },
+  {
+    "word": "to miss a plane",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "zmeškať lietadlo",
+    "options": [
+      "zmeškať lietadlo",
+      "stihnúť lietadlo",
+      "presunúť let",
+      "zrušiť let"
+    ]
+  },
+  {
+    "word": "to fasten seatbelts",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "zapnúť si bezpečnostné pásy",
+    "options": [
+      "zapnúť si bezpečnostné pásy",
+      "odopnúť pásy",
+      "nakloniť sedadlo",
+      "zavrieť okno"
+    ]
+  },
+
+  {
+    "word": "window seat",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "sedadlo pri okne",
+    "options": [
+      "sedadlo pri okne",
+      "stredové sedadlo",
+      "uličkové sedadlo",
+      "rezervované sedadlo"
+    ]
+  },
+  {
+    "word": "middle seat",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "stredové sedadlo",
+    "options": [
+      "stredové sedadlo",
+      "sedadlo pri okne",
+      "uličkové sedadlo",
+      "prvé sedadlo"
+    ]
+  },
+  {
+    "word": "aisle seat",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "uličkové sedadlo",
+    "options": [
+      "uličkové sedadlo",
+      "stredové sedadlo",
+      "sedadlo pri okne",
+      "núdzové sedadlo"
+    ]
+  },
+  {
+    "word": "cockpit",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "pilotná kabína",
+    "options": [
+      "pilotná kabína",
+      "batožinový priestor",
+      "chodbička",
+      "kuchynka posádky"
+    ]
+  },
+
+  {
+    "word": "departures",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "odlety",
+    "options": ["odlety", "prílety", "preklady", "prestupy"]
+  },
+  {
+    "word": "arrivals",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "prílety",
+    "options": ["prílety", "odlety", "oneskorenia", "colná zóna"]
+  },
+  {
+    "word": "delays",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "oneskorenia",
+    "options": ["oneskorenia", "zrušenia", "príchody", "odchody"]
+  },
+  {
+    "word": "pilot",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "pilot",
+    "options": ["pilot", "letec", "steward", "cestujúci"]
+  },
+  {
+    "word": "steward",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "palubný sprievodca",
+    "options": ["palubný sprievodca", "pilot", "colník", "záchranár"]
+  },
+  {
+    "word": "stewardess",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "letuška",
+    "options": ["letuška", "sprievodkyňa MHD", "pilotka", "členka posádky"]
+  },
+  {
+    "word": "customs officer",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "colník",
+    "options": ["colník", "policajt", "letuška", "recepčný"]
+  },
+  {
+    "word": "police officer",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "policajt",
+    "options": ["policajt", "colník", "pilot", "sprievodca"]
+  },
+
+  {
+    "word": "jet lag",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "únava z časových posunov",
+    "options": [
+      "únava z časových posunov",
+      "ležérna únava",
+      "bežná únava",
+      "spánok v lietadle"
+    ]
+  },
+  {
+    "word": "turbulence",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "turbulencia",
+    "options": ["turbulencia", "vietor", "záskok", "hmla"]
+  },
+
+  {
+    "word": "slow train",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "pomalý vlak",
+    "options": ["pomalý vlak", "rýchlik", "intercity", "vlak s lôžkami"]
+  },
+  {
+    "word": "fast train",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "rýchly vlak",
+    "options": ["rýchly vlak", "pomalý vlak", "lokálka", "metro"]
+  },
+  {
+    "word": "intercity train",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "medzimestský vlak",
+    "options": [
+      "medzimestský vlak",
+      "vlak do zahraničia",
+      "regionálny vlak",
+      "nákladný vlak"
+    ]
+  },
+  {
+    "word": "sleeping car",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "lôžkový vozeň",
+    "options": [
+      "lôžkový vozeň",
+      "reštauračný vozeň",
+      "kompartment",
+      "štandardný vozeň"
+    ]
+  },
+  {
+    "word": "dining car",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "reštauračný vozeň",
+    "options": ["reštauračný vozeň", "lôžkový vozeň", "kuchynka", "kabína"]
+  },
+  {
+    "word": "compartment",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "kupé",
+    "options": ["kupé", "stanica", "perón", "kabína"]
+  },
+  {
+    "word": "conductor",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "sprievodca (vo vlaku)",
+    "options": ["sprievodca (vo vlaku)", "strojvodca", "pokladník", "revizor"]
+  },
+
+  {
+    "word": "short-distance bus",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "krátka vzdialenosť (bus)",
+    "options": [
+      "krátka vzdialenosť (bus)",
+      "diaľkový bus",
+      "shuttle",
+      "airport bus"
+    ]
+  },
+  {
+    "word": "long-distance coach",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "diaľkový autobus",
+    "options": ["diaľkový autobus", "mestský autobus", "vlak", "trolejbus"]
+  },
+  {
+    "word": "destination",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "cieľ cesty",
+    "options": ["cieľ cesty", "východisko", "spoj", "prestup"]
+  },
+  {
+    "word": "reasonably priced ticket",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "cenovo výhodný lístok",
+    "options": [
+      "cenovo výhodný lístok",
+      "drahý lístok",
+      "zľavnený lístok",
+      "akciový lístok"
+    ]
+  },
+  {
+    "word": "return ticket",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "spiatočný lístok",
+    "options": [
+      "spiatočný lístok",
+      "jednosmerný lístok",
+      "denný lístok",
+      "rezervačný lístok"
+    ]
+  },
+  {
+    "word": "single ticket",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "jednosmerný lístok",
+    "options": [
+      "jednosmerný lístok",
+      "spiatočný lístok",
+      "mesačník",
+      "celodenný lístok"
+    ]
+  },
+  {
+    "word": "platform",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "nástupište",
+    "options": ["nástupište", "pokladňa", "hala", "výhybka"]
+  },
+
+  {
+    "word": "to exceed the speed limit",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "prekročiť rýchlostný limit",
+    "options": [
+      "prekročiť rýchlostný limit",
+      "dodržať rýchlosť",
+      "pomaliť",
+      "zaparkovať"
+    ]
+  },
+  {
+    "word": "flat tyre",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "defekt pneumatiky",
+    "options": [
+      "defekt pneumatiky",
+      "zadretý motor",
+      "prázdna nádrž",
+      "zablokované dvere"
+    ]
+  },
+  {
+    "word": "to pay a toll",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "zaplatiť mýto",
+    "options": [
+      "zaplatiť mýto",
+      "zaplatiť benzín",
+      "zaplatiť pokutu",
+      "zaplatiť lístok"
+    ]
+  },
+  {
+    "word": "to pay a fine",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "zaplatiť pokutu",
+    "options": [
+      "zaplatiť pokutu",
+      "zaplatiť mýto",
+      "zaplatiť daň",
+      "zaplatiť vstupné"
+    ]
+  },
+  {
+    "word": "motorway",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "diaľnica",
+    "options": ["diaľnica", "križovatka", "obchvat", "ramp a"]
+  },
+  {
+    "word": "crossroads",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "križovatka",
+    "options": ["križovatka", "obchvat", "výjazd", "zjazd"]
+  },
+  {
+    "word": "zebra crossing",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "priechodec pre chodcov",
+    "options": ["priechodec pre chodcov", "diaľnica", "jazdný pruh", "chodník"]
+  },
+  {
+    "word": "roundabout",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "kruhový objazd",
+    "options": ["kruhový objazd", "križovatka", "most", "tunel"]
+  },
+  {
+    "word": "traffic lights",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "semafor",
+    "options": ["semafor", "značka", "zastávka", "prejazd"]
+  },
+  {
+    "word": "overtake",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "predbehnúť",
+    "options": ["predbehnúť", "zastaviť", "zabočiť", "zotrvať"]
+  },
+  {
+    "word": "hitchhike",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "stopovať",
+    "options": ["stopovať", "cestovať busom", "cestovať vlakom", "ísť pešo"]
+  },
+  {
+    "word": "run out of petrol",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "minúť benzín",
+    "options": ["minúť benzín", "minúť drobné", "minúť kredit", "minúť vodu"]
+  },
+  {
+    "word": "fill up the tank",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "natankovať",
+    "options": [
+      "natankovať",
+      "nafúkať pneumatiky",
+      "umyť auto",
+      "odparkovať auto"
+    ]
+  },
+
+  {
+    "word": "ferry",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "trajekt",
+    "options": ["trajekt", "parník", "čln", "jachta"]
+  },
+  {
+    "word": "liner",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "veľká výletná loď",
+    "options": ["veľká výletná loď", "čln", "katamarán", "jachta"]
+  },
+  {
+    "word": "speedboat",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "motorový čln",
+    "options": ["motorový čln", "kajak", "čln", "parník"]
+  },
+  {
+    "word": "submarine",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "ponorka",
+    "options": ["ponorka", "čln", "kanoe", "trajekt"]
+  },
+  {
+    "word": "underground",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "metro",
+    "options": ["metro", "vlak", "vlakový tunel", "autobus"]
+  },
+  {
+    "word": "tram",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "electricita",
+    "options": ["električka", "trolejbus", "metro", "autobus"]
+  },
+  {
+    "word": "trolleybus",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "trolejbus",
+    "options": ["trolejbus", "električka", "autobus", "metro"]
+  },
+  {
+    "word": "hot air balloon",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "teplovzdušný balón",
+    "options": ["teplovzdušný balón", "helikoptéra", "raketa", "lietadlo"]
+  },
+  {
+    "word": "helicopter",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "helikoptéra",
+    "options": ["helikoptéra", "lietadlo", "raketa", "balón"]
+  },
+  {
+    "word": "rocket",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "raketa",
+    "options": ["raketa", "lietadlo", "helikoptéra", "dron"]
+  },
+
+  {
+    "word": "first minute holiday",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "first minute dovolenka",
+    "options": [
+      "first minute dovolenka",
+      "last minute dovolenka",
+      "self-catering",
+      "balík služieb"
+    ]
+  },
+  {
+    "word": "last minute holiday",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "last minute dovolenka",
+    "options": [
+      "last minute dovolenka",
+      "first minute",
+      "roadtrip",
+      "náhodný výlet"
+    ]
+  },
+  {
+    "word": "backpacking holiday",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "batôžkarská dovolenka",
+    "options": [
+      "batôžkarská dovolenka",
+      "luxusná dovolenka",
+      "kúpeľný pobyt",
+      "balík služieb"
+    ]
+  },
+
+  {
+    "word": "set off on a journey",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "vyraziť na cestu",
+    "options": [
+      "vyraziť na cestu",
+      "cestovať späť",
+      "zostať doma",
+      "zastaviť sa"
+    ]
+  },
+  {
+    "word": "go on a trip",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "ísť na výlet",
+    "options": ["ísť na výlet", "ísť domov", "ísť do práce", "ísť do školy"]
+  },
+  {
+    "word": "travel abroad",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "cestovať do zahraničia",
+    "options": [
+      "cestovať do zahraničia",
+      "cestovať doma",
+      "ísť do školy",
+      "cestovať metrom"
+    ]
+  },
+
+  {
+    "word": "baggage",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "batožina",
+    "options": ["batožina", "kabát", "ubytovanie", "rezervácia"]
+  },
+  {
+    "word": "luggage",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "batožina",
+    "options": ["batožina", "kufor", "taška", "kabína"]
+  },
+  {
+    "word": "suitcase",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "kufor",
+    "options": ["kufor", "taška", "batoh", "skrinka"]
+  },
+  {
+    "word": "carry-on",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "príručná batožina",
+    "options": ["príručná batožina", "kufor", "batoh", "check-in batožina"]
+  },
+  {
+    "word": "guide book",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "sprievodca (kniha)",
+    "options": ["sprievodca (kniha)", "mapa", "katalóg", "rezervácia"]
+  },
+
+  {
+    "word": "identity card",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "občiansky preukaz",
+    "options": ["občiansky preukaz", "pas", "vízum", "letenka"]
+  },
+  {
+    "word": "passport",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "pas",
+    "options": ["pas", "občiansky preukaz", "vízum", "letenka"]
+  },
+  {
+    "word": "visa",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "vízum",
+    "options": ["vízum", "pas", "letenka", "doklad totožnosti"]
+  },
+  {
+    "word": "insurance",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "poistenie",
+    "options": ["poistenie", "rezervácia", "letenka", "zmluva"]
+  },
+  {
+    "word": "flight ticket",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "letenka",
+    "options": ["letenka", "rezervácia", "vízum", "pas"]
+  },
+
+  {
+    "word": "hotel",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "hotel",
+    "options": ["hotel", "hostel", "motel", "penzión"]
+  },
+  {
+    "word": "hostel",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "hostel",
+    "options": ["hostel", "hotel", "motel", "rezort"]
+  },
+  {
+    "word": "motel",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "motel",
+    "options": ["motel", "hotel", "hostel", "apartmán"]
+  },
+  {
+    "word": "bed and breakfast",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "nocľah s raňajkami (B&B)",
+    "options": ["nocľah s raňajkami (B&B)", "hotel", "hostel", "apartmán"]
+  },
+  {
+    "word": "apartment",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "apartmán",
+    "options": ["apartmán", "motel", "hostel", "penzión"]
+  },
+  {
+    "word": "guesthouse",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "penzión",
+    "options": ["penzión", "hotel", "chata", "motel"]
+  },
+
+  {
+    "word": "to check in",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "ubytovať sa",
+    "options": [
+      "ubytovať sa",
+      "odubytovať sa",
+      "rezervovať izbu",
+      "zrušiť rezerváciu"
+    ]
+  },
+  {
+    "word": "to check out",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "odubytovať sa",
+    "options": [
+      "odubytovať sa",
+      "ubytovať sa",
+      "zaplatiť ubytovanie",
+      "rezervovať si izbu"
+    ]
+  },
+  {
+    "word": "room service",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "izbová služba",
+    "options": ["izbová služba", "upratovanie", "reštaurácia", "raňajky"]
+  },
+  {
+    "word": "wake-up call",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "budíček (hotelový hovor)",
+    "options": ["budíček (hotelový hovor)", "check-in", "check-out", "transfer"]
+  },
+
+  {
+    "word": "half board",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "polpenzia",
+    "options": ["polpenzia", "plná penzia", "all-inclusive", "raňajky"]
+  },
+  {
+    "word": "full board",
+    "level": "B2",
+    "okruh": "TRAVELLING",
+    "correct": "plná penzia",
+    "options": ["plná penzia", "polpenzia", "raňajky", "bufet"]
+  },
+  {
+    "word": "all-inclusive",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "all-inclusive",
+    "options": ["all-inclusive", "polpenzia", "raňajky", "plná penzia"]
+  },
+  {
+    "word": "continental breakfast",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "kontinentálne raňajky",
+    "options": [
+      "kontinentálne raňajky",
+      "anglické raňajky",
+      "švédske stoly",
+      "obed"
+    ]
+  },
+  {
+    "word": "buffet",
+    "level": "B1",
+    "okruh": "TRAVELLING",
+    "correct": "bufet",
+    "options": ["bufet", "reštaurácia", "kaviareň", "kuchyňa"]
+  },
+  {
+    "word": "globe",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "glóbus / zemeguľa",
+    "options": ["glóbus / zemeguľa", "planéta", "mapa", "kontinent"]
+  },
+  {
+    "word": "in the north",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "na severe",
+    "options": ["na severe", "na juhu", "na východe", "na západe"]
+  },
+  {
+    "word": "in the south",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "na juhu",
+    "options": ["na juhu", "na severe", "na západe", "na východe"]
+  },
+  {
+    "word": "in the east",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "na východe",
+    "options": ["na východe", "na západe", "na severe", "na juhu"]
+  },
+  {
+    "word": "in the west",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "na západe",
+    "options": ["na západe", "na východe", "na severe", "na juhu"]
+  },
+
+  {
+    "word": "North Pole",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "Severný pól",
+    "options": ["Severný pól", "Južný pól", "Arktída", "Antarktída"]
+  },
+
+  {
+    "word": "Atlantic Ocean",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "Atlantický oceán",
+    "options": [
+      "Atlantický oceán",
+      "Indický oceán",
+      "Tichý oceán",
+      "Severné more"
+    ]
+  },
+  {
+    "word": "Indian Ocean",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "Indický oceán",
+    "options": [
+      "Indický oceán",
+      "Atlantický oceán",
+      "Tichý oceán",
+      "Ľadový oceán"
+    ]
+  },
+  {
+    "word": "Pacific Ocean",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "Tichý oceán",
+    "options": [
+      "Tichý oceán",
+      "Indický oceán",
+      "Atlantický oceán",
+      "Severné more"
+    ]
+  },
+
+  {
+    "word": "continent",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "kontinent",
+    "options": ["kontinent", "štát", "región", "provincia"]
+  },
+  {
+    "word": "state",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "štát",
+    "options": ["štát", "kontinent", "mesto", "obec"]
+  },
+
+  {
+    "word": "Mediterranean Sea",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "Stredozemné more",
+    "options": ["Stredozemné more", "Čierne more", "Severné more", "Mŕtve more"]
+  },
+  {
+    "word": "Baltic Sea",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "Baltské more",
+    "options": [
+      "Baltské more",
+      "Severné more",
+      "Stredozemné more",
+      "Mŕtve more"
+    ]
+  },
+  {
+    "word": "Dead Sea",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "Mŕtve more",
+    "options": ["Mŕtve more", "Čierne more", "Kaspické more", "Karibik"]
+  },
+
+  {
+    "word": "peninsula",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "polostrov",
+    "options": ["polostrov", "ostrov", "prieliv", "zátoka"]
+  },
+  {
+    "word": "island",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "ostrov",
+    "options": ["ostrov", "polostrov", "záliv", "pobrežie"]
+  },
+  {
+    "word": "coast",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "pobrežie",
+    "options": ["pobrežie", "pláž", "klif", "vrch"]
+  },
+  {
+    "word": "cliffs",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "útesy",
+    "options": ["útesy", "skalný masív", "vrchol", "pahorky"]
+  },
+  {
+    "word": "bay",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "zátoka",
+    "options": ["zátoka", "oceán", "prieliv", "jazero"]
+  },
+  {
+    "word": "harbour",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "prístav",
+    "options": ["prístav", "zátoka", "most", "pláž"]
+  },
+  {
+    "word": "beach",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "pláž",
+    "options": ["pláž", "pobrežie", "ostrov", "skaly"]
+  },
+  {
+    "word": "gulf",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "záliv",
+    "options": ["záliv", "zátoka", "oceán", "jazero"]
+  },
+
+  {
+    "word": "river",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "rieka",
+    "options": ["rieka", "jazero", "potok", "kanál"]
+  },
+  {
+    "word": "lake",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "jazero",
+    "options": ["jazero", "rieka", "lagúna", "močiar"]
+  },
+  {
+    "word": "loch",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "škótske jazero",
+    "options": ["škótske jazero", "rieka", "kanál", "zátoka"]
+  },
+  {
+    "word": "pond",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "rybník",
+    "options": ["rybník", "jazero", "bažina", "potok"]
+  },
+  {
+    "word": "channel",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "prieliv / kanál",
+    "options": ["prieliv / kanál", "rieka", "zátoka", "prístav"]
+  },
+  {
+    "word": "waterfalls",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "vodopády",
+    "options": ["vodopády", "pramene", "rieky", "ľadovce"]
+  },
+  {
+    "word": "geyser",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "gejzír",
+    "options": ["gejzír", "sopka", "vulkanický otvor", "prameň"]
+  },
+  {
+    "word": "thermal springs",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "termálne pramene",
+    "options": ["termálne pramene", "studené pramene", "rieky", "gejzíry"]
+  },
+
+  {
+    "word": "climatic zones",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "klimatické pásma",
+    "options": [
+      "klimatické pásma",
+      "teplotné zóny",
+      "časové zóny",
+      "pásma dažďov"
+    ]
+  },
+  {
+    "word": "fauna and flora",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "fauna a flóra",
+    "options": ["fauna a flóra", "živočíchy", "rastliny", "ekosystém"]
+  },
+  {
+    "word": "protected animals",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "chránené zvieratá",
+    "options": [
+      "chránené zvieratá",
+      "divoké zvieratá",
+      "domáce zvieratá",
+      "lovná zver"
+    ]
+  },
+  {
+    "word": "endangered species",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "ohrozené druhy",
+    "options": [
+      "ohrozené druhy",
+      "bežné druhy",
+      "morské druhy",
+      "nebezpečné druhy"
+    ]
+  },
+
+  {
+    "word": "forest",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "les",
+    "options": ["les", "džungľa", "púšť", "jazero"]
+  },
+  {
+    "word": "rainforest",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "dažďový prales",
+    "options": ["dažďový prales", "savina", "mokrade", "trávnik"]
+  },
+  {
+    "word": "jungle",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "džungľa",
+    "options": ["džungľa", "les", "prales", "púšť"]
+  },
+  {
+    "word": "volcano",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "sopka",
+    "options": ["sopka", "kráter", "hora", "vrch"]
+  },
+  {
+    "word": "desert",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "púšť",
+    "options": ["púšť", "step", "nížina", "savina"]
+  },
+  {
+    "word": "plains",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "roviny",
+    "options": ["roviny", "kopce", "nížiny", "hory"]
+  },
+  {
+    "word": "lowlands",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "nížiny",
+    "options": ["nížiny", "roviny", "kopce", "pahorky"]
+  },
+  {
+    "word": "caves",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "jaskyne",
+    "options": ["jaskyne", "skaly", "vrchy", "tunely"]
+  },
+  {
+    "word": "canyon",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "kaňon",
+    "options": ["kaňon", "roklinka", "údolie", "priesmyk"]
+  },
+  {
+    "word": "moorland",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "rašelinište",
+    "options": ["rašelinište", "bažina", "močiar", "step"]
+  },
+  {
+    "word": "glacier",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "ľadovec",
+    "options": ["ľadovec", "gejzír", "jazero", "sopka"]
+  },
+
+  {
+    "word": "the Alps",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "Alpy",
+    "options": ["Alpy", "Tatry", "Karpaty", "Himaláje"]
+  },
+  {
+    "word": "High Tatras",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "Vysoké Tatry",
+    "options": ["Vysoké Tatry", "Nízke Tatry", "Alpy", "Karpaty"]
+  },
+  {
+    "word": "Low Tatras",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "Nízke Tatry",
+    "options": ["Nízke Tatry", "Vysoké Tatry", "Alpy", "Pyreneje"]
+  },
+
+  {
+    "word": "mountains",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "hory",
+    "options": ["hory", "vrchy", "pahorky", "kopce"]
+  },
+  {
+    "word": "hills",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "kopce",
+    "options": ["kopce", "hory", "pahorky", "vrchy"]
+  },
+  {
+    "word": "peak",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "vrchol",
+    "options": ["vrchol", "svah", "úboč", "kameň"]
+  },
+  {
+    "word": "vast area",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "rozľahlá oblasť",
+    "options": ["rozľahlá oblasť", "úzka oblasť", "malé územie", "hranica"]
+  },
+
+  {
+    "word": "Seven Wonders of the World",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "Sedem divov sveta",
+    "options": [
+      "Sedem divov sveta",
+      "UNESCO dedičstvo",
+      "historické pamiatky",
+      "antické stavby"
+    ]
+  },
+
+  {
+    "word": "metropolis",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "metropola",
+    "options": ["metropola", "hlavné mesto", "veľké mesto", "centrum"]
+  },
+  {
+    "word": "megalopolis",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "megalopola (obrovská mestská oblasť)",
+    "options": [
+      "megalopola (obrovská mestská oblasť)",
+      "metropola",
+      "malé mesto",
+      "mesto duchov"
+    ]
+  },
+  {
+    "word": "megacity",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "megapolis / veľmi veľké mesto",
+    "options": [
+      "megapolis / veľmi veľké mesto",
+      "malé mesto",
+      "dedina",
+      "aglomerácia"
+    ]
+  },
+  {
+    "word": "global city",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "globálne mesto",
+    "options": [
+      "globálne mesto",
+      "hlavné mesto",
+      "mesto v rozvoji",
+      "turistické mesto"
+    ]
+  },
+  {
+    "word": "city",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "mesto",
+    "options": ["mesto", "dedina", "osada", "štvrť"]
+  },
+  {
+    "word": "town",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "menšie mesto",
+    "options": ["menšie mesto", "veľké mesto", "dedina", "štvrť"]
+  },
+  {
+    "word": "suburb",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "predmestie",
+    "options": ["predmestie", "centrum", "okraj", "blok"]
+  },
+  {
+    "word": "outskirts",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "okraje mesta",
+    "options": ["okraje mesta", "centrum mesta", "štvrť", "dedina"]
+  },
+  {
+    "word": "industrial",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "priemyselný",
+    "options": ["priemyselný", "obytný", "finančný", "administratívny"]
+  },
+  {
+    "word": "hectic",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "hektický/rušný",
+    "options": ["hektický/rušný", "pokojný", "vidiecky", "nudný"]
+  },
+  {
+    "word": "administrative",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "administratívny",
+    "options": ["administratívny", "obytný", "obchodný", "kultúrny"]
+  },
+  {
+    "word": "financial",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "finančný",
+    "options": ["finančný", "priemyselný", "vidiecky", "obytný"]
+  },
+  {
+    "word": "trade",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "obchodný",
+    "options": ["obchodný", "obytný", "vidiecky", "dopravný"]
+  },
+  {
+    "word": "residential",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "obytný",
+    "options": ["obytný", "priemyselný", "centrálny", "finančný"]
+  },
+  {
+    "word": "distant",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "vzdialený",
+    "options": ["vzdialený", "blízky", "centrálny", "hlavný"]
+  },
+  {
+    "word": "convenient",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "pohodlný/výhodný",
+    "options": ["pohodlný/výhodný", "nevýhodný", "vzdialený", "rozpadajúci sa"]
+  },
+
+  {
+    "word": "landmarks",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "pamiatky",
+    "options": ["pamiatky", "budovy", "ulice", "chodníky"]
+  },
+  {
+    "word": "skyscrapers",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "mrakodrapy",
+    "options": ["mrakodrapy", "paneláky", "domy", "vilky"]
+  },
+  {
+    "word": "infrastructure",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "infraštruktúra",
+    "options": ["infraštruktúra", "územie", "priestor", "výstavba"]
+  },
+  {
+    "word": "housing estate",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "sídlisko",
+    "options": ["sídlisko", "centrum", "dedina", "ulica"]
+  },
+  {
+    "word": "shopping centres",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "nákupné centrá",
+    "options": ["nákupné centrá", "pešie zóny", "pamiatky", "uvedené budovy"]
+  },
+  {
+    "word": "business centres",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "obchodné centrá",
+    "options": ["obchodné centrá", "obytné štvrte", "parky", "pamiatky"]
+  },
+  {
+    "word": "cultural events",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "kultúrne podujatia",
+    "options": [
+      "kultúrne podujatia",
+      "športové podujatia",
+      "náboženské obrady",
+      "konferencie"
+    ]
+  },
+  {
+    "word": "sightseeing",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "prehliadka pamiatok",
+    "options": [
+      "prehliadka pamiatok",
+      "nakupovanie",
+      "prechádzka",
+      "cestovanie"
+    ]
+  },
+
+  {
+    "word": "countryside",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "vidiek",
+    "options": ["vidiek", "mesto", "prímestská oblasť", "centrum"]
+  },
+  {
+    "word": "village",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "dedina",
+    "options": ["dedina", "mesto", "osada", "ulica"]
+  },
+  {
+    "word": "hamlet",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "osada",
+    "options": ["osada", "dedina", "mesto", "predmestie"]
+  },
+  {
+    "word": "peace",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "pokoj",
+    "options": ["pokoj", "hluk", "chaos", "stres"]
+  },
+  {
+    "word": "safety",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "bezpečie",
+    "options": ["bezpečie", "nebezpečenstvo", "chaos", "stres"]
+  },
+  {
+    "word": "solitude",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "samota",
+    "options": ["samota", "spoločnosť", "stretnutie", "rušno"]
+  },
+  {
+    "word": "farming",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "farmárčenie",
+    "options": ["farmárčenie", "rybolov", "baníctvo", "stavba"]
+  },
+  {
+    "word": "growing plants",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "pestovanie rastlín",
+    "options": [
+      "pestovanie rastlín",
+      "zber ovocia",
+      "údržba áut",
+      "tesárske práce"
+    ]
+  },
+
+  {
+    "word": "ruins",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "ruiny",
+    "options": ["ruiny", "hradby", "mosty", "kostoly"]
+  },
+  {
+    "word": "castle",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "hrad",
+    "options": ["hrad", "palác", "kostol", "múzeum"]
+  },
+  {
+    "word": "palace",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "palác",
+    "options": ["palác", "hrad", "pevnosť", "vila"]
+  },
+  {
+    "word": "cathedral",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "katedrála",
+    "options": ["katedrála", "kostol", "chrám", "kaplnka"]
+  },
+  {
+    "word": "church",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "kostol",
+    "options": ["kostol", "katedrála", "pevnosť", "hrad"]
+  },
+  {
+    "word": "museum",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "múzeum",
+    "options": ["múzeum", "galéria", "pevnosť", "hrad"]
+  },
+  {
+    "word": "gallery",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "galéria",
+    "options": ["galéria", "múzeum", "kostol", "pevnosť"]
+  },
+  {
+    "word": "statue",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "socha",
+    "options": ["socha", "fontána", "stĺp", "pamiatka"]
+  },
+  {
+    "word": "tower",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "veža",
+    "options": ["veža", "hradba", "pevnosť", "stĺp"]
+  },
+  {
+    "word": "bridge",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "most",
+    "options": ["most", "tunel", "hradba", "pevnosť"]
+  },
+  {
+    "word": "historic building",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "historická budova",
+    "options": ["historická budova", "moderná budova", "múzeum", "pevnosť"]
+  },
+  {
+    "word": "tomb",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "hrobka",
+    "options": ["hrobka", "sarkofág", "kostnica", "pamätník"]
+  },
+  {
+    "word": "altar",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "oltár",
+    "options": ["oltár", "lavica", "chrám", "socha"]
+  },
+  {
+    "word": "fountain",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "fontána",
+    "options": ["fontána", "socha", "studňa", "park"]
+  },
+  {
+    "word": "spa",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "kúpele",
+    "options": ["kúpele", "pláž", "bazén", "jaskyňa"]
+  },
+
+  {
+    "word": "abandoned",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "opustený",
+    "options": ["opustený", "zrekonštruovaný", "nový", "chránený"]
+  },
+  {
+    "word": "ancient",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "starobylý",
+    "options": ["starobylý", "moderný", "novovybudovaný", "nedokončený"]
+  },
+  {
+    "word": "breathtaking",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "úžasný / dych vyrážajúci",
+    "options": ["úžasný / dych vyrážajúci", "nudný", "obyčajný", "zabudnuteľný"]
+  },
+  {
+    "word": "eye-catching",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "nápadný",
+    "options": ["nápadný", "nudný", "skrytý", "obyčajný"]
+  },
+  {
+    "word": "medieval",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "stredoveký",
+    "options": ["stredoveký", "moderný", "barokový", "novoveký"]
+  },
+  {
+    "word": "reconstructed",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "zrekonštruovaný",
+    "options": ["zrekonštruovaný", "zrúcaný", "starý", "poškodený"]
+  },
+  {
+    "word": "preserved",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "zachovaný",
+    "options": ["zachovaný", "zničený", "opustený", "rekonštruovaný"]
+  },
+  {
+    "word": "densely populated",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "husto osídlený",
+    "options": ["husto osídlený", "riedko osídlený", "neobývaný", "vidiecky"]
+  },
+  {
+    "word": "thinly populated",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "riedko osídlený",
+    "options": ["riedko osídlený", "husto osídlený", "mestský", "turistický"]
+  },
+  {
+    "word": "hilly",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "kopcovitý",
+    "options": ["kopcovitý", "rovinný", "púštny", "ľadový"]
+  },
+  {
+    "word": "mountainous",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "hornatý",
+    "options": ["hornatý", "rovinný", "pobrežný", "mestský"]
+  },
+  {
+    "word": "sandy",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "piesčitý",
+    "options": ["piesčitý", "skalnatý", "ľadový", "bahnitý"]
+  },
+  {
+    "word": "stony",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "skalnatý",
+    "options": ["skalnatý", "piesčitý", "čistý", "upravený"]
+  },
+
+  {
+    "word": "bird's eye view",
+    "level": "B2",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "vtáčia perspektíva",
+    "options": [
+      "vtáčia perspektíva",
+      "panoráma",
+      "detailný pohľad",
+      "bočný pohľad"
+    ]
+  },
+  {
+    "word": "landscape",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "krajina / scenéria",
+    "options": ["krajina / scenéria", "budovy", "park", "námestie"]
+  },
+  {
+    "word": "to take a picture",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "odfotiť",
+    "options": ["odfotiť", "nakresliť", "opísať", "natáčať"]
+  },
+  {
+    "word": "to record with a camera",
+    "level": "B1",
+    "okruh": "TOWN_AND_PLACES",
+    "correct": "nahrávať kamerou",
+    "options": ["nahrávať kamerou", "fotiť", "pozerať", "komentovať"]
+  },
+  {
+    "word": "cultural mosaic",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "kultúrna mozaika",
+    "options": [
+      "kultúrna mozaika",
+      "kultúrny konflikt",
+      "kultúrna bariéra",
+      "kultúrna jednota"
+    ]
+  },
+  {
+    "word": "acceptance",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "prijatie",
+    "options": ["prijatie", "odmietnutie", "ignorácia", "kritika"]
+  },
+  {
+    "word": "appreciation",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "ocenenie / uznanie",
+    "options": ["ocenenie / uznanie", "nerozpoznanie", "zabudnutie", "kritika"]
+  },
+  {
+    "word": "tolerance",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "tolerancia",
+    "options": ["tolerancia", "zadubenosť", "nesúhlas", "výhrady"]
+  },
+  {
+    "word": "respect for diversity",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "rešpekt k rozmanitosti",
+    "options": [
+      "rešpekt k rozmanitosti",
+      "odmietanie rozdielov",
+      "kultúrny odpor",
+      "podporovanie konfliktov"
+    ]
+  },
+  {
+    "word": "dual citizenship",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "dvojité občianstvo",
+    "options": [
+      "dvojité občianstvo",
+      "trvalý pobyt",
+      "prechodný pobyt",
+      "zelená karta"
+    ]
+  },
+  {
+    "word": "bicultural person",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "dvojkultúrna osoba",
+    "options": [
+      "dvojkultúrna osoba",
+      "jednokultúrna osoba",
+      "cudzinec",
+      "prisťahovalec"
+    ]
+  },
+  {
+    "word": "interaction of cultures",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "interakcia kultúr",
+    "options": [
+      "interakcia kultúr",
+      "konflikt kultúr",
+      "segregácia kultúr",
+      "vymedzenie kultúr"
+    ]
+  },
+  {
+    "word": "native culture disappearance",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "vymiznutie pôvodnej kultúry",
+    "options": [
+      "vymiznutie pôvodnej kultúry",
+      "posilnenie kultúry",
+      "obnova tradícií",
+      "ochrana kultúry"
+    ]
+  },
+
+  {
+    "word": "melting pot",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "\"taviaci kotol\" (asimilácia)",
+    "options": [
+      "\"taviaci kotol\" (asimilácia)",
+      "kultúrna mozaika",
+      "segregácia",
+      "kolonializmus"
+    ]
+  },
+  {
+    "word": "assimilation",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "asimilácia",
+    "options": ["asimilácia", "segregácia", "separácia", "izolácia"]
+  },
+  {
+    "word": "preserving culture",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "uchovanie kultúry",
+    "options": [
+      "uchovanie kultúry",
+      "strata kultúry",
+      "asimilácia",
+      "ignorácia tradícií"
+    ]
+  },
+  {
+    "word": "cultural uniqueness",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "kultúrna jedinečnosť",
+    "options": [
+      "kultúrna jedinečnosť",
+      "kultúrna strata",
+      "zjednotenie kultúr",
+      "migrácia"
+    ]
+  },
+  {
+    "word": "status of minorities",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "postavenie menšín",
+    "options": [
+      "postavenie menšín",
+      "práva väčšiny",
+      "postavenie elít",
+      "status občanov"
+    ]
+  },
+
+  {
+    "word": "escaping war",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "únik pred vojnou",
+    "options": [
+      "únik pred vojnou",
+      "cestovanie na dovolenku",
+      "štúdium v zahraničí",
+      "pracovné povolenie"
+    ]
+  },
+  {
+    "word": "bicultural marriages",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "dvojkultúrne manželstvá",
+    "options": [
+      "dvojkultúrne manželstvá",
+      "rovnaké manželstvá",
+      "tradičné manželstvá",
+      "domáce partnerstvá"
+    ]
+  },
+  {
+    "word": "brain drain",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "odliv mozgov",
+    "options": [
+      "odliv mozgov",
+      "nedostatok práce",
+      "masová turistika",
+      "vzdelávacie programy"
+    ]
+  },
+  {
+    "word": "seeking better job opportunities",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "hľadanie lepších pracovných príležitostí",
+    "options": [
+      "hľadanie lepších pracovných príležitostí",
+      "dobrovoľníctvo",
+      "športovanie",
+      "štúdium doma"
+    ]
+  },
+
+  {
+    "word": "asylum seeker",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "žiadateľ o azyl",
+    "options": ["žiadateľ o azyl", "turista", "cudzinec", "občan EÚ"]
+  },
+  {
+    "word": "cultural adaptation",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "kultúrna adaptácia",
+    "options": [
+      "kultúrna adaptácia",
+      "kultúrny konflikt",
+      "segregácia",
+      "izolácia"
+    ]
+  },
+  {
+    "word": "refugee crisis",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "utečenecká kríza",
+    "options": [
+      "utečenecká kríza",
+      "ekonomická kríza",
+      "politická obnova",
+      "migračný zákaz"
+    ]
+  },
+  {
+    "word": "relocation",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "presídlenie",
+    "options": ["presídlenie", "odchod do dôchodku", "štúdium", "turizmus"]
+  },
+  {
+    "word": "terrorist attacks",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "teroristické útoky",
+    "options": [
+      "teroristické útoky",
+      "internetové útoky",
+      "zdravotné incidenty",
+      "dopravné nehody"
+    ]
+  },
+
+  {
+    "word": "ethnic minority",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "etnická menšina",
+    "options": [
+      "etnická menšina",
+      "rasová skupina",
+      "náboženská skupina",
+      "občianska skupina"
+    ]
+  },
+  {
+    "word": "racial minority",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "rasová menšina",
+    "options": [
+      "rasová menšina",
+      "etnická menšina",
+      "genderová menšina",
+      "pracovná skupina"
+    ]
+  },
+  {
+    "word": "religious minority",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "náboženská menšina",
+    "options": [
+      "náboženská menšina",
+      "etnická menšina",
+      "pracovná skupina",
+      "politická menšina"
+    ]
+  },
+
+  {
+    "word": "sexual discrimination",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "rodová/sexuálna diskriminácia",
+    "options": [
+      "rodová/sexuálna diskriminácia",
+      "rasová diskriminácia",
+      "etnické predsudky",
+      "jazykové bariéry"
+    ]
+  },
+  {
+    "word": "racial discrimination",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "rasová diskriminácia",
+    "options": [
+      "rasová diskriminácia",
+      "náboženská diskriminácia",
+      "etnická diskriminácia",
+      "jazyková diskriminácia"
+    ]
+  },
+  {
+    "word": "ethnic prejudice",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "etnické predsudky",
+    "options": [
+      "etnické predsudky",
+      "rasové útoky",
+      "politické názory",
+      "ekonomické problémy"
+    ]
+  },
+
+  {
+    "word": "xenophobia",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "neznášanlivosť voči cudzincom",
+    "options": [
+      "neznášanlivosť voči cudzincom",
+      "ochrana menšín",
+      "tolerancia",
+      "pochopenie"
+    ]
+  },
+  {
+    "word": "racism",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "rasizmus",
+    "options": [
+      "rasizmus",
+      "diskriminácia podľa veku",
+      "kultúrna výmena",
+      "rovnosť"
+    ]
+  },
+  {
+    "word": "riots",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "nepokoje",
+    "options": ["nepokoje", "oslavy", "oficiálne zhromaždenia", "obchodné trhy"]
+  },
+  {
+    "word": "violent clashes",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "násilné strety",
+    "options": [
+      "násilné strety",
+      "priateľské stretnutia",
+      "protesty bez násilia",
+      "diskusie"
+    ]
+  },
+  {
+    "word": "protests",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "protesty",
+    "options": ["protesty", "oslavy", "voľby", "slávnosti"]
+  },
+
+  {
+    "word": "European Union",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "Európska únia",
+    "options": ["Európska únia", "NATO", "Schengen", "G20"]
+  },
+  {
+    "word": "European Parliament",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "Európsky parlament",
+    "options": [
+      "Európsky parlament",
+      "Európska komisia",
+      "Rada Európy",
+      "Súdny dvor"
+    ]
+  },
+  {
+    "word": "European Commission",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "Európska komisia",
+    "options": ["Európska komisia", "Európsky parlament", "NATO", "Interpol"]
+  },
+  {
+    "word": "Court of Human Rights",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "Európsky súd pre ľudské práva",
+    "options": [
+      "Európsky súd pre ľudské práva",
+      "Súdny dvor EÚ",
+      "Najvyšší súd",
+      "NATO rada"
+    ]
+  },
+  {
+    "word": "NATO",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "NATO (Severoatlantická aliancia)",
+    "options": [
+      "NATO (Severoatlantická aliancia)",
+      "Európska únia",
+      "OSN",
+      "Interpol"
+    ]
+  },
+  {
+    "word": "military alliance",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "vojenská aliancia",
+    "options": [
+      "vojenská aliancia",
+      "obchodná únia",
+      "politická organizácia",
+      "zdravotná aliancia"
+    ]
+  },
+  {
+    "word": "collective defence",
+    "level": "B2",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "kolektívna obrana",
+    "options": [
+      "kolektívna obrana",
+      "osobná bezpečnosť",
+      "ekonomická pomoc",
+      "vzdelávacia spolupráca"
+    ]
+  },
+  {
+    "word": "member states",
+    "level": "B1",
+    "okruh": "MULTICULTURAL_SOCIETY",
+    "correct": "členské štáty",
+    "options": [
+      "členské štáty",
+      "kandidátske štáty",
+      "odchádzajúce štáty",
+      "nezávislé územia"
+    ]
+  },
+  {
+    "word": "public holidays",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "štátne sviatky",
+    "options": ["štátne sviatky", "pracovné dni", "víkendy", "osobné voľno"]
+  },
+  {
+    "word": "bank holidays",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "bankové sviatky (UK)",
+    "options": [
+      "bankové sviatky (UK)",
+      "finančné dni",
+      "sviatky bánk",
+      "pracovné sviatky"
+    ]
+  },
+
+  {
+    "word": "Christmas",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Vianoce",
+    "options": ["Vianoce", "Veľká noc", "Dušičky", "Nový rok"]
+  },
+  {
+    "word": "Christmas Eve",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Štedrý deň",
+    "options": [
+      "Štedrý deň",
+      "Prvý sviatok vianočný",
+      "Sviatok práce",
+      "Veľký piatok"
+    ]
+  },
+  {
+    "word": "Christmas Day",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Prvý sviatok vianočný",
+    "options": [
+      "Prvý sviatok vianočný",
+      "Štedrý deň",
+      "Nový rok",
+      "Troch kráľov"
+    ]
+  },
+  {
+    "word": "Boxing Day",
+    "level": "B2",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Sviatok sv. Štefana / 26. december",
+    "options": [
+      "Sviatok sv. Štefana / 26. december",
+      "Štedrý deň",
+      "Sviatok práce",
+      "Vianočná sobota"
+    ]
+  },
+
+  {
+    "word": "Father Christmas",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Santa Claus (Británia)",
+    "options": ["Santa Claus (Británia)", "Ježiško", "Mikuláš", "Elf"]
+  },
+  {
+    "word": "Santa Claus",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Santa Claus",
+    "options": ["Santa Claus", "Father Christmas", "Mikuláš", "Ježiško"]
+  },
+  {
+    "word": "mistletoe",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "imelo",
+    "options": ["imelo", "borovica", "vetvička", "zvončeky"]
+  },
+  {
+    "word": "carolling",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "koledovanie",
+    "options": ["koledovanie", "pečenie", "zdobenie domu", "darčekovanie"]
+  },
+  {
+    "word": "festive dinner",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "slávnostná večera",
+    "options": ["slávnostná večera", "raňajky", "obed", "občerstvenie"]
+  },
+
+  {
+    "word": "Easter",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Veľká noc",
+    "options": ["Veľká noc", "Vianoce", "Dušičky", "Halloween"]
+  },
+  {
+    "word": "Lent",
+    "level": "B2",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "pôstne obdobie",
+    "options": ["pôstne obdobie", "advent", "vinšovanie", "oslava"]
+  },
+  {
+    "word": "Palm Sunday",
+    "level": "B2",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Kvetná nedeľa",
+    "options": ["Kvetná nedeľa", "Biela sobota", "Veľká noc", "Zelený štvrtok"]
+  },
+  {
+    "word": "Good Friday",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Veľký piatok",
+    "options": ["Veľký piatok", "Biela sobota", "Veľkonočná nedeľa", "Pondelok"]
+  },
+  {
+    "word": "Holy Saturday",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Biela sobota",
+    "options": [
+      "Biela sobota",
+      "Zelený štvrtok",
+      "Veľký piatok",
+      "Veľkonočná nedeľa"
+    ]
+  },
+  {
+    "word": "Easter Sunday",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Veľkonočná nedeľa",
+    "options": [
+      "Veľkonočná nedeľa",
+      "Veľkonočný pondelok",
+      "Biela sobota",
+      "Kvetná nedeľa"
+    ]
+  },
+  {
+    "word": "Easter eggs",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "veľkonočné vajíčka",
+    "options": ["veľkonočné vajíčka", "koláče", "hot cross buns", "darčeky"]
+  },
+  {
+    "word": "Easter Bunny",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "veľkonočný zajac",
+    "options": ["veľkonočný zajac", "sob", "kuriatko", "anjel"]
+  },
+
+  {
+    "word": "willow whip",
+    "level": "B2",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "korbáč (Slovensko)",
+    "options": ["korbáč (Slovensko)", "halúzka", "palička", "vetvička"]
+  },
+  {
+    "word": "pouring water",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "oblievanie dievčat",
+    "options": [
+      "oblievanie dievčat",
+      "polievanie kvetov",
+      "čistenie vodou",
+      "kropenie polí"
+    ]
+  },
+
+  {
+    "word": "Fasiangy",
+    "level": "B2",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Fašiangy (obdobie karnevalov)",
+    "options": [
+      "Fašiangy (obdobie karnevalov)",
+      "Dušičky",
+      "Sviatky jari",
+      "Zimný festival"
+    ]
+  },
+  {
+    "word": "fánky",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "fašiangové šišky",
+    "options": ["fašiangové šišky", "medovníky", "bábovka", "palacinky"]
+  },
+
+  {
+    "word": "St. Valentine’s Day",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Deň sv. Valentína",
+    "options": ["Deň sv. Valentína", "Deň matiek", "Deň otcov", "Halloween"]
+  },
+  {
+    "word": "St. Patrick’s Day",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Deň sv. Patrika",
+    "options": [
+      "Deň sv. Patrika",
+      "Deň sv. Mikuláša",
+      "Deň vďakyvzdania",
+      "Deň nezávislosti"
+    ]
+  },
+  {
+    "word": "St. Andrew’s Day",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Deň sv. Ondreja",
+    "options": ["Deň sv. Ondreja", "Deň sv. Jura", "Deň sv. Pavla", "Vianoce"]
+  },
+  {
+    "word": "All Saints’ Day",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Sviatok všetkých svätých",
+    "options": [
+      "Sviatok všetkých svätých",
+      "Dušičky",
+      "Zelený štvrtok",
+      "Nový rok"
+    ]
+  },
+  {
+    "word": "Saints Cyril and Methodius Day",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Sviatok sv. Cyrila a Metoda",
+    "options": [
+      "Sviatok sv. Cyrila a Metoda",
+      "Deň ústavy",
+      "Sviatok práce",
+      "Deň víťazstva"
+    ]
+  },
+
+  {
+    "word": "Memorial Day",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Memoriál (USA) – spomienka padlých",
+    "options": [
+      "Memoriál (USA) – spomienka padlých",
+      "Veterans Day",
+      "Thanksgiving",
+      "Independence Day"
+    ]
+  },
+  {
+    "word": "Veteran’s Day",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Deň veteránov (USA)",
+    "options": [
+      "Deň veteránov (USA)",
+      "Memorial Day",
+      "Columbus Day",
+      "Thanksgiving"
+    ]
+  },
+  {
+    "word": "Thanksgiving Day",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Deň vďakyvzdania",
+    "options": [
+      "Deň vďakyvzdania",
+      "Deň nezávislosti",
+      "Sviatok práce",
+      "Halloween"
+    ]
+  },
+  {
+    "word": "Independence Day",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Deň nezávislosti (USA)",
+    "options": [
+      "Deň nezávislosti (USA)",
+      "Columbus Day",
+      "Veterans Day",
+      "Labor Day"
+    ]
+  },
+
+  {
+    "word": "Guy Fawkes Night",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Noc Guya Fawkesa",
+    "options": [
+      "Noc Guya Fawkesa",
+      "Halloween",
+      "Bonfire Night",
+      "Burning Night"
+    ]
+  },
+  {
+    "word": "bonfires",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "vatry / ohne",
+    "options": ["vatry / ohne", "sviečky", "lampióny", "prskavky"]
+  },
+  {
+    "word": "fireworks",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "ohňostroje",
+    "options": ["ohňostroje", "lampióny", "rakety", "sviečky"]
+  },
+
+  {
+    "word": "Halloween",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "Halloween",
+    "options": ["Halloween", "Dušičky", "Vianoce", "Fašiangy"]
+  },
+  {
+    "word": "carved pumpkins",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "vyrezávané tekvice",
+    "options": ["vyrezávané tekvice", "jablká", "gaštany", "melóny"]
+  },
+  {
+    "word": "witches",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "čarodejnice",
+    "options": ["čarodejnice", "anjeli", "skriatkovia", "víly"]
+  },
+  {
+    "word": "ghosts",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "duchovia",
+    "options": ["duchovia", "kostlivci", "čerti", "zombie"]
+  },
+  {
+    "word": "trick-or-treat",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "koledu alebo neplechu",
+    "options": [
+      "koledu alebo neplechu",
+      "darčekovanie",
+      "koledovanie",
+      "vymetanie sladkostí"
+    ]
+  },
+  {
+    "word": "toffee apples",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "jablká v karameli (UK)",
+    "options": [
+      "jablká v karameli (UK)",
+      "glazované jablká",
+      "cukríky",
+      "tekvicové koláče"
+    ]
+  },
+  {
+    "word": "candy apples",
+    "level": "B1",
+    "okruh": "PUBLIC_HOLIDAYS",
+    "correct": "jablká v karameli (USA)",
+    "options": [
+      "jablká v karameli (USA)",
+      "toffee apples",
+      "cukrové jablká",
+      "pečené jablká"
+    ]
+  },
+  {
+    "word": "arson",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "žhářstvo (úmyselné podpálenie)",
+    "options": [
+      "žhářstvo (úmyselné podpálenie)",
+      "krádež",
+      "vražda",
+      "vydieranie"
+    ]
+  },
+  {
+    "word": "assault",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "napadnutie",
+    "options": ["napadnutie", "vražda", "vydieranie", "krádež"]
+  },
+  {
+    "word": "blackmail",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "vydieranie",
+    "options": ["vydieranie", "krádež", "lúpež", "podvod"]
+  },
+  {
+    "word": "bribery",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "úplatkárstvo",
+    "options": ["úplatkárstvo", "korupcia", "vydieranie", "lúpež"]
+  },
+  {
+    "word": "burglary",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "vylúpanie domu/bytu",
+    "options": [
+      "vylúpanie domu/bytu",
+      "krádež v obchode",
+      "prepadnutie",
+      "únos"
+    ]
+  },
+  {
+    "word": "carjacking",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "násilné ukradnutie auta",
+    "options": [
+      "násilné ukradnutie auta",
+      "vandalizmus",
+      "opilstvo",
+      "lúpež v banke"
+    ]
+  },
+  {
+    "word": "forgery",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "falšovanie",
+    "options": ["falšovanie", "krádež", "úplatok", "vydieranie"]
+  },
+  {
+    "word": "fraud",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "podvod",
+    "options": ["podvod", "krádež", "lúpež", "vydieranie"]
+  },
+  {
+    "word": "hijacking",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "únos dopravného prostriedku",
+    "options": [
+      "únos dopravného prostriedku",
+      "krádež auta",
+      "bombový útok",
+      "vydieranie"
+    ]
+  },
+  {
+    "word": "hooliganism",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "výtržníctvo",
+    "options": ["výtržníctvo", "vandalizmus", "podvod", "krádež"]
+  },
+  {
+    "word": "joyriding",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "neoprávnená jazda ukradnutým autom",
+    "options": [
+      "neoprávnená jazda ukradnutým autom",
+      "pretekárska jazda",
+      "taxi jazda zadarmo",
+      "pomalá jazda"
+    ]
+  },
+  {
+    "word": "kidnapping",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "únos osoby",
+    "options": ["únos osoby", "únos auta", "útek z väzenia", "výtržnosť"]
+  },
+  {
+    "word": "mugging",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "ulicné prepadnutie",
+    "options": [
+      "ulicné prepadnutie",
+      "krádež v obchode",
+      "vylúpanie domu",
+      "výtržníctvo"
+    ]
+  },
+  {
+    "word": "murder",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "vražda",
+    "options": ["vražda", "ublíženie na zdraví", "podvod", "krádež"]
+  },
+  {
+    "word": "pickpocketing",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "vreckové krádeže",
+    "options": ["vreckové krádeže", "lúpež", "podvod", "vydieranie"]
+  },
+  {
+    "word": "racketeering",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "mafiánske vydieranie",
+    "options": [
+      "mafiánske vydieranie",
+      "drobné krádeže",
+      "vandalizmus",
+      "podpaľačstvo"
+    ]
+  },
+  {
+    "word": "rape",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "znásilnenie",
+    "options": ["znásilnenie", "vražda", "podvod", "krádež"]
+  },
+  {
+    "word": "robbery",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "lúpež",
+    "options": ["lúpež", "krádež", "vydieranie", "vandalizmus"]
+  },
+  {
+    "word": "smuggling",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "pašovanie",
+    "options": ["pašovanie", "vydieranie", "falošné svedectvo", "pranie peňazí"]
+  },
+  {
+    "word": "shoplifting",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "krádež v obchode",
+    "options": ["krádež v obchode", "lúpež", "podpaľačstvo", "únos"]
+  },
+  {
+    "word": "suicide bombing",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "samovražedný bombový útok",
+    "options": [
+      "samovražedný bombový útok",
+      "výbuch plynu",
+      "nehoda",
+      "vandalizmus"
+    ]
+  },
+  {
+    "word": "terrorism",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "terorizmus",
+    "options": ["terorizmus", "vandalizmus", "podvod", "krádež"]
+  },
+  {
+    "word": "human trafficking",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "obchodovanie s ľuďmi",
+    "options": [
+      "obchodovanie s ľuďmi",
+      "prevádzačstvo",
+      "krádež osôb",
+      "vydieranie"
+    ]
+  },
+
+  {
+    "word": "arsonist",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "podpaľač",
+    "options": ["podpaľač", "zlodej", "vrah", "podvodník"]
+  },
+  {
+    "word": "burglar",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "lupič (vlamovač)",
+    "options": ["lupič (vlamovač)", "vydierač", "úplatkár", "falšovateľ"]
+  },
+  {
+    "word": "hijacker",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "únosca lietadla/vozidla",
+    "options": ["únosca lietadla/vozidla", "únosca osoby", "zlodej", "vrah"]
+  },
+  {
+    "word": "hooligan",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "výtržník",
+    "options": ["výtržník", "zlodej", "podvodník", "vrah"]
+  },
+  {
+    "word": "pickpocket",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "vreckový zlodej",
+    "options": ["vreckový zlodej", "vlamač", "vrah", "úplatkár"]
+  },
+  {
+    "word": "rapist",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "páchateľ znásilnenia",
+    "options": ["páchateľ znásilnenia", "vrah", "podvodník", "zlodej"]
+  },
+  {
+    "word": "robber",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "lupič",
+    "options": ["lupič", "zlodej", "podvodník", "vlamač"]
+  },
+  {
+    "word": "murderer",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "vrah",
+    "options": ["vrah", "zlodej", "podvodník", "výtržník"]
+  },
+  {
+    "word": "mugger",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "pouliční lupič",
+    "options": ["pouliční lupič", "zlodej", "vrah", "výtržník"]
+  },
+  {
+    "word": "smuggler",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "pašerák",
+    "options": ["pašerák", "vrah", "podvodník", "zlodej"]
+  },
+  {
+    "word": "terrorist",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "terorista",
+    "options": ["terorista", "zlodej", "vrah", "podvodník"]
+  },
+  {
+    "word": "thief",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "zlodej",
+    "options": ["zlodej", "vlamač", "lupič", "pašerák"]
+  },
+  {
+    "word": "blackmailer",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "vydierač",
+    "options": ["vydierač", "vlamač", "falšovateľ", "pašerák"]
+  },
+  {
+    "word": "vandal",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "vandal",
+    "options": ["vandal", "zlodej", "výtržník", "lupič"]
+  },
+  {
+    "word": "kidnapper",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "únosca",
+    "options": ["únosca", "lupič", "vrah", "podpaľač"]
+  },
+  {
+    "word": "fraudster",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "podvodník",
+    "options": ["podvodník", "zlodej", "vrah", "vydierač"]
+  },
+
+  {
+    "word": "arrest suspects",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "zatýkať podozrivých",
+    "options": [
+      "zatýkať podozrivých",
+      "prepúšťať vinníkov",
+      "ignorovať dôkazy",
+      "zakladať spisy"
+    ]
+  },
+  {
+    "word": "investigate crimes",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "vyšetrovať trestné činy",
+    "options": [
+      "vyšetrovať trestné činy",
+      "spôsobovať konflikty",
+      "zatvárať obchody",
+      "hľadať stratené veci"
+    ]
+  },
+  {
+    "word": "search for missing people",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "pátrať po nezvestných",
+    "options": [
+      "pátrať po nezvestných",
+      "pátrať po dokumentoch",
+      "pátrať po zvieratách",
+      "sledovať autá"
+    ]
+  },
+  {
+    "word": "direct traffic",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "riadiť dopravu",
+    "options": [
+      "riadiť dopravu",
+      "zatvárať cesty",
+      "vyberať pokuty",
+      "merať rýchlosť"
+    ]
+  },
+  {
+    "word": "fine for wrong parking",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "pokutovať za zlé parkovanie",
+    "options": [
+      "pokutovať za zlé parkovanie",
+      "blokovať auto",
+      "odtiahnuť auto",
+      "merať rýchlosť"
+    ]
+  },
+
+  {
+    "word": "civil law",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "občianske právo",
+    "options": [
+      "občianske právo",
+      "trestné právo",
+      "rodinné právo",
+      "obchodné právo"
+    ]
+  },
+  {
+    "word": "criminal law",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "trestné právo",
+    "options": [
+      "trestné právo",
+      "občianske právo",
+      "obchodné právo",
+      "rodinné právo"
+    ]
+  },
+  {
+    "word": "commercial law",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "obchodné právo",
+    "options": [
+      "obchodné právo",
+      "trestné právo",
+      "pracovné právo",
+      "štátne právo"
+    ]
+  },
+  {
+    "word": "family law",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "rodinné právo",
+    "options": ["rodinné právo", "obchodné právo", "trestné právo", "právo EÚ"]
+  },
+
+  {
+    "word": "barrister",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "advokát (BrE)",
+    "options": ["advokát (BrE)", "sudca", "prokurátor", "obhajca (USA)"]
+  },
+  {
+    "word": "attorney",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "právnik/obhajca (AmE)",
+    "options": ["právnik/obhajca (AmE)", "sudca", "prokurátor", "vyšetrovateľ"]
+  },
+  {
+    "word": "solicitor",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "právnik (poradca, BrE)",
+    "options": ["právnik (poradca, BrE)", "sudca", "policajt", "prokurátor"]
+  },
+  {
+    "word": "judge",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "sudca",
+    "options": ["sudca", "advokát", "prokurátor", "policajt"]
+  },
+
+  {
+    "word": "community service",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "verejnoprospešné práce",
+    "options": ["verejnoprospešné práce", "podmienka", "pokuta", "väzenie"]
+  },
+  {
+    "word": "fine",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "pokuta",
+    "options": ["pokuta", "trest smrti", "verejné práce", "prepustenie"]
+  },
+  {
+    "word": "probation",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "podmienečný trest",
+    "options": [
+      "podmienečný trest",
+      "domáce väzenie",
+      "pokuta",
+      "verejné práce"
+    ]
+  },
+  {
+    "word": "imprisonment",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "odňatie slobody / väzenie",
+    "options": [
+      "odňatie slobody / väzenie",
+      "pokuta",
+      "prepustenie",
+      "trest smrti"
+    ]
+  },
+  {
+    "word": "death penalty",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "trest smrti",
+    "options": ["trest smrti", "doživotie", "pokuta", "verejné práce"]
+  },
+  {
+    "word": "lethal injection",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "smrteľná injekcia",
+    "options": ["smrteľná injekcia", "elektrické kreslo", "obesenie", "streľba"]
+  },
+  {
+    "word": "electric chair",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "elektrické kreslo",
+    "options": ["elektrické kreslo", "obesenie", "injekcia", "streľba"]
+  },
+
+  {
+    "word": "trial",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "súdny proces",
+    "options": ["súdny proces", "vyšetrovanie", "zatknutie", "súdny spor"]
+  },
+  {
+    "word": "to sue somebody",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "zažalovať niekoho",
+    "options": [
+      "zažalovať niekoho",
+      "zatknúť niekoho",
+      "prepustiť niekoho",
+      "obhajovať niekoho"
+    ]
+  },
+  {
+    "word": "to set free",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "prepustiť",
+    "options": ["prepustiť", "zatknúť", "odsúdiť", "obviniť"]
+  },
+  {
+    "word": "the accused",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "obžalovaný",
+    "options": ["obžalovaný", "vinník", "obeť", "svedok"]
+  },
+  {
+    "word": "victim",
+    "level": "B1",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "obeť",
+    "options": ["obeť", "obžalovaný", "vinník", "svedok"]
+  },
+  {
+    "word": "offender",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "páchateľ",
+    "options": ["páchateľ", "obeť", "sudca", "obžalovaný"]
+  },
+
+  {
+    "word": "jury",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "porota",
+    "options": ["porota", "senát", "sudca", "svedkovia"]
+  },
+  {
+    "word": "juror",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "člen poroty",
+    "options": ["člen poroty", "prokurátor", "sudca", "obžalovaný"]
+  },
+  {
+    "word": "reach a verdict",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "dosiahnuť verdikt",
+    "options": [
+      "dosiahnuť verdikt",
+      "zamietnuť prípad",
+      "odročiť pojednávanie",
+      "zrušiť rozsudok"
+    ]
+  },
+  {
+    "word": "prove innocence",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "dokázať nevinu",
+    "options": [
+      "dokázať nevinu",
+      "dokázať vinu",
+      "vyniesť rozsudok",
+      "zamietnuť dôkazy"
+    ]
+  },
+  {
+    "word": "acquit the accused",
+    "level": "B2",
+    "okruh": "CRIME_AND_JUSTICE",
+    "correct": "oslobodiť obžalovaného",
+    "options": [
+      "oslobodiť obžalovaného",
+      "odsúdiť obžalovaného",
+      "zadržať obžalovaného",
+      "prepustiť na kauciu"
+    ]
+  },
+  {
+    "word": "epic poetry",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "epická poézia",
+    "options": [
+      "epická poézia",
+      "lyrická poézia",
+      "dramatická poézia",
+      "satirická poézia"
+    ]
+  },
+  {
+    "word": "lyric poetry",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "lyrická poézia",
+    "options": ["lyrická poézia", "epická poézia", "tragédia", "komédia"]
+  },
+  {
+    "word": "verse drama",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "drama písaná vo veršoch",
+    "options": [
+      "drama písaná vo veršoch",
+      "tragédia",
+      "komédia",
+      "lyrická báseň"
+    ]
+  },
+
+  {
+    "word": "fiction",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "beletria (vymyslený príbeh)",
+    "options": [
+      "beletria (vymyslený príbeh)",
+      "odborná literatúra",
+      "poézia",
+      "tragédia"
+    ]
+  },
+  {
+    "word": "non-fiction",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "odborná literatúra",
+    "options": ["odborná literatúra", "beletria", "poézia", "dráma"]
+  },
+
+  {
+    "word": "tragedy",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "tragédia",
+    "options": ["tragédia", "komédia", "satira", "romanca"]
+  },
+  {
+    "word": "comedy",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "komédia",
+    "options": ["komédia", "tragédia", "drama", "epos"]
+  },
+  {
+    "word": "satire",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "satira",
+    "options": ["satira", "paródia", "tragédia", "romanca"]
+  },
+  {
+    "word": "parody",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "paródia",
+    "options": ["paródia", "satira", "komédia mravov", "tragédia"]
+  },
+  {
+    "word": "tragicomedy",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "tragikomédia",
+    "options": ["tragikomédia", "komédia", "tragédia", "romanca"]
+  },
+
+  {
+    "word": "ballad",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "balada",
+    "options": ["balada", "poviedka", "román", "dráma"]
+  },
+  {
+    "word": "chivalric romance",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "rytieri román",
+    "options": ["rytieri román", "historický román", "fantasy", "novela"]
+  },
+  {
+    "word": "fable",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "bájka",
+    "options": ["bájka", "povesť", "legend a", "rozprávka"]
+  },
+  {
+    "word": "fairytale",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "rozprávka",
+    "options": ["rozprávka", "bájka", "povesť", "novela"]
+  },
+  {
+    "word": "fantasy",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "fantasy",
+    "options": ["fantasy", "sci‑fi", "drama", "romanca"]
+  },
+  {
+    "word": "legend",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "legenda",
+    "options": ["legenda", "báj", "epos", "román"]
+  },
+  {
+    "word": "novel",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "román",
+    "options": ["román", "novela", "poviedka", "dráma"]
+  },
+  {
+    "word": "travel book",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "cestopis",
+    "options": ["cestopis", "denník", "rozprávka", "báseň"]
+  },
+
+  {
+    "word": "to enrich our lives",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "obohatiť náš život",
+    "options": [
+      "obohatiť náš život",
+      "zjednodušiť náš život",
+      "skomplikovať život",
+      "zmeniť povolanie"
+    ]
+  },
+  {
+    "word": "to develop imagination",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "rozvíjať predstavivosť",
+    "options": [
+      "rozvíjať predstavivosť",
+      "učiť sa gramatiku",
+      "učiť sa fakty",
+      "zahodiť realitu"
+    ]
+  },
+  {
+    "word": "to improve vocabulary",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "zlepšiť slovnú zásobu",
+    "options": [
+      "zlepšiť slovnú zásobu",
+      "zhoršiť slovnú zásobu",
+      "písať knihy",
+      "čítať pomaly"
+    ]
+  },
+  {
+    "word": "to escape from reality",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "uniknúť z reality",
+    "options": [
+      "uniknúť z reality",
+      "učiť sa dejiny",
+      "pripravovať prezentácie",
+      "pracovať dlhšie"
+    ]
+  },
+
+  {
+    "word": "poet",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "básnik",
+    "options": ["básnik", "prozaik", "dramaturg", "herec"]
+  },
+  {
+    "word": "novelist",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "románopisec",
+    "options": ["románopisec", "básnik", "kritik", "ilustrátor"]
+  },
+  {
+    "word": "writer",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "spisovateľ",
+    "options": ["spisovateľ", "novinár", "básnik", "kritik"]
+  },
+  {
+    "word": "playwright",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "dramaturg / dramatik",
+    "options": ["dramaturg / dramatik", "herec", "spevák", "básnik"]
+  },
+  {
+    "word": "critic",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "kritik",
+    "options": ["kritik", "básnik", "spisovateľ", "umelec"]
+  },
+  {
+    "word": "pseudonym",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "pseudonym",
+    "options": ["pseudonym", "prezývka", "titul", "ocenenie"]
+  },
+
+  {
+    "word": "protagonist",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "hlavná postava",
+    "options": ["hlavná postava", "záporák", "rozprávač", "autor"]
+  },
+  {
+    "word": "plot",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "dej",
+    "options": ["dej", "konflikt", "prostredie", "postava"]
+  },
+  {
+    "word": "setting",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "prostredie príbehu",
+    "options": ["prostredie príbehu", "dej", "konflikt", "epilóg"]
+  },
+  {
+    "word": "message of the book",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "posolstvo knihy",
+    "options": ["posolstvo knihy", "dej", "protagonista", "konflikt"]
+  },
+
+  {
+    "word": "allegorical",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "alegorický",
+    "options": ["alegorický", "ironický", "satirický", "humorný"]
+  },
+  {
+    "word": "ironic",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "ironický",
+    "options": ["ironický", "satirický", "legenda", "humorný"]
+  },
+  {
+    "word": "satirical",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "satirický",
+    "options": ["satirický", "ironický", "humorný", "mýtický"]
+  },
+  {
+    "word": "mythological",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "mytologický",
+    "options": ["mytologický", "historický", "satirický", "moderný"]
+  },
+  {
+    "word": "narrative",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "rozprávačský / príbehový",
+    "options": ["rozprávačský / príbehový", "popisný", "vedecký", "technický"]
+  },
+  {
+    "word": "historical",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "historický",
+    "options": ["historický", "fantasy", "moderný", "humorný"]
+  },
+
+  {
+    "word": "bestseller",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "bestseller",
+    "options": ["bestseller", "originál", "preklad", "jednoduchá verzia"]
+  },
+  {
+    "word": "original version",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "originál",
+    "options": ["originál", "preklad", "adaptácia", "komiks"]
+  },
+  {
+    "word": "translation",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "preklad",
+    "options": ["preklad", "originál", "poviedka", "adaptácia"]
+  },
+  {
+    "word": "simplified version",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "zjednodušená verzia",
+    "options": ["zjednodušená verzia", "preklad", "originál", "osekaná verzia"]
+  },
+
+  {
+    "word": "to borrow a book",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "požičať si knihu",
+    "options": [
+      "požičať si knihu",
+      "vrátiť knihu",
+      "kúpiť knihu",
+      "predať knihu"
+    ]
+  },
+  {
+    "word": "to lend a book",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "požičať knihu niekomu",
+    "options": [
+      "požičať knihu niekomu",
+      "požičať si knihu",
+      "kúpiť knihu",
+      "zahoďiť knihu"
+    ]
+  },
+  {
+    "word": "lending period",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "výpožičná lehota",
+    "options": [
+      "výpožičná lehota",
+      "rezervačná lehota",
+      "dodacia lehota",
+      "skúšobná lehota"
+    ]
+  },
+  {
+    "word": "overdue",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "po termíne (oneskorený)",
+    "options": ["po termíne (oneskorený)", "predčasný", "stratený", "starý"]
+  },
+  {
+    "word": "study room",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "študovňa",
+    "options": ["študovňa", "čitáreň", "archív", "sklad kníh"]
+  },
+  {
+    "word": "lending card",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "knižničný preukaz",
+    "options": [
+      "knižničný preukaz",
+      "zľavová karta",
+      "ID karta",
+      "rezervačný lístok"
+    ]
+  },
+
+  {
+    "word": "preference for e‑books",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "preferovanie e‑kníh",
+    "options": [
+      "preferovanie e‑kníh",
+      "preferovanie papierových kníh",
+      "nechuť ku knihám",
+      "čítanie článkov"
+    ]
+  },
+  {
+    "word": "lack of time",
+    "level": "B1",
+    "okruh": "READING_BOOKS",
+    "correct": "nedostatok času",
+    "options": [
+      "nedostatok času",
+      "nadbytok času",
+      "čas na čítanie",
+      "plánovanie čítania"
+    ]
+  },
+  {
+    "word": "illegal downloading",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "nelegálne sťahovanie",
+    "options": [
+      "nelegálne sťahovanie",
+      "čestné kupovanie",
+      "staré knihy",
+      "povolené kópie"
+    ]
+  },
+
+  {
+    "word": "Nobel Prize award",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "Nobelova cena (ocenenie)",
+    "options": [
+      "Nobelova cena (ocenenie)",
+      "Pulitzerova cena",
+      "Oscary",
+      "Grammy"
+    ]
+  },
+  {
+    "word": "Nobel Prize ceremony",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "slávnostné odovzdávanie Nobelových cien",
+    "options": [
+      "slávnostné odovzdávanie Nobelových cien",
+      "knižný festival",
+      "tlačová konferencia",
+      "inaugurácia"
+    ]
+  },
+  {
+    "word": "Nobel Prize honour",
+    "level": "B2",
+    "okruh": "READING_BOOKS",
+    "correct": "pocta spojená s Nobelovou cenou",
+    "options": [
+      "pocta spojená s Nobelovou cenou",
+      "výhra v lotérii",
+      "zlatá medaila",
+      "charitatívna odmena"
+    ]
+  },
+  {
+    "word": "brave",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "odvážny",
+    "options": ["odvážny", "plachý", "neistý", "pasívny"]
+  },
+  {
+    "word": "bright",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "bystrý",
+    "options": ["bystrý", "pomalý", "ľahostajný", "tichý"]
+  },
+  {
+    "word": "charismatic",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "charizmatický",
+    "options": ["charizmatický", "nudný", "nepríjemný", "tichý"]
+  },
+  {
+    "word": "charming",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "okúzľujúci",
+    "options": ["okúzľujúci", "drsný", "zlý", "chladný"]
+  },
+  {
+    "word": "courageous",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "odvážny",
+    "options": ["odvážny", "zbabelý", "pasívny", "bezmocný"]
+  },
+  {
+    "word": "energetic",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "energetický",
+    "options": ["energetický", "lenivý", "ospalý", "slabý"]
+  },
+  {
+    "word": "generous",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "štedrý",
+    "options": ["štedrý", "lakomý", "sebecký", "nečinný"]
+  },
+  {
+    "word": "hardworking",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "pracovitý",
+    "options": ["pracovitý", "lenivý", "pomalý", "pasívny"]
+  },
+  {
+    "word": "honest",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "čestný",
+    "options": ["čestný", "falošný", "nesprávny", "lenivý"]
+  },
+  {
+    "word": "loyal",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "verný",
+    "options": ["verný", "zradný", "pasívny", "neistý"]
+  },
+  {
+    "word": "reliable",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "spoľahlivý",
+    "options": ["spoľahlivý", "nespoľahlivý", "neistý", "nezodpovedný"]
+  },
+  {
+    "word": "sympathetic",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "súcitný",
+    "options": ["súcitný", "bezcitný", "drsný", "nezáživný"]
+  },
+  {
+    "word": "trustworthy",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "dôveryhodný",
+    "options": ["dôveryhodný", "pochybný", "nečestný", "chaotický"]
+  },
+
+  {
+    "word": "arrogant",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "arogantný",
+    "options": ["arogantný", "priateľský", "milý", "pokorný"]
+  },
+  {
+    "word": "aggressive",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "agresívny",
+    "options": ["agresívny", "pokojný", "tichý", "slušný"]
+  },
+  {
+    "word": "cruel",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "krutý",
+    "options": ["krutý", "milý", "súcitný", "dobrosrdečný"]
+  },
+  {
+    "word": "hypocritical",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "pokrytecký",
+    "options": ["pokrytecký", "úprimný", "otvorený", "čestný"]
+  },
+  {
+    "word": "selfish",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "sebecký",
+    "options": ["sebecký", "štedrý", "citlivý", "verný"]
+  },
+  {
+    "word": "vain",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "márnivý",
+    "options": ["márnivý", "skromný", "pokorný", "čestný"]
+  },
+
+  {
+    "word": "love",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "láska",
+    "options": ["láska", "zlosť", "strach", "napätie"]
+  },
+  {
+    "word": "respect",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "úcta",
+    "options": ["úcta", "neúcta", "kritika", "zlomyseľnosť"]
+  },
+  {
+    "word": "family",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "rodina",
+    "options": ["rodina", "kariéra", "peniaze", "boj"]
+  },
+  {
+    "word": "education",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "vzdelanie",
+    "options": ["vzdelanie", "nevedomosť", "práca", "voľný čas"]
+  },
+  {
+    "word": "freedom",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "sloboda",
+    "options": ["sloboda", "obmedzenie", "pokuta", "trest"]
+  },
+  {
+    "word": "peace",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "mier",
+    "options": ["mier", "vojna", "konflikt", "bitka"]
+  },
+
+  {
+    "word": "pseudo-idol",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "pseudolidol",
+    "options": ["pseudolidol", "skutočný idol", "hrdina", "celebrita"]
+  },
+  {
+    "word": "icon",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "ikona",
+    "options": ["ikona", "neznámy človek", "bežný človek", "kritik"]
+  },
+  {
+    "word": "hero",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "hrdina",
+    "options": ["hrdina", "zloduch", "kritik", "bežný človek"]
+  },
+  {
+    "word": "role model",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "vzor",
+    "options": ["vzor", "idol", "fanúšik", "herec"]
+  },
+
+  {
+    "word": "ancient hero",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "staroveký hrdina",
+    "options": [
+      "staroveký hrdina",
+      "moderný hrdina",
+      "fiktívna postava",
+      "bežný človek"
+    ]
+  },
+  {
+    "word": "fictional hero",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "fiktívny hrdina",
+    "options": [
+      "fiktívny hrdina",
+      "skutočný hrdina",
+      "národný hrdina",
+      "vojnový hrdina"
+    ]
+  },
+  {
+    "word": "national hero",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "národný hrdina",
+    "options": ["národný hrdina", "fiktívny hrdina", "antihrdina", "herec"]
+  },
+
+  {
+    "word": "celebrity",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "celebrita",
+    "options": ["celebrita", "bežný človek", "pracovník", "anonymný človek"]
+  },
+  {
+    "word": "actor",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "herec",
+    "options": ["herec", "hudobník", "novinár", "režisér"]
+  },
+  {
+    "word": "singer",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "spevák",
+    "options": ["spevák", "herec", "kuchár", "model"]
+  },
+  {
+    "word": "sportsman",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "športovec",
+    "options": ["športovec", "hudobník", "herec", "politik"]
+  },
+
+  {
+    "word": "admired",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "obdivovaný",
+    "options": ["obdivovaný", "kritizovaný", "neznámy", "nedôležitý"]
+  },
+  {
+    "word": "famous",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "slávny",
+    "options": ["slávny", "neznámy", "obyčajný", "skrytý"]
+  },
+  {
+    "word": "influential",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "vplyvný",
+    "options": ["vplyvný", "bezvýznamný", "pasívny", "neistý"]
+  },
+  {
+    "word": "popular",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "populárny",
+    "options": ["populárny", "neobľúbený", "nezoraný", "nudný"]
+  },
+
+  {
+    "word": "perform extraordinary acts",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "vykonať mimoriadne skutky",
+    "options": [
+      "vykonať mimoriadne skutky",
+      "robiť bežné veci",
+      "nudne konať",
+      "zlyhať"
+    ]
+  },
+  {
+    "word": "gain respect",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "získať rešpekt",
+    "options": [
+      "získať rešpekt",
+      "stratiť rešpekt",
+      "získať kritiku",
+      "ignorovať ostatných"
+    ]
+  },
+
+  {
+    "word": "admire",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "obdivovať",
+    "options": ["obdivovať", "kritizovať", "odsudzovať", "ignorovať"]
+  },
+  {
+    "word": "identify with",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "stotožniť sa s",
+    "options": ["stotožniť sa s", "odmietnuť", "nepochopiť", "zmeniť sa"]
+  },
+  {
+    "word": "save a life",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "zachrániť život",
+    "options": [
+      "zachrániť život",
+      "ignorovať nebezpečenstvo",
+      "kritizovať",
+      "vyhnúť sa pomoci"
+    ]
+  },
+  {
+    "word": "promote peace",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "podporovať mier",
+    "options": [
+      "podporovať mier",
+      "podporovať konflikt",
+      "šíriť chaos",
+      "zhoršovať situáciu"
+    ]
+  },
+  {
+    "word": "sacrifice",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "obetovať sa",
+    "options": ["obetovať sa", "vyhnúť sa pomoci", "zlyhať", "odmietnuť"]
+  },
+  {
+    "word": "fight for freedom",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "bojovať za slobodu",
+    "options": [
+      "bojovať za slobodu",
+      "vzdať sa",
+      "odmietnuť pomoc",
+      "zostať ticho"
+    ]
+  },
+  {
+    "word": "lead a campaign",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "viesť kampaň",
+    "options": [
+      "viesť kampaň",
+      "ignorovať problém",
+      "vyhnúť sa kampani",
+      "kritizovať bez konania"
+    ]
+  },
+  {
+    "word": "encourage",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "povzbudiť",
+    "options": ["povzbudiť", "odhodiť", "kritizovať", "demotivovať"]
+  },
+
+  {
+    "word": "betray",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "zradiť",
+    "options": ["zradiť", "podporiť", "pomôcť", "chrániť"]
+  },
+  {
+    "word": "criticise",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "kritizovať",
+    "options": ["kritizovať", "pochváliť", "obdivovať", "podporiť"]
+  },
+  {
+    "word": "deny",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "poprieť",
+    "options": ["poprieť", "priznať", "povoliť", "podporiť"]
+  },
+  {
+    "word": "disappoint",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "sklamať",
+    "options": ["sklamať", "potešiť", "nadchnúť", "odmeniť"]
+  },
+  {
+    "word": "judge",
+    "level": "B1",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "súdiť / posudzovať",
+    "options": ["súdiť / posudzovať", "ignorovať", "chváliť", "pomáhať"]
+  },
+  {
+    "word": "abuse political power",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "zneužiť politickú moc",
+    "options": [
+      "zneužiť politickú moc",
+      "pomáhať ľuďom",
+      "chrániť menšiny",
+      "podporovať slobodu"
+    ]
+  },
+  {
+    "word": "be imprisoned",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "byť uväznený",
+    "options": ["byť uväznený", "byť ocenený", "byť zvolený", "byť prepustený"]
+  },
+  {
+    "word": "overestimate",
+    "level": "B2",
+    "okruh": "IDOLS_CELEBRITIES",
+    "correct": "preceniť",
+    "options": ["preceniť", "podceniť", "ignorovať", "spochybniť"]
+  },
+  {
+    "word": "plains",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "roviny",
+    "options": ["roviny", "púšte", "hory", "canyony"]
+  },
+  {
+    "word": "Rocky Mountains",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "Skalnaté hory",
+    "options": ["Skalnaté hory", "Apalače", "Tatry", "Alpy"]
+  },
+  {
+    "word": "deserts",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "púšte",
+    "options": ["púšte", "lesy", "prérie", "hory"]
+  },
+  {
+    "word": "prairies",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "prérie",
+    "options": ["prérie", "púšte", "canyony", "pahorky"]
+  },
+  {
+    "word": "canyons",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "kaňony",
+    "options": ["kaňony", "hory", "púšte", "pralesy"]
+  },
+  {
+    "word": "reservations",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "indiánske rezervácie",
+    "options": [
+      "indiánske rezervácie",
+      "národné parky",
+      "štátne hranice",
+      "púšte"
+    ]
+  },
+  {
+    "word": "national parks",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "národné parky",
+    "options": ["národné parky", "rezervácie", "mestá", "jazerá"]
+  },
+  {
+    "word": "waterfalls",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "vodopády",
+    "options": ["vodopády", "rieky", "jazera", "kanále"]
+  },
+  {
+    "word": "to share borders with",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "hraničiť s",
+    "options": [
+      "hraničiť s",
+      "nachádzať sa medzi",
+      "byť obklopený",
+      "siahať k oceánu"
+    ]
+  },
+  {
+    "word": "to be bounded by",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "byť ohraničený (čím)",
+    "options": [
+      "byť ohraničený (čím)",
+      "byť vytvorený",
+      "byť osídlený",
+      "byť pomenovaný"
+    ]
+  },
+  {
+    "word": "to be located in the north",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "nachádzať sa na severe",
+    "options": [
+      "nachádzať sa na severe",
+      "nachádzať sa na juhu",
+      "na západe",
+      "na pobreží"
+    ]
+  },
+  {
+    "word": "to lie between",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "ležať medzi",
+    "options": ["ležať medzi", "hraničiť s", "byť rozdelený", "byť ohraničený"]
+  },
+
+  {
+    "word": "metals",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "kovy",
+    "options": ["kovy", "rastliny", "nástroje", "palivá"]
+  },
+  {
+    "word": "minerals",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "minerály",
+    "options": ["minerály", "oleje", "kamenivo", "železo"]
+  },
+  {
+    "word": "raw materials",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "suroviny",
+    "options": ["suroviny", "produkty", "náradie", "stroje"]
+  },
+  {
+    "word": "coal",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "uhlie",
+    "options": ["uhlie", "ropa", "plyn", "železo"]
+  },
+  {
+    "word": "oil",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "ropa",
+    "options": ["ropa", "uhlie", "zemný plyn", "železo"]
+  },
+  {
+    "word": "natural gas",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "zemný plyn",
+    "options": ["zemný plyn", "uhlík", "surová ropa", "oceľ"]
+  },
+  {
+    "word": "steel",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "oceľ",
+    "options": ["oceľ", "železo", "med", "sklo"]
+  },
+  {
+    "word": "cotton",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "bavlna",
+    "options": ["bavlna", "pšenica", "tabak", "ovocie"]
+  },
+  {
+    "word": "tobacco",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "tabak",
+    "options": ["tabak", "kukurica", "ryža", "ovocie"]
+  },
+  {
+    "word": "corn",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "kukurica",
+    "options": ["kukurica", "pšenica", "ovocie", "bavlna"]
+  },
+  {
+    "word": "oranges",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "pomaranče",
+    "options": ["pomaranče", "banány", "jahody", "jablká"]
+  },
+
+  {
+    "word": "discovered",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "objavený",
+    "options": ["objavený", "stratený", "vymazaný", "rozšírený"]
+  },
+  {
+    "word": "colonised",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "kolonizovaný",
+    "options": ["kolonizovaný", "zjednotený", "oddelený", "industrializovaný"]
+  },
+  {
+    "word": "settled",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "osídlený",
+    "options": ["osídlený", "opustený", "zrušený", "napadnutý"]
+  },
+  {
+    "word": "governed",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "spravovaný",
+    "options": ["spravovaný", "zabudnutý", "opustený", "zanedbaný"]
+  },
+  {
+    "word": "persecuted",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "prenasledovaný",
+    "options": ["prenasledovaný", "obdivovaný", "ocenený", "uznávaný"]
+  },
+  {
+    "word": "declared",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "vyhlásený",
+    "options": ["vyhlásený", "skrytý", "zakázaný", "vymazaný"]
+  },
+  {
+    "word": "recognised",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "uznaný",
+    "options": ["uznaný", "zamietnutý", "stratený", "zabudnutý"]
+  },
+  {
+    "word": "abolished",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "zrušený",
+    "options": ["zrušený", "zavedený", "pozmenený", "vytvorený"]
+  },
+
+  {
+    "word": "colonists",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "kolonisti",
+    "options": ["kolonisti", "námorníci", "vojaci", "králi"]
+  },
+  {
+    "word": "puritans",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "puritáni",
+    "options": ["puritáni", "indiáni", "otroci", "katolíci"]
+  },
+  {
+    "word": "settlers",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "osadníci",
+    "options": ["osadníci", "vojaci", "panovníci", "otroci"]
+  },
+  {
+    "word": "rulers",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "vládcovia",
+    "options": ["vládcovia", "osadníci", "námorníci", "otroci"]
+  },
+  {
+    "word": "Native Americans",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "pôvodní Američania",
+    "options": ["pôvodní Američania", "Afroameričania", "Hispánci", "kolonisti"]
+  },
+  {
+    "word": "slaves",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "otroci",
+    "options": ["otroci", "votrelci", "vojaci", "osadníci"]
+  },
+
+  {
+    "word": "federation",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "federácia",
+    "options": ["federácia", "monarchia", "ríša", "tribúna"]
+  },
+  {
+    "word": "constitution",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "ústava",
+    "options": ["ústava", "zákonník", "parlament", "reforma"]
+  },
+  {
+    "word": "president",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "prezident",
+    "options": ["prezident", "guvernér", "minister", "primátor"]
+  },
+  {
+    "word": "government",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "vláda",
+    "options": ["vláda", "súd", "armáda", "parlament"]
+  },
+  {
+    "word": "executive branch",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "výkonná moc",
+    "options": ["výkonná moc", "zákonodarná moc", "súdna moc", "obranná zložka"]
+  },
+  {
+    "word": "legislative branch",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "zákonodarná moc",
+    "options": ["zákonodarná moc", "výkonná moc", "súdna moc", "polícia"]
+  },
+  {
+    "word": "judicial branch",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "súdna moc",
+    "options": ["súdna moc", "výkonná moc", "armádna moc", "notárska moc"]
+  },
+
+  {
+    "word": "melting pot",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "taviaci kotol (zmiešané kultúry)",
+    "options": [
+      "taviaci kotol (zmiešané kultúry)",
+      "jednotná kultúra",
+      "segregovaná spoločnosť",
+      "zakázané kultúry"
+    ]
+  },
+  {
+    "word": "immigrants",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "imigranti",
+    "options": ["imigranti", "cestovatelia", "expati", "turisti"]
+  },
+  {
+    "word": "Yankees",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "jankees (obyvatelia severu)",
+    "options": [
+      "jankees (obyvatelia severu)",
+      "indiáni",
+      "južania",
+      "prisťahovalci"
+    ]
+  },
+  {
+    "word": "Hispanic Americans",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "Hispánci / Latino Američania",
+    "options": [
+      "Hispánci / Latino Američania",
+      "Afroameričania",
+      "Ázijčania",
+      "Európania"
+    ]
+  },
+  {
+    "word": "Amish population",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "Amish komunita",
+    "options": ["Amish komunita", "indiáni", "Karibčania", "Európania"]
+  },
+  {
+    "word": "the American dream",
+    "level": "B1",
+    "okruh": "USA",
+    "correct": "americký sen",
+    "options": [
+      "americký sen",
+      "americká história",
+      "americká kríza",
+      "americká tradícia"
+    ]
+  },
+  {
+    "word": "fight against racism",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "boj proti rasizmu",
+    "options": [
+      "boj proti rasizmu",
+      "boj proti imigrácii",
+      "boj proti tradíciám",
+      "boj proti slobode"
+    ]
+  },
+  {
+    "word": "fight against terrorism",
+    "level": "B2",
+    "okruh": "USA",
+    "correct": "boj proti terorizmu",
+    "options": [
+      "boj proti terorizmu",
+      "boj proti daniam",
+      "boj proti technológiám",
+      "boj proti médiám"
+    ]
+  },
+  {
+    "word": "flag",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "vlajka",
+    "options": ["vlajka", "pečať", "hymna", "územie"]
+  },
+  {
+    "word": "coat of arms",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "štátny znak",
+    "options": ["štátny znak", "vlajka", "pečať", "bankovka"]
+  },
+  {
+    "word": "seal",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "štátna pečať",
+    "options": ["štátna pečať", "pečiatka školy", "erb obce", "symbolia"]
+  },
+  {
+    "word": "anthem",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "hymna",
+    "options": ["hymna", "vlajka", "znak", "zákon"]
+  },
+  {
+    "word": "constitution",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "ústava",
+    "options": ["ústava", "zákonník", "predpis", "vyhláška"]
+  },
+  {
+    "word": "Euro",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "euro (mena)",
+    "options": ["euro (mena)", "koruna", "dolar", "libra"]
+  },
+  {
+    "word": "president",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "prezident",
+    "options": ["prezident", "premiér", "minister", "župan"]
+  },
+  {
+    "word": "Slovak language",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "slovenský jazyk (úradný)",
+    "options": [
+      "slovenský jazyk (úradný)",
+      "český jazyk",
+      "anglický jazyk",
+      "ukrajinský jazyk"
+    ]
+  },
+
+  {
+    "word": "Central Europe",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "stredná Európa",
+    "options": [
+      "stredná Európa",
+      "západná Európa",
+      "južná Európa",
+      "severná Európa"
+    ]
+  },
+  {
+    "word": "heart of Europe",
+    "level": "B2",
+    "okruh": "SLOVAKIA",
+    "correct": "srdce Európy",
+    "options": [
+      "srdce Európy",
+      "sever Európy",
+      "balkánsky polostrov",
+      "pobaltský región"
+    ]
+  },
+  {
+    "word": "bordered by the Czech Republic",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "hraničí s Českou republikou",
+    "options": [
+      "hraničí s Českou republikou",
+      "hraničí s Talianskom",
+      "hraničí s Nórskom",
+      "hraničí s Francúzskom"
+    ]
+  },
+  {
+    "word": "bordered by Austria",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "hraničí s Rakúskom",
+    "options": [
+      "hraničí s Rakúskom",
+      "hraničí s Nemeckom",
+      "hraničí s Rumunskom",
+      "hraničí s Gréckom"
+    ]
+  },
+  {
+    "word": "bordered by Ukraine",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "hraničí s Ukrajinou",
+    "options": [
+      "hraničí s Ukrajinou",
+      "hraničí s Bulharskom",
+      "hraničí s Albánskom",
+      "hraničí s Holandskom"
+    ]
+  },
+  {
+    "word": "bordered by Poland",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "hraničí s Poľskom",
+    "options": [
+      "hraničí s Poľskom",
+      "hraničí s Írskom",
+      "hraničí s Belgiou",
+      "hraničí s Španielskom"
+    ]
+  },
+  {
+    "word": "bordered by Hungary",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "hraničí s Maďarskom",
+    "options": [
+      "hraničí s Maďarskom",
+      "hraničí s Litvou",
+      "hraničí s Moldavskom",
+      "hraničí s Islandom"
+    ]
+  },
+  {
+    "word": "landlocked country",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "vnútrozemský štát bez mora",
+    "options": [
+      "vnútrozemský štát bez mora",
+      "ostrovný štát",
+      "pobrežný štát",
+      "polostrov"
+    ]
+  },
+
+  {
+    "word": "Great Moravian Empire",
+    "level": "B2",
+    "okruh": "SLOVAKIA",
+    "correct": "Veľkomoravská ríša",
+    "options": [
+      "Veľkomoravská ríša",
+      "Uhorská ríša",
+      "Rímska ríša",
+      "Rakúsko-Uhorsko"
+    ]
+  },
+  {
+    "word": "Cyril and Methodius",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "Cyril a Metod (Byzantskí bratia)",
+    "options": [
+      "Cyril a Metod (Byzantskí bratia)",
+      "Štúr a Hurban",
+      "Hus a Žižka",
+      "Tiso a Štefánik"
+    ]
+  },
+  {
+    "word": "Austro-Hungarian Monarchy",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "Rakúsko-Uhorsko",
+    "options": [
+      "Rakúsko-Uhorsko",
+      "Nemecká ríša",
+      "Poľské kráľovstvo",
+      "Byzantská ríša"
+    ]
+  },
+  {
+    "word": "codification of Slovak language",
+    "level": "B2",
+    "okruh": "SLOVAKIA",
+    "correct": "kodifikácia slovenčiny",
+    "options": [
+      "kodifikácia slovenčiny",
+      "vznik spisovnej češtiny",
+      "vznik latinského písma",
+      "úpadok jazyka"
+    ]
+  },
+  {
+    "word": "Czechoslovak Republic",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "Československá republika",
+    "options": [
+      "Československá republika",
+      "Rakúsko-Uhorsko",
+      "Slovenský štát",
+      "Prvá republika Nemecka"
+    ]
+  },
+  {
+    "word": "Slovak National Uprising",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "Slovenské národné povstanie",
+    "options": [
+      "Slovenské národné povstanie",
+      "Velvet Revolution",
+      "Prague Spring",
+      "vznik ČSR"
+    ]
+  },
+  {
+    "word": "Velvet Revolution",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "Nežná revolúcia",
+    "options": ["Nežná revolúcia", "SNP", "Prvá republika", "vznik EÚ"]
+  },
+  {
+    "word": "Slovak Republic 1993",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "vznik Slovenskej republiky 1993",
+    "options": [
+      "vznik Slovenskej republiky 1993",
+      "vznik ČSR 1918",
+      "vznik EU 2004",
+      "vznik NATO 1999"
+    ]
+  },
+  {
+    "word": "EU accession 2004",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "vstup do Európskej únie 2004",
+    "options": [
+      "vstup do Európskej únie 2004",
+      "vstup do NATO 2004",
+      "vznik SR 1993",
+      "schengen 2008"
+    ]
+  },
+
+  {
+    "word": "capital city",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "hlavné mesto",
+    "options": ["hlavné mesto", "dedina", "región", "mestečko"]
+  },
+  {
+    "word": "Bratislava",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "Bratislava",
+    "options": ["Bratislava", "Košice", "Nitra", "Prešov"]
+  },
+  {
+    "word": "museums",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "múzeá",
+    "options": ["múzeá", "divadlá", "hrady", "trhy"]
+  },
+  {
+    "word": "High Tatras",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "Vysoké Tatry",
+    "options": ["Vysoké Tatry", "Nízke Tatry", "Alpy", "Orava"]
+  },
+  {
+    "word": "Low Tatras",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "Nízke Tatry",
+    "options": ["Nízke Tatry", "Vysoké Tatry", "Malé Karpaty", "Fatra"]
+  },
+  {
+    "word": "Slovak Paradise",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "Slovenský raj",
+    "options": ["Slovenský raj", "Sahara", "Grand Canyon", "Čierny les"]
+  },
+
+  {
+    "word": "folklore",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "folklór",
+    "options": ["folklór", "tradície", "moderné umenie", "história"]
+  },
+  {
+    "word": "national costumes",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "kroje",
+    "options": ["kroje", "uniformy", "oblek", "pyžamo"]
+  },
+  {
+    "word": "Slovak cuisine",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "slovenská kuchyňa",
+    "options": [
+      "slovenská kuchyňa",
+      "talianska kuchyňa",
+      "maďarská kuchyňa",
+      "česká kuchyňa"
+    ]
+  },
+  {
+    "word": "national dish",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "národné jedlo",
+    "options": ["národné jedlo", "predjedlo", "dezert", "polievka"]
+  },
+  {
+    "word": "Easter whips and water",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "korbáče a oblievanie",
+    "options": ["korbáče a oblievanie", "koledovanie", "fánky", "karneval"]
+  },
+  {
+    "word": "Fasiangy",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "Fašiangy (karneval)",
+    "options": ["Fašiangy (karneval)", "Dušičky", "Sviatky jari", "Vianoce"]
+  },
+
+  {
+    "word": "patriotic",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "vlastenecký",
+    "options": ["vlastenecký", "ľahostajný", "cudzí", "nesmelý"]
+  },
+  {
+    "word": "hospitable",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "pohostinný",
+    "options": ["pohostinný", "chladný", "agresívny", "uzavretý"]
+  },
+  {
+    "word": "family-oriented",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "orientovaný na rodinu",
+    "options": ["orientovaný na rodinu", "osamelý", "kariérny", "uzavretý"]
+  },
+  {
+    "word": "modest",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "skromný",
+    "options": ["skromný", "márnivý", "arogantný", "bezohľadný"]
+  },
+  {
+    "word": "money-conscious",
+    "level": "B2",
+    "okruh": "SLOVAKIA",
+    "correct": "opatrný na peniaze",
+    "options": ["opatrný na peniaze", "štedrý", "bezstarostný", "extravagantný"]
+  },
+  {
+    "word": "overcaring parents",
+    "level": "B2",
+    "okruh": "SLOVAKIA",
+    "correct": "prehnane starostliví rodičia",
+    "options": [
+      "prehnane starostliví rodičia",
+      "nezodpovední rodičia",
+      "prísni rodičia",
+      "neutrálny prístup"
+    ]
+  },
+
+  {
+    "word": "market economy",
+    "level": "B2",
+    "okruh": "SLOVAKIA",
+    "correct": "trhová ekonomika",
+    "options": [
+      "trhová ekonomika",
+      "centrálne plánovaná ekonomika",
+      "čierny trh",
+      "lokálna ekonomika"
+    ]
+  },
+  {
+    "word": "multiculturalism",
+    "level": "B2",
+    "okruh": "SLOVAKIA",
+    "correct": "multikulturalizmus",
+    "options": [
+      "multikulturalizmus",
+      "segregácia",
+      "kolonializmus",
+      "monokultúra"
+    ]
+  },
+  {
+    "word": "EU funded projects",
+    "level": "B2",
+    "okruh": "SLOVAKIA",
+    "correct": "projekty financované EÚ",
+    "options": [
+      "projekty financované EÚ",
+      "projekty NATO",
+      "národné granty",
+      "dobrovoľnícke akcie"
+    ]
+  },
+  {
+    "word": "regional development",
+    "level": "B2",
+    "okruh": "SLOVAKIA",
+    "correct": "regionálny rozvoj",
+    "options": [
+      "regionálny rozvoj",
+      "úpadok regiónov",
+      "zastavený rozvoj",
+      "bankrot regiónu"
+    ]
+  },
+  {
+    "word": "agriculture",
+    "level": "B1",
+    "okruh": "SLOVAKIA",
+    "correct": "poľnohospodárstvo",
+    "options": ["poľnohospodárstvo", "priemysel", "doprava", "služby"]
+  },
+  {
+    "word": "machinery industry",
+    "level": "B2",
+    "okruh": "SLOVAKIA",
+    "correct": "strojársky priemysel",
+    "options": [
+      "strojársky priemysel",
+      "textilný priemysel",
+      "banícky priemysel",
+      "chemický priemysel"
+    ]
+  },
+  {
+    "word": "chemical industry",
+    "level": "B2",
+    "okruh": "SLOVAKIA",
+    "correct": "chemický priemysel",
+    "options": ["chemický priemysel", "energetika", "textil", "baníctvo"]
   }
 ]
