@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Admin panel - Vocabulary Sprint</title>
+    <link rel="stylesheet" href="/styles.css?v=20260420" />
+  </head>
+  <body>
+    <div class="page-glow" aria-hidden="true"></div>
+
+    <section id="adminAuthGate" class="auth-gate panel">
+      <div class="auth-title-row">
+        <h2>Admin prihlásenie</h2>
+        <button
+          id="adminThemeToggle"
+          class="icon-btn switcher-btn"
+          type="button"
+          aria-label="Toggle dark mode"
+        >
+          ☾
+        </button>
+      </div>
+      <p class="auth-subtitle">
+        Po otvorení panelu je všetko skryté. Pokračovať môžeš až po overení
+        admin secret.
+      </p>
+      <p class="auth-subtitle">
+        <a href="index.html">Prejsť na základný login</a>
+      </p>
+      <div class="auth-form">
+        <label class="control-label" for="adminSecret">Admin secret</label>
+        <input
+          id="adminSecret"
+          class="input"
+          type="password"
+          placeholder="ADMIN_SECRET"
+          autocomplete="off"
+        />
+        <button id="adminEnterBtn" class="primary" type="button">
+          Prihlásiť do admin panelu
+        </button>
+        <div id="adminMessage" class="auth-message" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <main id="adminContent" class="app admin-app hidden">
+      <div class="admin-top-grid">
+        <section class="panel admin-panel">
+          <div class="panel-title-row">
+            <h2>Admin panel</h2>
+            <div class="admin-actions">
+              <button
+                id="adminThemeTogglePanel"
+                class="icon-btn switcher-btn"
+                type="button"
+                aria-label="Toggle dark mode"
+              >
+                ☾
+              </button>
+              <a href="index.html" class="ghost admin-nav-link">Do appky</a>
+              <button id="exportUsersBtn" class="ghost" type="button">
+                Exportovať používateľov
+              </button>
+              <button id="adminLogoutBtn" class="ghost" type="button">
+                Odhlásiť admina
+              </button>
+            </div>
+          </div>
+
+          <div class="admin-grid">
+            <div class="control-group">
+              <label class="control-label" for="newUserEmail"
+                >Email nového účtu</label
+              >
+              <input
+                id="newUserEmail"
+                class="input"
+                type="email"
+                placeholder="user@example.com"
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="control-group">
+              <label class="control-label" for="newUserPassword">Heslo</label>
+              <input
+                id="newUserPassword"
+                class="input"
+                type="text"
+                placeholder="Silne heslo"
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="control-group setting-inline">
+              <label for="newUserActive">Aktívny po vytvorení</label>
+              <input
+                id="newUserActive"
+                class="checkbox"
+                type="checkbox"
+                checked
+              />
+            </div>
+
+            <div class="control-group">
+              <button id="createUserBtn" class="primary" type="button">
+                Vytvoriť účet
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel admin-panel">
+          <div class="panel-title-row">
+            <h3>Audit log prihlásení</h3>
+            <div class="admin-actions">
+              <input
+                id="logsOlderThanDays"
+                class="input compact-select"
+                type="number"
+                min="0"
+                step="1"
+                value="30"
+                title="Staršie ako počet dní"
+              />
+              <button id="clearOldLogsBtn" class="ghost" type="button">
+                Zmazať staré logy
+              </button>
+              <button id="clearAllLogsBtn" class="ghost" type="button">
+                Zmazať všetky logy
+              </button>
+              <button id="loadLogsBtn" class="ghost" type="button">
+                Obnoviť logy
+              </button>
+            </div>
+          </div>
+          <div class="admin-table-wrap">
+            <table class="admin-table admin-audit-table">
+              <thead>
+                <tr>
+                  <th>Čas</th>
+                  <th>Email</th>
+                  <th>IP</th>
+                  <th>Zariadenie</th>
+                  <th>Výsledok</th>
+                </tr>
+              </thead>
+              <tbody id="logsTbody"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <section class="panel admin-panel admin-users-panel">
+        <div class="panel-title-row">
+          <h3>Používatelia</h3>
+          <button id="loadUsersBtn" class="ghost" type="button">
+            Obnoviť účty
+          </button>
+        </div>
+        <div class="admin-table-wrap">
+          <table class="admin-table admin-users-table">
+            <thead>
+              <tr>
+                <th>Email</th>
+                <th>Stav</th>
+                <th>Zariadenie</th>
+                <th>Vytvorený</th>
+                <th>Akcie</th>
+              </tr>
+            </thead>
+            <tbody id="usersTbody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

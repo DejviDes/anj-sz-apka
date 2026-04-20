@@ -1,0 +1,11 @@
+[
+  {
+    "email": "demo@example.com",
+    "passwordHash": "<pbkdf2-hash>",
+    "passwordSalt": "<pbkdf2-salt>",
+    "isActive": true,
+    "lockedDeviceId": null,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  }
+]

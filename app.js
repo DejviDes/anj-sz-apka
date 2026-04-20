@@ -173,6 +173,7 @@ const state = {
   timerInterval: null,
   autoNextTimeout: null,
   uiLang: "sk",
+  currentUser: null,
 };
 
 const levelB1 = document.getElementById("levelB1");
@@ -182,6 +183,8 @@ const directionSelect = document.getElementById("directionSelect");
 const answerMode = document.getElementById("answerMode");
 const languageToggle = document.getElementById("languageToggle");
 const themeToggle = document.getElementById("themeToggle");
+const loginThemeToggle = document.getElementById("loginThemeToggle");
+const logoutBtn = document.getElementById("logoutBtn");
 const questionCountInput = document.getElementById("questionCount");
 const questionCountRow = document.getElementById("questionCountRow");
 const startBtn = document.getElementById("startBtn");
@@ -231,8 +234,152 @@ const autoNextDelay = document.getElementById("autoNextDelay");
 const autoNextDelayRow = document.getElementById("autoNextDelayRow");
 const noRepeatToggle = document.getElementById("noRepeatToggle");
 
-function getDatasetFile(direction) {
-  return direction === "sk-en" ? "vocabulary_sk_to_en.json" : "vocabulary.json";
+const authGate = document.getElementById("authGate");
+const appRoot = document.getElementById("appRoot");
+const loginEmail = document.getElementById("loginEmail");
+const loginPassword = document.getElementById("loginPassword");
+const loginBtn = document.getElementById("loginBtn");
+const authMessage = document.getElementById("authMessage");
+const THEME_STORAGE_KEY = "quiz_theme_dark";
+
+function getStoredThemeIsDark() {
+  const stored = localStorage.getItem(THEME_STORAGE_KEY);
+  if (stored === null) {
+    return true;
+  }
+  return stored === "1";
+}
+
+function getDeviceId() {
+  const key = "quiz_device_id";
+  let id = localStorage.getItem(key);
+  if (!id) {
+    id =
+      typeof crypto !== "undefined" && crypto.randomUUID
+        ? crypto.randomUUID()
+        : `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+    localStorage.setItem(key, id);
+  }
+  return id;
+}
+
+function setAuthMessage(message, type = "") {
+  if (!authMessage) return;
+  authMessage.textContent = message;
+  authMessage.classList.remove("error", "success");
+  if (type) {
+    authMessage.classList.add(type);
+  }
+}
+
+function setAuthenticatedUI(isAuthenticated) {
+  if (authGate) {
+    authGate.classList.toggle("hidden", isAuthenticated);
+  }
+  if (appRoot) {
+    appRoot.classList.toggle("hidden", !isAuthenticated);
+  }
+}
+
+async function authRequest(path, options = {}) {
+  const headers = {
+    "Content-Type": "application/json",
+    ...(options.headers || {}),
+  };
+  const response = await fetch(path, {
+    ...options,
+    credentials: "same-origin",
+    headers,
+  });
+
+  let payload = {};
+  try {
+    payload = await response.json();
+  } catch {
+    payload = {};
+  }
+
+  if (!response.ok) {
+    const error = new Error(payload.error || "Request failed");
+    error.code = payload.code || "REQUEST_FAILED";
+    throw error;
+  }
+
+  return payload;
+}
+
+function clearAuthState() {
+  state.currentUser = null;
+  setAuthenticatedUI(false);
+}
+
+async function bootstrapAppAfterAuth() {
+  await switchDirectionDataset(directionSelect.value);
+  applyTranslations();
+  updateScoreboard();
+  updateProgress();
+  renderTopicStats();
+}
+
+async function verifyExistingSession() {
+  try {
+    const me = await authRequest("/api/auth/me");
+    state.currentUser = me.user;
+    setAuthenticatedUI(true);
+    await bootstrapAppAfterAuth();
+  } catch {
+    clearAuthState();
+  }
+}
+
+async function loginUser() {
+  const email = loginEmail?.value?.trim();
+  const password = loginPassword?.value || "";
+
+  if (!email || !password) {
+    setAuthMessage("Vyplň email aj heslo.", "error");
+    return;
+  }
+
+  try {
+    loginBtn.disabled = true;
+    setAuthMessage("Prihlasujem...", "");
+    const data = await authRequest("/api/auth/login", {
+      method: "POST",
+      body: JSON.stringify({
+        email,
+        password,
+        deviceId: getDeviceId(),
+      }),
+    });
+
+    state.currentUser = data.user;
+
+    setAuthMessage("Prihlásenie úspešné.", "success");
+    setAuthenticatedUI(true);
+    await bootstrapAppAfterAuth();
+  } catch (error) {
+    if (error.code === "DEVICE_LOCKED") {
+      setAuthMessage(
+        "Účet je viazaný na iné zariadenie. Kontaktuj admina pre reset.",
+        "error",
+      );
+    } else {
+      setAuthMessage(error.message || "Prihlásenie zlyhalo.", "error");
+    }
+  } finally {
+    loginBtn.disabled = false;
+  }
+}
+
+async function logoutUser() {
+  try {
+    await authRequest("/api/auth/logout", { method: "POST" });
+  } catch {
+    // Ignore logout errors and clear local session anyway.
+  }
+  clearAuthState();
+  resetQuiz();
 }
 
 async function ensureDataset(direction) {
@@ -240,7 +387,16 @@ async function ensureDataset(direction) {
     return state.datasets[direction];
   }
 
-  const response = await fetch(getDatasetFile(direction));
+  const response = await fetch(`/api/data/${direction}`, {
+    credentials: "same-origin",
+  });
+  if (!response.ok) {
+    if (response.status === 401) {
+      clearAuthState();
+    }
+    throw new Error("Data loading failed");
+  }
+
   const data = await response.json();
   state.datasets[direction] = data;
   return data;
@@ -265,13 +421,6 @@ async function switchDirectionDataset(direction) {
     resultDiv.textContent = "Data loading failed.";
   }
 }
-
-switchDirectionDataset(directionSelect.value).then(() => {
-  applyTranslations();
-  updateScoreboard();
-  updateProgress();
-  renderTopicStats();
-});
 
 function t(key) {
   return i18n[state.uiLang][key] || key;
@@ -314,12 +463,18 @@ function updateLanguageToggleLabel() {
 
 function updateThemeToggleIcon() {
   const isDark = document.body.classList.contains("dark");
-  themeToggle.textContent = isDark ? "☾" : "☀︎";
+  if (themeToggle) {
+    themeToggle.textContent = isDark ? "☾" : "☀︎";
+  }
+  if (loginThemeToggle) {
+    loginThemeToggle.textContent = isDark ? "☾" : "☀︎";
+  }
 }
 
 function setTheme(isDark) {
   document.body.classList.toggle("dark", isDark);
   document.documentElement.classList.toggle("dark", isDark);
+  localStorage.setItem(THEME_STORAGE_KEY, isDark ? "1" : "0");
   if (darkModeToggle) {
     darkModeToggle.checked = isDark;
   }
@@ -983,6 +1138,23 @@ submitTextAnswer.addEventListener("click", () => {
   handleAnswer(val, null);
 });
 
+if (loginBtn) {
+  loginBtn.addEventListener("click", loginUser);
+}
+
+if (loginPassword) {
+  loginPassword.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      loginUser();
+    }
+  });
+}
+
+if (logoutBtn) {
+  logoutBtn.addEventListener("click", logoutUser);
+}
+
 textAnswerInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     e.preventDefault();
@@ -1050,12 +1222,17 @@ themeToggle.addEventListener("click", () => {
   setTheme(!document.body.classList.contains("dark"));
 });
 
+if (loginThemeToggle) {
+  loginThemeToggle.addEventListener("click", () => {
+    setTheme(!document.body.classList.contains("dark"));
+  });
+}
+
 toggleQuestionCount();
 toggleAutoNextDelay();
 syncAnswerModeUI();
 updateLanguageToggleLabel();
-if (darkModeToggle) {
-  setTheme(darkModeToggle.checked);
-} else {
-  setTheme(document.body.classList.contains("dark"));
-}
+setTheme(getStoredThemeIsDark());
+
+setAuthenticatedUI(false);
+verifyExistingSession();

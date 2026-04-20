@@ -7,12 +7,55 @@
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <title>Vocabulary Quiz</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles.css?v=20260420" />
   </head>
   <body>
     <div class="page-glow" aria-hidden="true"></div>
 
-    <main class="app">
+    <section id="authGate" class="auth-gate panel">
+      <div class="auth-title-row">
+        <h2>Prihlásenie</h2>
+        <button
+          id="loginThemeToggle"
+          class="icon-btn switcher-btn"
+          type="button"
+          aria-label="Toggle dark mode"
+        >
+          ☾
+        </button>
+      </div>
+      <p class="auth-subtitle">
+        Prístup je viazaný na tvoje zariadenie. Prihlás sa účtom od admina.
+      </p>
+      <p class="auth-subtitle">
+        Správa účtov: <a href="admin.html">Otvoriť admin panel</a>
+      </p>
+
+      <div class="auth-form">
+        <label class="control-label" for="loginEmail">Email</label>
+        <input
+          id="loginEmail"
+          class="input"
+          type="email"
+          autocomplete="username"
+          placeholder="name@example.com"
+        />
+
+        <label class="control-label" for="loginPassword">Heslo</label>
+        <input
+          id="loginPassword"
+          class="input"
+          type="password"
+          autocomplete="current-password"
+          placeholder="••••••••"
+        />
+
+        <button id="loginBtn" class="primary" type="button">Prihlásiť</button>
+        <div id="authMessage" class="auth-message" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <main id="appRoot" class="app hidden">
       <header class="header">
         <div class="header-copy">
           <h1 data-i18n="appTitle">Vocabulary Sprint</h1>
@@ -35,6 +78,7 @@
           >
             ☀︎
           </button>
+          <button id="logoutBtn" class="ghost" type="button">Odhlásiť</button>
         </div>
       </header>
 

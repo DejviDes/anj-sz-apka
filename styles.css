@@ -101,6 +101,152 @@ body.dark {
   min-width: 0;
 }
 
+.auth-gate {
+  width: min(460px, 100%);
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+}
+
+.auth-gate h2 {
+  margin: 0;
+  font-family: "Fredoka", "Trebuchet MS", sans-serif;
+}
+
+.auth-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.auth-subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.auth-subtitle a {
+  color: var(--primary);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.auth-subtitle a:hover {
+  color: var(--primary-strong);
+}
+
+.auth-subtitle a:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.auth-form {
+  display: grid;
+  gap: 8px;
+}
+
+.auth-message {
+  min-height: 20px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.auth-message.error {
+  color: var(--wrong);
+}
+
+.auth-message.success {
+  color: var(--correct);
+}
+
+.admin-app {
+  width: min(1400px, 100%);
+}
+
+.admin-top-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.admin-panel {
+  display: grid;
+  gap: 12px;
+}
+
+.admin-users-panel {
+  grid-column: 1 / -1;
+}
+
+#adminAuthGate {
+  margin-top: 6vh;
+}
+
+.admin-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+}
+
+.admin-divider {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 2px 0;
+}
+
+.admin-table-wrap {
+  width: 100%;
+  overflow: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+}
+
+.admin-users-table {
+  min-width: 980px;
+}
+
+.admin-audit-table {
+  min-width: 760px;
+}
+
+.admin-table th,
+.admin-table td {
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  padding: 10px 8px;
+  vertical-align: middle;
+}
+
+.admin-table th {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 800;
+}
+
+.admin-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.admin-actions .ghost {
+  padding: 7px 10px;
+}
+
+.admin-nav-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
 .panel {
   background: var(--card);
   border: 1px solid var(--border);
@@ -148,6 +294,13 @@ body.dark {
 }
 
 #themeToggle {
+  font-family:
+    "Segoe UI Symbol", "Noto Sans Symbols 2", "Arial Unicode MS", sans-serif;
+}
+
+#loginThemeToggle,
+#adminThemeToggle,
+#adminThemeTogglePanel {
   font-family:
     "Segoe UI Symbol", "Noto Sans Symbols 2", "Arial Unicode MS", sans-serif;
 }
@@ -770,6 +923,10 @@ body.dark .word-card {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .admin-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .action-group {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -793,6 +950,10 @@ body.dark .word-card {
     align-items: start;
   }
 
+  .admin-app {
+    grid-template-columns: 1fr;
+  }
+
   .header,
   .setup-panel,
   .topics,
@@ -809,5 +970,12 @@ body.dark .word-card {
 
   .dictionary-list {
     max-height: 78vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .admin-top-grid {
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: start;
   }
 }

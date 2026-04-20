@@ -1,0 +1,16 @@
+{
+  "name": "anj-sz-apka",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "create-user": "node scripts/create-user.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.19.2",
+    "helmet": "^8.1.0"
+  }
+}
