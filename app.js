@@ -28,6 +28,7 @@ const i18n = {
     points: "Body",
     time: "Čas",
     badge: "Odznak",
+    badgeJourney: "Cesta odznakov",
     translatePrompt: "Prelož:",
     submit: "Potvrdiť",
     next: "Ďalšia otázka",
@@ -40,6 +41,7 @@ const i18n = {
     noRepeat: "Neopakovať slová",
     darkMode: "Tmavý režim",
     autoNext: "Auto ďalšia otázka",
+    timedBadge: "Odznak na čas",
     autoNextDelay: "Oneskorenie (sekundy)",
     save: "Uložiť",
     searchPlaceholder: "Hľadať slovo alebo preklad...",
@@ -61,6 +63,8 @@ const i18n = {
     badgeSilver: "Silver",
     badgeGold: "Gold",
     badgeMaster: "Master",
+    badgeNextTemplate: "Ďalší: {name} ({remain})",
+    badgeDone: "Všetky odznaky dosiahnuté",
     retryInfo: "Ideme len zlé odpovede z predchádzajúceho kola.",
     noAnswerTyped: "Najprv napíš odpoveď.",
     promptEnSk: "Prelož z angličtiny",
@@ -95,6 +99,7 @@ const i18n = {
     points: "Points",
     time: "Time",
     badge: "Badge",
+    badgeJourney: "Badge Journey",
     translatePrompt: "Translate:",
     submit: "Submit",
     next: "Next question",
@@ -107,6 +112,7 @@ const i18n = {
     noRepeat: "No repeated words",
     darkMode: "Dark mode",
     autoNext: "Auto next question",
+    timedBadge: "Timed badge",
     autoNextDelay: "Delay (seconds)",
     save: "Save",
     searchPlaceholder: "Search word or translation...",
@@ -129,6 +135,8 @@ const i18n = {
     badgeSilver: "Silver",
     badgeGold: "Gold",
     badgeMaster: "Master",
+    badgeNextTemplate: "Next: {name} ({remain})",
+    badgeDone: "All badges achieved",
     retryInfo:
       "Now practicing only the answers you got wrong in the previous round.",
     noAnswerTyped: "Please type an answer first.",
@@ -160,6 +168,7 @@ const state = {
   streak: 0,
   bestStreak: 0,
   points: 0,
+  lastBadgeActivityAt: null,
   sessionStart: null,
   timerInterval: null,
   autoNextTimeout: null,
@@ -188,6 +197,9 @@ const submitTextAnswer = document.getElementById("submitTextAnswer");
 const resultDiv = document.getElementById("result");
 const nextBtn = document.getElementById("nextBtn");
 const retryWrongBtn = document.getElementById("retryWrongBtn");
+const setupPanel = document.getElementById("setupPanel");
+const topicsPanel = document.getElementById("topicsPanel");
+const dictionaryPanel = document.getElementById("dictionaryPanel");
 const correctCountEl = document.getElementById("correctCount");
 const wrongCountEl = document.getElementById("wrongCount");
 const accuracyEl = document.getElementById("accuracy");
@@ -195,6 +207,9 @@ const streakCountEl = document.getElementById("streakCount");
 const pointsCountEl = document.getElementById("pointsCount");
 const timerText = document.getElementById("timerText");
 const badgeText = document.getElementById("badgeText");
+const badgeNextText = document.getElementById("badgeNextText");
+const badgeProgressFill = document.getElementById("badgeProgressFill");
+const badgeMilestones = document.getElementById("badgeMilestones");
 const progressText = document.getElementById("progressText");
 const progressBar = document.getElementById("progressBar");
 const topicsList = document.getElementById("topicsList");
@@ -211,6 +226,7 @@ const dictionaryCounter = document.getElementById("dictionaryCounter");
 
 const darkModeToggle = document.getElementById("darkModeToggle");
 const autoNextToggle = document.getElementById("autoNextToggle");
+const timedBadgeToggle = document.getElementById("timedBadgeToggle");
 const autoNextDelay = document.getElementById("autoNextDelay");
 const autoNextDelayRow = document.getElementById("autoNextDelayRow");
 const noRepeatToggle = document.getElementById("noRepeatToggle");
@@ -555,11 +571,31 @@ function startTimer() {
   state.timerInterval = setInterval(() => {
     const elapsed = Math.floor((Date.now() - state.sessionStart) / 1000);
     timerText.textContent = formatTimer(elapsed);
+    applyTimedBadgeDecay(Date.now());
   }, 1000);
 }
 
 function stopTimer() {
   clearInterval(state.timerInterval);
+}
+
+function applyTimedBadgeDecay(nowMs) {
+  if (!state.quizActive || !timedBadgeToggle?.checked) return;
+  if (state.streak <= 0) return;
+  if (!state.lastBadgeActivityAt) {
+    state.lastBadgeActivityAt = nowMs;
+    return;
+  }
+
+  const DECAY_STEP_MS = 7000;
+  const elapsed = nowMs - state.lastBadgeActivityAt;
+  const decaySteps = Math.floor(elapsed / DECAY_STEP_MS);
+
+  if (decaySteps <= 0) return;
+
+  state.streak = Math.max(0, state.streak - decaySteps);
+  state.lastBadgeActivityAt += decaySteps * DECAY_STEP_MS;
+  updateScoreboard();
 }
 
 function getBadge() {
@@ -570,12 +606,57 @@ function getBadge() {
   return t("badgeRookie");
 }
 
+function updateBadgeProgress() {
+  const levels = [
+    { key: "badgeRookie", min: 0 },
+    { key: "badgeBronze", min: 3 },
+    { key: "badgeSilver", min: 7 },
+    { key: "badgeGold", min: 12 },
+    { key: "badgeMaster", min: 20 },
+  ];
+
+  const streak = state.streak;
+  const currentIndex = levels.reduce(
+    (idx, lvl, i) => (streak >= lvl.min ? i : idx),
+    0,
+  );
+  const nextLevel = levels[currentIndex + 1] || null;
+
+  if (nextLevel) {
+    const prevMin = levels[currentIndex].min;
+    const segment = nextLevel.min - prevMin;
+    const partial = Math.max(0, Math.min(segment, streak - prevMin));
+    const percent = Math.round((partial / segment) * 100);
+    badgeProgressFill.style.width = `${percent}%`;
+    badgeNextText.textContent = format(t("badgeNextTemplate"), {
+      name: t(nextLevel.key),
+      remain: String(nextLevel.min - streak),
+    });
+  } else {
+    badgeProgressFill.style.width = "100%";
+    badgeNextText.textContent = t("badgeDone");
+  }
+
+  badgeMilestones.innerHTML = "";
+  levels.forEach((lvl, i) => {
+    const li = document.createElement("li");
+    li.textContent = `${t(lvl.key)} (${lvl.min})`;
+    if (i < currentIndex) {
+      li.className = "achieved";
+    } else if (i === currentIndex) {
+      li.className = "current";
+    }
+    badgeMilestones.appendChild(li);
+  });
+}
+
 function updateScoreboard() {
   correctCountEl.textContent = state.correctCount;
   wrongCountEl.textContent = state.wrongCount;
   streakCountEl.textContent = state.streak;
   pointsCountEl.textContent = state.points;
   badgeText.textContent = getBadge();
+  updateBadgeProgress();
 
   const totalAnswered = state.correctCount + state.wrongCount;
   const accuracy =
@@ -665,6 +746,7 @@ function handleAnswer(chosenValue, sourceButton) {
   const correctAnswer = state.currentQuestion.correctAnswer;
   const isCorrect = normalizeText(chosenValue) === normalizeText(correctAnswer);
   state.answeredCurrent = true;
+  state.lastBadgeActivityAt = Date.now();
 
   if (isCorrect) {
     state.correctCount += 1;
@@ -795,6 +877,7 @@ function startQuiz(customPool = null) {
   state.streak = 0;
   state.bestStreak = 0;
   state.points = 0;
+  state.lastBadgeActivityAt = Date.now();
 
   if (customPool) {
     modeSelect.value = "test";
@@ -843,6 +926,7 @@ function resetQuiz() {
   state.topicStats = {};
   state.streak = 0;
   state.points = 0;
+  state.lastBadgeActivityAt = null;
 
   updateScoreboard();
   updateProgress();
@@ -875,6 +959,14 @@ function toggleQuestionCount() {
 
 function toggleAutoNextDelay() {
   autoNextDelayRow.style.display = autoNextToggle.checked ? "grid" : "none";
+}
+
+function collapseNonQuizPanels() {
+  [setupPanel, topicsPanel, dictionaryPanel].forEach((panel) => {
+    if (panel) {
+      panel.open = false;
+    }
+  });
 }
 
 optionButtons.forEach((btn) => {
@@ -932,6 +1024,13 @@ deselectAllBtn.addEventListener("click", () => {
 
 modeSelect.addEventListener("change", toggleQuestionCount);
 autoNextToggle.addEventListener("change", toggleAutoNextDelay);
+if (timedBadgeToggle) {
+  timedBadgeToggle.addEventListener("change", () => {
+    if (timedBadgeToggle.checked) {
+      state.lastBadgeActivityAt = Date.now();
+    }
+  });
+}
 if (darkModeToggle) {
   darkModeToggle.addEventListener("change", () => {
     setTheme(darkModeToggle.checked);
@@ -943,6 +1042,8 @@ languageToggle.addEventListener("click", () => {
   document.documentElement.lang = state.uiLang;
   applyTranslations();
 });
+
+startBtn.addEventListener("click", collapseNonQuizPanels);
 
 themeToggle.addEventListener("click", () => {
   setTheme(!document.body.classList.contains("dark"));

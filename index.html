@@ -35,10 +35,11 @@
         </div>
       </header>
 
-      <section class="panel setup-panel">
-        <div class="panel-title-row">
-          <h2 data-i18n="setupTitle">Nastavenie tréningu</h2>
-        </div>
+      <details id="setupPanel" class="panel setup-panel setup-details" open>
+        <summary class="setup-title">
+          <span data-i18n="setupTitle">Nastavenie tréningu</span>
+          <span class="summary-icon" aria-hidden="true"></span>
+        </summary>
 
         <div class="controls-grid">
           <div class="control-group">
@@ -123,6 +124,13 @@
             <input type="checkbox" id="autoNextToggle" class="checkbox" />
           </div>
 
+          <div class="control-group setting-inline">
+            <label for="timedBadgeToggle" data-i18n="timedBadge"
+              >Odznak na čas</label
+            >
+            <input type="checkbox" id="timedBadgeToggle" class="checkbox" />
+          </div>
+
           <div class="control-group" id="autoNextDelayRow">
             <label
               class="control-label"
@@ -147,9 +155,9 @@
             <button id="resetBtn" class="ghost" data-i18n="reset">Reset</button>
           </div>
         </div>
-      </section>
+      </details>
 
-      <details class="panel topics" open>
+      <details id="topicsPanel" class="panel topics" open>
         <summary class="topics-title">
           <span data-i18n="topics">Vyber okruhy</span>
           <span id="topicCounter" class="topic-counter">(0/0)</span>
@@ -203,6 +211,19 @@
         <div class="badge-row">
           <span class="badge-label" data-i18n="badge">Odznak</span>
           <strong id="badgeText">Rookie</strong>
+        </div>
+
+        <div class="badge-progress" aria-live="polite">
+          <div class="badge-progress-head">
+            <span class="badge-progress-title" data-i18n="badgeJourney"
+              >Cesta odznakov</span
+            >
+            <span id="badgeNextText" class="badge-next-text"></span>
+          </div>
+          <div class="badge-track">
+            <div id="badgeProgressFill" class="badge-track-fill"></div>
+          </div>
+          <ul id="badgeMilestones" class="badge-milestones"></ul>
         </div>
 
         <div class="progress-wrap">
@@ -267,7 +288,7 @@
         </div>
       </section>
 
-      <details class="panel dictionary" open>
+      <details id="dictionaryPanel" class="panel dictionary" open>
         <summary class="dictionary-title">
           <span data-i18n="dictionary">Slovník</span>
           <span id="dictionaryCounter" class="topic-counter">(0/0)</span>
