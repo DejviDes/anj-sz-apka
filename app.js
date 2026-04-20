@@ -298,7 +298,7 @@ function updateLanguageToggleLabel() {
 
 function updateThemeToggleIcon() {
   const isDark = document.body.classList.contains("dark");
-  themeToggle.textContent = isDark ? "☾" : "☀";
+  themeToggle.textContent = isDark ? "☾" : "☀︎";
 }
 
 function setTheme(isDark) {

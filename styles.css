@@ -126,6 +126,11 @@ body.dark {
   font-weight: 800;
 }
 
+#themeToggle {
+  font-family:
+    "Segoe UI Symbol", "Noto Sans Symbols 2", "Arial Unicode MS", sans-serif;
+}
+
 .panel-title-row {
   display: flex;
   align-items: center;
