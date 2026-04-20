@@ -1,145 +1,296 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sk">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Vocabulary Quiz</title>
-  <link rel="stylesheet" href="styles.css"/>
-</head>
-<body>
-  <div class="app">
-    <header class="header">
-      <h1>English Vocabulary Quiz</h1>
-      <button id="settingsBtn" class="icon-btn">⚙️ Nastavenia</button>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vocabulary Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow" aria-hidden="true"></div>
 
-    <div class="controls">
-      <span>Úroveň:</span>
-      <label class="level-item">
-        <input type="checkbox" id="levelB1" checked>
-        B1
-      </label>
-      <label class="level-item">
-        <input type="checkbox" id="levelB2" checked>
-        B2
-      </label>
-      <button id="startBtn" class="primary">Štart</button>
-      <button id="resetBtn" class="ghost">Reset</button>
-    </div>
+    <main class="app">
+      <header class="header">
+        <div class="header-copy">
+          <h1 data-i18n="appTitle">Vocabulary Sprint</h1>
+          <p data-i18n="appSubtitle">
+            Tréning pre žiakov aj wow efekt pre učiteľku
+          </p>
+        </div>
 
-    <details class="topics" open>
-      <summary class="topics-title">
-        Vyber okruhy
-        <span id="topicCounter" class="topic-counter">(0/0)</span>
-        <span class="summary-icon" aria-hidden="true"></span>
-      </summary>
+        <div class="header-actions">
+          <button
+            id="languageToggle"
+            class="icon-btn switcher-btn"
+            type="button"
+            aria-label="Switch language"
+          >
+            SK
+          </button>
+          <button
+            id="themeToggle"
+            class="icon-btn switcher-btn"
+            type="button"
+            aria-label="Toggle dark mode"
+          >
+            ☀
+          </button>
+        </div>
+      </header>
 
-      <div class="topic-actions">
-        <button id="selectAll" class="ghost topic-btn">Vybrať všetko</button>
-        <button id="deselectAll" class="ghost topic-btn">Zrušiť všetko</button>
-      </div>
+      <section class="panel setup-panel">
+        <div class="panel-title-row">
+          <h2 data-i18n="setupTitle">Nastavenie tréningu</h2>
+        </div>
 
-      <div id="topicsList" class="topics-list"></div>
-    </details>
+        <div class="controls-grid">
+          <div class="control-group">
+            <span class="control-label" data-i18n="level">Úroveň</span>
+            <div class="chip-row">
+              <label class="chip-check">
+                <input type="checkbox" id="levelB1" checked />
+                <span>B1</span>
+              </label>
+              <label class="chip-check">
+                <input type="checkbox" id="levelB2" checked />
+                <span>B2</span>
+              </label>
+            </div>
+          </div>
 
-    <!-- Slovník -->
-    <details class="dictionary" open>
-      <summary class="dictionary-title">
-        Slovník
-        <span id="dictionaryCounter" class="topic-counter">(0/0)</span>
-        <span class="summary-icon" aria-hidden="true"></span>
-      </summary>
+          <div class="control-group">
+            <label
+              class="control-label"
+              for="directionSelect"
+              data-i18n="directionLabel"
+              >Smer prekladu</label
+            >
+            <select id="directionSelect" class="select">
+              <option value="en-sk" data-i18n="directionEnSk">EN → SK</option>
+              <option value="sk-en" data-i18n="directionSkEn">SK → EN</option>
+            </select>
+          </div>
 
-      <div class="dictionary-controls">
-        <input
-          type="text"
-          id="dictionarySearch"
-          class="input dictionary-search"
-          placeholder="Hľadať slovo alebo preklad..."
-        />
-      </div>
+          <div class="control-group">
+            <label class="control-label" for="answerMode" data-i18n="answerMode"
+              >Typ odpovede</label
+            >
+            <select id="answerMode" class="select">
+              <option value="choice" data-i18n="answerChoice">
+                Výber možností
+              </option>
+              <option value="text" data-i18n="answerText">Textový vstup</option>
+            </select>
+          </div>
 
-      <ul id="dictionaryList" class="dictionary-list"></ul>
-    </details>
+          <div class="control-group">
+            <label class="control-label" for="mode" data-i18n="modeLabel"
+              >Režim</label
+            >
+            <select id="mode" class="select">
+              <option value="infinite" data-i18n="modeInfinite">
+                Nekonečný
+              </option>
+              <option value="test" data-i18n="modeTest">Test</option>
+            </select>
+          </div>
 
-    <div id="quiz" class="quiz hidden">
-      <div class="scoreboard">
-        <span>✅ Správne: <strong id="correctCount">0</strong></span>
-        <span>❌ Nesprávne: <strong id="wrongCount">0</strong></span>
-        <span>📊 Úspešnosť: <strong id="accuracy">0%</strong></span>
-      </div>
+          <div class="control-group" id="questionCountRow">
+            <label
+              class="control-label"
+              for="questionCount"
+              data-i18n="questionCount"
+              >Počet otázok</label
+            >
+            <input
+              type="number"
+              id="questionCount"
+              value="20"
+              min="1"
+              max="500"
+              class="input"
+            />
+          </div>
 
-      <div class="progress">
-        <span id="progressText">Otázka 0 / 0</span>
-      </div>
+          <div class="control-group setting-inline">
+            <label for="noRepeatToggle" data-i18n="noRepeat"
+              >Neopakovať slová</label
+            >
+            <input type="checkbox" id="noRepeatToggle" class="checkbox" />
+          </div>
 
-      <div class="word-card">
-        <span id="wordText"></span>
-      </div>
+          <div class="control-group setting-inline">
+            <label for="autoNextToggle" data-i18n="autoNext"
+              >Auto ďalšia otázka</label
+            >
+            <input type="checkbox" id="autoNextToggle" class="checkbox" />
+          </div>
 
-      <div class="options">
-        <button class="option-btn" data-index="0">A</button>
-        <button class="option-btn" data-index="1">B</button>
-        <button class="option-btn" data-index="2">C</button>
-        <button class="option-btn" data-index="3">D</button>
-      </div>
+          <div class="control-group" id="autoNextDelayRow">
+            <label
+              class="control-label"
+              for="autoNextDelay"
+              data-i18n="autoNextDelay"
+              >Oneskorenie (sekundy)</label
+            >
+            <input
+              type="number"
+              id="autoNextDelay"
+              value="2"
+              min="1"
+              max="10"
+              class="input"
+            />
+          </div>
 
-      <div id="result" class="result"></div>
+          <div class="control-group action-group">
+            <button id="startBtn" class="primary" data-i18n="start">
+              Štart
+            </button>
+            <button id="resetBtn" class="ghost" data-i18n="reset">Reset</button>
+          </div>
+        </div>
+      </section>
 
-      <button id="nextBtn" class="next-btn">Ďalšia otázka</button>
+      <details class="panel topics" open>
+        <summary class="topics-title">
+          <span data-i18n="topics">Vyber okruhy</span>
+          <span id="topicCounter" class="topic-counter">(0/0)</span>
+          <span class="summary-icon" aria-hidden="true"></span>
+        </summary>
 
-      <div id="wrongList" class="wrong-list hidden">
-        <h3>Nesprávne odpovede:</h3>
-        <ul id="wrongItems"></ul>
-      </div>
-    </div>
-  </div>
+        <div class="topic-actions">
+          <button id="selectAll" class="ghost topic-btn" data-i18n="selectAll">
+            Vybrať všetko
+          </button>
+          <button
+            id="deselectAll"
+            class="ghost topic-btn"
+            data-i18n="deselectAll"
+          >
+            Zrušiť všetko
+          </button>
+        </div>
 
-  <!-- Settings Modal -->
-  <div id="settingsModal" class="modal hidden">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2>Nastavenia testu</h2>
-        <button id="closeSettings" class="close-icon" aria-label="Zavrieť">✖</button>
-      </div>
+        <div id="topicsList" class="topics-list"></div>
+      </details>
 
-      <div class="settings-row">
-        <label>Režim:</label>
-        <select id="mode" class="select">
-          <option value="infinite">Nekonečný</option>
-          <option value="test">Test</option>
-        </select>
-      </div>
+      <section id="quiz" class="panel quiz hidden">
+        <div class="scoreboard-grid">
+          <article class="score-tile">
+            <span class="tile-label" data-i18n="correct">Správne</span>
+            <strong id="correctCount">0</strong>
+          </article>
+          <article class="score-tile">
+            <span class="tile-label" data-i18n="wrong">Nesprávne</span>
+            <strong id="wrongCount">0</strong>
+          </article>
+          <article class="score-tile">
+            <span class="tile-label" data-i18n="accuracy">Úspešnosť</span>
+            <strong id="accuracy">0%</strong>
+          </article>
+          <article class="score-tile">
+            <span class="tile-label" data-i18n="streak">Streak</span>
+            <strong id="streakCount">0</strong>
+          </article>
+          <article class="score-tile">
+            <span class="tile-label" data-i18n="points">Body</span>
+            <strong id="pointsCount">0</strong>
+          </article>
+          <article class="score-tile">
+            <span class="tile-label" data-i18n="time">Čas</span>
+            <strong id="timerText">00:00</strong>
+          </article>
+        </div>
 
-      <div class="settings-row" id="questionCountRow">
-        <label>Počet otázok v teste:</label>
-        <input type="number" id="questionCount" value="20" min="1" max="500" class="input"/>
-      </div>
+        <div class="badge-row">
+          <span class="badge-label" data-i18n="badge">Odznak</span>
+          <strong id="badgeText">Rookie</strong>
+        </div>
 
-      <div class="settings-row">
-        <label>Neopakovať slová:</label>
-        <input type="checkbox" id="noRepeatToggle" class="checkbox">
-      </div>
+        <div class="progress-wrap">
+          <progress id="progressBar" max="100" value="0"></progress>
+          <span id="progressText">Otázka 0 / 0</span>
+        </div>
 
-      <div class="settings-row">
-        <label>Tmavý režim:</label>
-        <input type="checkbox" id="darkModeToggle" class="checkbox">
-      </div>
+        <div class="word-card">
+          <span
+            class="prompt-label"
+            id="promptLabel"
+            data-i18n="translatePrompt"
+            >Prelož:</span
+          >
+          <span id="wordText" class="word-text"></span>
+        </div>
 
-      <div class="settings-row">
-        <label>Auto ďalšia otázka:</label>
-        <input type="checkbox" id="autoNextToggle" class="checkbox">
-      </div>
+        <div id="options" class="options">
+          <button class="option-btn" data-index="0">A</button>
+          <button class="option-btn" data-index="1">B</button>
+          <button class="option-btn" data-index="2">C</button>
+          <button class="option-btn" data-index="3">D</button>
+        </div>
 
-      <div class="settings-row" id="autoNextDelayRow">
-        <label>Oneskorenie (sekundy):</label>
-        <input type="number" id="autoNextDelay" value="2" min="1" max="10" class="input"/>
-      </div>
+        <div id="textAnswerWrap" class="text-answer hidden">
+          <input
+            id="textAnswerInput"
+            class="input"
+            type="text"
+            data-i18n-placeholder="textPlaceholder"
+            placeholder="Napíš odpoveď"
+            autocomplete="off"
+          />
+          <button id="submitTextAnswer" class="primary" data-i18n="submit">
+            Potvrdiť
+          </button>
+        </div>
 
-      <button id="saveSettings" class="primary">Uložiť</button>
-    </div>
-  </div>
+        <div id="result" class="result" aria-live="polite"></div>
 
-  <script src="app.js"></script>
-</body>
+        <div class="quiz-actions">
+          <button id="nextBtn" class="next-btn" data-i18n="next">
+            Ďalšia otázka
+          </button>
+          <button
+            id="retryWrongBtn"
+            class="ghost hidden"
+            data-i18n="retryWrong"
+          >
+            Zopakovať zlé odpovede
+          </button>
+        </div>
+
+        <div class="topic-stats">
+          <h3 data-i18n="topicStats">Štatistiky podľa okruhov</h3>
+          <ul id="topicStatsList"></ul>
+        </div>
+
+        <div id="wrongList" class="wrong-list hidden">
+          <h3 data-i18n="wrongAnswers">Nesprávne odpovede</h3>
+          <ul id="wrongItems"></ul>
+        </div>
+      </section>
+
+      <details class="panel dictionary" open>
+        <summary class="dictionary-title">
+          <span data-i18n="dictionary">Slovník</span>
+          <span id="dictionaryCounter" class="topic-counter">(0/0)</span>
+          <span class="summary-icon" aria-hidden="true"></span>
+        </summary>
+
+        <div class="dictionary-controls">
+          <input
+            type="text"
+            id="dictionarySearch"
+            class="input dictionary-search"
+            data-i18n-placeholder="searchPlaceholder"
+            placeholder="Hľadať slovo alebo preklad..."
+          />
+        </div>
+
+        <ul id="dictionaryList" class="dictionary-list"></ul>
+      </details>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
 </html>
