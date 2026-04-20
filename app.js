@@ -319,6 +319,7 @@ function updateThemeToggleIcon() {
 
 function setTheme(isDark) {
   document.body.classList.toggle("dark", isDark);
+  document.documentElement.classList.toggle("dark", isDark);
   if (darkModeToggle) {
     darkModeToggle.checked = isDark;
   }
