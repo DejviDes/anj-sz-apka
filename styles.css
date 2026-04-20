@@ -43,6 +43,12 @@ body.dark {
   box-sizing: border-box;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -79,6 +85,7 @@ body.dark {
   margin: 0 auto;
   display: grid;
   gap: 14px;
+  min-width: 0;
 }
 
 .panel {
@@ -87,6 +94,7 @@ body.dark {
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow);
   padding: 14px;
+  min-width: 0;
 }
 
 .header {
@@ -157,7 +165,7 @@ body.dark {
 }
 
 .setting-inline {
-  grid-template-columns: 1fr auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   gap: 14px;
 }
@@ -189,6 +197,7 @@ body.dark {
   border: 1px solid var(--border);
   background: var(--secondary);
   font-weight: 700;
+  overflow-wrap: anywhere;
 }
 
 .chip-check input {
@@ -500,6 +509,7 @@ body.dark .word-card {
   font-family: "Fredoka", "Trebuchet MS", sans-serif;
   font-size: 1.85rem;
   line-height: 1.2;
+  overflow-wrap: anywhere;
 }
 
 .options {
@@ -521,6 +531,8 @@ body.dark .word-card {
   padding: 10px;
   text-align: left;
   font-weight: 700;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .option-btn.correct {
@@ -626,10 +638,12 @@ body.dark .word-card {
 
 .dict-word {
   font-weight: 800;
+  overflow-wrap: anywhere;
 }
 
 .dict-translation {
   color: var(--text);
+  overflow-wrap: anywhere;
 }
 
 .dict-meta,

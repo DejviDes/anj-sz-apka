@@ -563,10 +563,10 @@ function stopTimer() {
 }
 
 function getBadge() {
-  if (state.bestStreak >= 20) return t("badgeMaster");
-  if (state.bestStreak >= 12) return t("badgeGold");
-  if (state.bestStreak >= 7) return t("badgeSilver");
-  if (state.bestStreak >= 3) return t("badgeBronze");
+  if (state.streak >= 20) return t("badgeMaster");
+  if (state.streak >= 12) return t("badgeGold");
+  if (state.streak >= 7) return t("badgeSilver");
+  if (state.streak >= 3) return t("badgeBronze");
   return t("badgeRookie");
 }
 
