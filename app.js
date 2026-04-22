@@ -174,6 +174,8 @@ const state = {
   autoNextTimeout: null,
   uiLang: "sk",
   currentUser: null,
+  guestMode: false,
+  allowGuestDemo: false,
 };
 
 const levelB1 = document.getElementById("levelB1");
@@ -239,6 +241,7 @@ const appRoot = document.getElementById("appRoot");
 const loginEmail = document.getElementById("loginEmail");
 const loginPassword = document.getElementById("loginPassword");
 const loginBtn = document.getElementById("loginBtn");
+const guestEnterBtn = document.getElementById("guestEnterBtn");
 const authMessage = document.getElementById("authMessage");
 const THEME_STORAGE_KEY = "quiz_theme_dark";
 
@@ -310,7 +313,28 @@ async function authRequest(path, options = {}) {
 
 function clearAuthState() {
   state.currentUser = null;
+  state.guestMode = false;
   setAuthenticatedUI(false);
+}
+
+async function loadPublicConfig() {
+  try {
+    const response = await fetch("/api/public-config", {
+      credentials: "same-origin",
+    });
+    if (!response.ok) {
+      state.allowGuestDemo = false;
+    } else {
+      const data = await response.json();
+      state.allowGuestDemo = Boolean(data.allowGuestDemo);
+    }
+  } catch {
+    state.allowGuestDemo = false;
+  }
+
+  if (guestEnterBtn) {
+    guestEnterBtn.classList.toggle("hidden", !state.allowGuestDemo);
+  }
 }
 
 async function bootstrapAppAfterAuth() {
@@ -322,9 +346,14 @@ async function bootstrapAppAfterAuth() {
 }
 
 async function verifyExistingSession() {
+  if (state.guestMode) {
+    return;
+  }
+
   try {
     const me = await authRequest("/api/auth/me");
     state.currentUser = me.user;
+    state.guestMode = false;
     setAuthenticatedUI(true);
     await bootstrapAppAfterAuth();
   } catch {
@@ -354,6 +383,7 @@ async function loginUser() {
     });
 
     state.currentUser = data.user;
+    state.guestMode = false;
 
     setAuthMessage("Prihlásenie úspešné.", "success");
     setAuthenticatedUI(true);
@@ -372,6 +402,25 @@ async function loginUser() {
   }
 }
 
+async function enterGuestMode() {
+  if (!state.allowGuestDemo) {
+    setAuthMessage("Demo režim je vypnutý na serveri.", "error");
+    return;
+  }
+
+  try {
+    setAuthMessage("Načítavam demo režim...", "");
+    state.currentUser = null;
+    state.guestMode = true;
+    setAuthenticatedUI(true);
+    await bootstrapAppAfterAuth();
+    setAuthMessage("Demo režim je zapnutý.", "success");
+  } catch {
+    setAuthMessage("Demo režim sa nepodarilo načítať.", "error");
+    clearAuthState();
+  }
+}
+
 async function logoutUser() {
   try {
     await authRequest("/api/auth/logout", { method: "POST" });
@@ -387,7 +436,11 @@ async function ensureDataset(direction) {
     return state.datasets[direction];
   }
 
-  const response = await fetch(`/api/data/${direction}`, {
+  const path = state.guestMode
+    ? `/api/public-data/${direction}`
+    : `/api/data/${direction}`;
+
+  const response = await fetch(path, {
     credentials: "same-origin",
   });
   if (!response.ok) {
@@ -1142,6 +1195,10 @@ if (loginBtn) {
   loginBtn.addEventListener("click", loginUser);
 }
 
+if (guestEnterBtn) {
+  guestEnterBtn.addEventListener("click", enterGuestMode);
+}
+
 if (loginPassword) {
   loginPassword.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
@@ -1234,5 +1291,10 @@ syncAnswerModeUI();
 updateLanguageToggleLabel();
 setTheme(getStoredThemeIsDark());
 
-setAuthenticatedUI(false);
-verifyExistingSession();
+async function initializeAuthFlow() {
+  await loadPublicConfig();
+  setAuthenticatedUI(false);
+  verifyExistingSession();
+}
+
+initializeAuthFlow();

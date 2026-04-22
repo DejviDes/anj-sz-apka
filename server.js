@@ -9,6 +9,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 const ADMIN_SECRET = process.env.ADMIN_SECRET || "change-me";
+const ALLOW_GUEST_DEMO = process.env.ALLOW_GUEST_DEMO === "true";
 const SESSION_TTL_MS = 1000 * 60 * 60 * 24 * 7;
 const COOKIE_NAME = "quiz_session";
 const ADMIN_CSRF_COOKIE = "admin_csrf";
@@ -487,6 +488,12 @@ app.post("/api/auth/logout", requireAuth, (req, res) => {
   return res.json({ ok: true });
 });
 
+app.get("/api/public-config", (_req, res) => {
+  return res.json({
+    allowGuestDemo: ALLOW_GUEST_DEMO,
+  });
+});
+
 app.post(
   "/api/admin/create-user",
   requireAdmin,
@@ -725,6 +732,26 @@ app.post(
 );
 
 app.get("/api/data/:direction", requireAuth, (req, res) => {
+  const direction = req.params.direction;
+  const source = direction === "sk-en" ? DATASET_SK_EN : DATASET_EN_SK;
+
+  try {
+    const payload = fs.readFileSync(source, "utf8");
+    return res.type("application/json").send(payload);
+  } catch {
+    return res
+      .status(500)
+      .json({ error: "Unable to load dataset", code: "DATASET_ERROR" });
+  }
+});
+
+app.get("/api/public-data/:direction", (req, res) => {
+  if (!ALLOW_GUEST_DEMO) {
+    return res
+      .status(403)
+      .json({ error: "Guest demo is disabled", code: "GUEST_DEMO_DISABLED" });
+  }
+
   const direction = req.params.direction;
   const source = direction === "sk-en" ? DATASET_SK_EN : DATASET_EN_SK;
 
